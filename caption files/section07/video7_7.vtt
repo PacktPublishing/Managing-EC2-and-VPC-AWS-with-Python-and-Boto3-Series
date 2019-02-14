@@ -1,0 +1,262 @@
+WEBVTT
+
+00:02.630 --> 00:09.330
+So now it is time to actually launch our public is to instance and to do that.
+
+00:09.500 --> 00:16.660
+Let's go to our class and have a method for launching these two instances.
+
+00:17.090 --> 00:25.190
+And I'm just going to go blow right here and I'm going to name my method as lounge you see to instance
+
+00:28.010 --> 00:31.170
+and 40 arguments as I always do.
+
+00:31.190 --> 00:38.780
+I'm just going to leave it as is and I'm going to start by typing the method and seeing what it has
+
+00:38.780 --> 00:40.800
+to pass in.
+
+00:40.850 --> 00:49.210
+So I'm going to use the run two instances and it's this method.
+
+00:49.300 --> 00:53.710
+So let's hit enter and see what we have to provide.
+
+00:54.010 --> 01:01.920
+So as you can see there is a huge list of options that I have to provide for my E.C two instances but
+
+01:01.930 --> 01:11.110
+to actually see what we need to pro-white Let's go back to our boatful 3 documentation in our Bothell
+
+01:11.110 --> 01:12.790
+3 documentation.
+
+01:12.820 --> 01:16.800
+Let's just check out the run instances method.
+
+01:17.650 --> 01:27.250
+And within the method parameters and if we go it's a huge list of arguments only the required parts
+
+01:27.340 --> 01:28.990
+are our concern.
+
+01:29.020 --> 01:31.290
+So let's just check out those guys
+
+01:33.860 --> 01:42.230
+so an MRI is required to launch an instance must be specified here or in a launch template.
+
+01:42.230 --> 01:48.000
+And since we're not using a launch template we're going to have to provide an image ID.
+
+01:48.830 --> 01:56.150
+And of course the instance type is again has to be provided either in the launch template or within
+
+01:56.180 --> 01:58.100
+the method parameters.
+
+01:58.100 --> 02:04.040
+So we're going to have to provide the instance type within the parameters.
+
+02:04.040 --> 02:11.360
+And of course we're going to have to provide a key name if we want to access this E.S. to instance from
+
+02:11.720 --> 02:14.750
+like S-sh and everything else.
+
+02:14.840 --> 02:21.770
+And we're also going to have to provide a maximum number of easy to instances count and minimum number
+
+02:21.770 --> 02:24.440
+of easy to instances count.
+
+02:25.100 --> 02:31.730
+And other than that we're going to of course have to provide some security groups or security group
+
+02:31.820 --> 02:39.320
+ids because otherwise if we don't do that we won't be able to access are easy to instance because it
+
+02:39.320 --> 02:48.800
+will not know how to be accessed from the outside world and also to place are easy to instance within
+
+02:48.800 --> 02:50.180
+a subnet.
+
+02:50.180 --> 02:55.770
+We're going to provide the subnet I.D. to our easy to instance.
+
+02:56.030 --> 03:04.860
+So that looks like basically it for our easy to is does and we can just go back and launch our is to
+
+03:04.870 --> 03:06.150
+instance now.
+
+03:06.680 --> 03:15.290
+So let's just go back to our implementation and start providing our arguments and the first thing that
+
+03:15.300 --> 03:25.610
+I want to provide is the image I.D. and for the image I.D. We're going to have to check out the AWOS
+
+03:25.610 --> 03:32.870
+latest image I.D. or maybe the marketplace for any image I.D. that we want to have that you want to
+
+03:32.870 --> 03:33.850
+use.
+
+03:33.860 --> 03:40.270
+We're going to just do that in a couple of minutes so let's just go down and provide other arguments
+
+03:40.280 --> 03:45.520
+for our easy to instance and the next thing that I want to provide is the key name.
+
+03:45.860 --> 03:55.270
+So let's just say key name and after that I'm going to have to provide a minimum count for two instances.
+
+03:55.340 --> 04:02.970
+Analysts say men count and also a maximum count is required.
+
+04:02.960 --> 04:13.670
+So max count and then I'm going to say the instance type is going to be a T-2 micro.
+
+04:13.730 --> 04:22.460
+That's only because if you're on Freet here because T-2 micro is a free tier eligible instance type
+
+04:22.610 --> 04:28.420
+so you can use it without simply paying almost anything for up to a year.
+
+04:28.760 --> 04:35.560
+But you definitely have to check out your account for any issues with your billing and purchasing.
+
+04:35.570 --> 04:36.360
+All right.
+
+04:36.770 --> 04:41.880
+And the next thing I want to provide is the IDs of these security groups.
+
+04:42.230 --> 04:49.520
+But since I just have only a single security group I'm just going to provide the ideal of that security
+
+04:49.520 --> 04:50.120
+group.
+
+04:50.150 --> 04:59.280
+So within the within a list I'm going to provide the security group I.D. The only I.D. that I have.
+
+04:59.810 --> 05:06.320
+And after my security group I.D. I'm going to pro-white the subnet ID.
+
+05:07.100 --> 05:15.770
+And finally for the last part I'm going to provide the user data at the startup script that I just built.
+
+05:15.770 --> 05:19.590
+So for that I'm going to say use data.
+
+05:19.610 --> 05:21.050
+All right.
+
+05:21.050 --> 05:32.620
+And let us add the arguments to our method signature starting off with Image ID key name men
+
+05:36.540 --> 05:49.510
+and max count and the other thing is security group id subnet ID.
+
+05:50.160 --> 05:54.510
+And finally user data.
+
+05:54.540 --> 05:55.690
+All right.
+
+05:55.730 --> 05:58.440
+And let's also indicate that we're launching
+
+06:01.380 --> 06:14.110
+is two instances and let's just indicate the number of E.S. two instances as the men count.
+
+06:14.710 --> 06:16.470
+Easy to instance
+
+06:19.000 --> 06:27.710
+analysts indicate it might be more than one in two instances and that's basically it.
+
+06:27.710 --> 06:40.190
+And let's also say within subnet and subnet Id just like that.
+
+06:40.250 --> 06:47.360
+So this is basically it for launching and E.C two instances.
+
+06:47.360 --> 06:52.330
+So let's just go back to our main class and implement this method.
+
+06:55.090 --> 07:03.290
+So in our main class I'm going to go and implement my to instance launching Methot.
+
+07:03.400 --> 07:12.100
+So I'm going to say easy to lounge easy to instance and then I'm going to say for the image idea of
+
+07:12.100 --> 07:17.170
+course I have to go to a W-S console and let's just do that now.
+
+07:17.470 --> 07:24.100
+And as you can remember from our earlier section we already opened up the page and if you're not there
+
+07:24.100 --> 07:31.810
+yet let's just go back for a moment and on the instances section on the left when you click on lounge
+
+07:31.870 --> 07:39.540
+instances you can see that the latest Amazon Linux is named as this.
+
+07:39.550 --> 07:43.980
+This is the idea of the latest Amazon Linux image.
+
+07:44.110 --> 07:50.140
+So if I just copy that and I can just use that as my my.
+
+07:50.140 --> 07:59.770
+And here we go for the next argument I'm going to have to provide the key pair name and for the minimum
+
+07:59.770 --> 08:02.690
+count I just want a single instance.
+
+08:02.710 --> 08:11.500
+And I also want a single instance as the maxim count and I'm going to use the public security group
+
+08:11.560 --> 08:16.210
+ID for my easy to instance for my public easy to instance.
+
+08:16.390 --> 08:25.090
+And for the subnet tidy I'm going to use the public subnet ID and for the user data I'm simply going
+
+08:25.090 --> 08:30.460
+to provide my user data that I just implemented right here.
+
+08:30.460 --> 08:39.400
+So this is basically it for launching and easy to instance within a public subnet using the Amazon images
+
+08:39.490 --> 08:41.100
+and security groups.
+
+08:42.070 --> 08:47.400
+So let's also indicate that we're launching a public a C to instance
+
+08:50.030 --> 08:50.690
+launching
+
+08:53.360 --> 09:01.800
+public see to instance and let's just say with
+
+09:04.410 --> 09:05.730
+using so
+
+09:09.090 --> 09:23.830
+my and the and my name if we go and we don't have to actually separate these two and that's it.
+
+09:23.870 --> 09:24.980
+All right.
+
+09:24.980 --> 09:32.060
+This is basically it for launching and easy to instance within a public subnet in a public security
+
+09:32.060 --> 09:32.600
+group.

@@ -1,0 +1,304 @@
+WEBVTT
+
+00:02.180 --> 00:10.130
+All right I have launched my PI share my the one thing to know before we get into our development is
+
+00:10.130 --> 00:17.830
+to check out if we have our Python interpreter available to our PI charme ID to check that out.
+
+00:18.140 --> 00:27.050
+Let's go down below and go to preferences from the Preferences under your project interpreter if you
+
+00:27.050 --> 00:29.780
+don't see anything just don't freak out.
+
+00:29.780 --> 00:31.490
+Just don't worry about it.
+
+00:31.490 --> 00:32.270
+To fix that.
+
+00:32.300 --> 00:40.940
+If you don't see anything here you can simply click on shole And then if you again don't have anything
+
+00:40.940 --> 00:48.320
+in this list as a result you can just simply click the plus button right there and you can select the
+
+00:48.320 --> 00:51.550
+environment that you want to have with your ID.
+
+00:51.590 --> 00:59.720
+In our case it is just more than enough to have the use the system interpreter forwarding system interpreter
+
+01:00.170 --> 01:01.380
+in Mac OS.
+
+01:01.430 --> 01:04.650
+Python 2 does Semon is by default.
+
+01:04.760 --> 01:07.280
+And then you can have Python 3.
+
+01:07.370 --> 01:16.700
+And in our case as we install Python 3.6 we're going to use that and again you can use the specific
+
+01:16.700 --> 01:24.180
+version of Python as you like but in our lectures and tutorials we're going to be using Python.
+
+01:24.290 --> 01:25.600
+3.6.
+
+01:25.910 --> 01:34.430
+So after you select the Python version you can simply click OK and then you can hit OK again because
+
+01:34.700 --> 01:37.250
+that selection is going to be appearing right here.
+
+01:37.400 --> 01:45.110
+And then you can just have the dependencies and libraries that installed with Pipp is going to be shown
+
+01:45.110 --> 01:46.620
+here.
+
+01:46.760 --> 01:53.570
+So that's all we need to do before we get into our development and when we are ready we can just launch
+
+01:53.570 --> 01:54.760
+our project.
+
+01:54.800 --> 02:03.440
+So to start our project I'm going to hit create new project and from there I'm going to launch a pure
+
+02:03.440 --> 02:04.950
+Python project.
+
+02:05.020 --> 02:13.430
+All right for the environment of my project I'm going to definitely use the existing interpreter and
+
+02:13.670 --> 02:20.860
+I'm not going to be using a new virtual environment so to speak about virtual environments.
+
+02:20.870 --> 02:23.220
+I'm not going to dig deep into that.
+
+02:23.570 --> 02:25.870
+We don't have to use a virtual environment.
+
+02:26.060 --> 02:33.040
+Virtual environments are the ways of isolating resources for your applications or projects and Python.
+
+02:33.200 --> 02:36.140
+But in our case we're not going to need that.
+
+02:36.230 --> 02:45.230
+We just have to use a python interpreter and then we can just run our code and lawnchair AWOS resources
+
+02:45.230 --> 02:47.890
+using Python and both all three.
+
+02:47.930 --> 02:55.270
+So I'm going to use the existing interpreter and then I'm going to hit create.
+
+02:55.300 --> 02:56.010
+Here we go.
+
+02:57.390 --> 03:09.420
+And let's just make this fullscreen and the indexing as begin with the Poche on ID So our project is
+
+03:09.420 --> 03:10.830
+named as untidily.
+
+03:10.860 --> 03:19.630
+But you can just give it any name you want and we can definitely change the name of our project to fix
+
+03:19.630 --> 03:20.260
+that.
+
+03:20.260 --> 03:28.500
+I can just go to files section and then I can hit rename project and from there I'm going to name our
+
+03:28.510 --> 03:34.580
+project both of 3 AWOS and I'll hit.
+
+03:34.610 --> 03:36.730
+OK here we go.
+
+03:36.940 --> 03:46.500
+Our project is now both three AWOS And let's just create a package directory for Python.
+
+03:46.630 --> 03:56.650
+So I'm going to hit new and then I'm going to say Python package for the Python package using the regular
+
+03:56.650 --> 03:57.280
+conversion.
+
+03:57.310 --> 04:00.780
+I'm going to say for the source package.
+
+04:00.970 --> 04:09.730
+All right and with the default with Python to mark the directory as a Python package are in it.
+
+04:09.730 --> 04:12.000
+Py file is already there.
+
+04:12.910 --> 04:21.970
+Now what are we going to do is we're going to write a simple class to locate our resources with ease
+
+04:22.090 --> 04:28.030
+with the hiding of using the both of 3 region both of three client.
+
+04:28.030 --> 04:36.040
+Again and again to avoid that distraction we're going to write a simple library simple class actually
+
+04:36.580 --> 04:44.950
+to locate our easy to use the PCs and all those resources on a US.
+
+04:45.000 --> 04:54.190
+So let's just start developing our client locator applications so we can easily implement our AWOS code.
+
+04:54.600 --> 05:04.230
+So to do that I'm going to create a new python file and I'm going to name the python file as client
+
+05:05.430 --> 05:09.360
+locator.
+
+05:09.380 --> 05:18.730
+All right within our client locator PI file the first thing I'm going to do is to import both or three.
+
+05:18.770 --> 05:27.790
+So let's do that and import both three and after that I'm going to start declaring my class.
+
+05:28.470 --> 05:40.810
+So my class is going to be named as client locator and of course I'm going to have an initialiser method.
+
+05:41.010 --> 05:44.630
+So let's define our initialiser method.
+
+05:45.090 --> 05:52.320
+And the important part of this initialiser method we're going to pass in the client that we want to
+
+05:52.320 --> 05:52.970
+use.
+
+05:53.070 --> 06:02.390
+Let's say we P C E C 2 or any other thing and this client locator class is going to get me declined
+
+06:02.550 --> 06:06.160
+for that class for like easy to use.
+
+06:06.180 --> 06:07.090
+Yes.
+
+06:07.170 --> 06:14.400
+Anything else that I want to use this is going to be a little mice utility class that you can use anywhere
+
+06:14.490 --> 06:21.120
+in any other project that you're going to build the Gants AWOS using Python and both of three.
+
+06:21.210 --> 06:25.620
+So I'm going to pass in a client variable.
+
+06:25.640 --> 06:26.040
+All right.
+
+06:26.040 --> 06:37.000
+Klein parameter and after that what I'm going to do is I'm going to have a local client definition for
+
+06:37.000 --> 06:38.450
+my client.
+
+06:39.250 --> 06:49.650
+And with that parameter I'm going to set my Both client as the client that I passed in and of course
+
+06:50.010 --> 06:56.080
+I'm going to pass in a region for my both so many patients on AWOS.
+
+06:56.400 --> 06:58.900
+So about the region.
+
+06:58.920 --> 07:04.190
+The best thing to do is to pick the closest region to your location.
+
+07:04.440 --> 07:13.020
+So in my case since I'm in Istanbul and I'm like the closest to the Frankfurt region are you a central
+
+07:13.020 --> 07:13.820
+one.
+
+07:13.830 --> 07:22.470
+I'm going to pick that region and I'm going to pass into botto client definition so I'll say Region
+
+07:22.470 --> 07:30.450
+name and then I'm going to say you central one.
+
+07:30.570 --> 07:31.680
+Here we go.
+
+07:33.180 --> 07:43.450
+And after that to get declined from the both are definitions that the with the method that I just typed
+
+07:43.450 --> 07:54.100
+in here I'm going to write a simple Guiton method and then I'm going to say get client and then this
+
+07:54.100 --> 08:01.340
+method is going to simply return the client that is set with the initialiser method.
+
+08:01.360 --> 08:07.640
+So I'll say self and client just like that.
+
+08:07.690 --> 08:19.110
+All right so for getting the client I'm going to write another class to get the easy to client for that
+
+08:19.110 --> 08:22.250
+I can use with my AWOS manipulations.
+
+08:22.470 --> 08:29.820
+So I'll just go down below and I'm going to define another class and that class is going to be named
+
+08:29.820 --> 08:40.300
+as easy to client and that client class is going to get a client or cator parameter the class that I'd
+
+08:40.300 --> 08:49.240
+define right here and of course this class is going to initialize itself with the both of three Colline
+
+08:49.240 --> 08:50.380
+parameter.
+
+08:50.380 --> 08:54.680
+Just like I can do here so to do dat.
+
+08:54.790 --> 09:01.750
+I'm going to call the super method so I can get the client locator both of three implementation and
+
+09:01.750 --> 09:07.570
+then I'm going to initialize that with the client that I want to use.
+
+09:07.570 --> 09:14.540
+So as you can see Python is automatically understood what I'm going to do actually was Piko MIT.
+
+09:14.560 --> 09:21.670
+But the point is I'm passing in the client locator the client did not want to use.
+
+09:21.780 --> 09:24.990
+So in this case it is easy to.
+
+09:25.140 --> 09:30.630
+So let's just pass an easy to just like that.
+
+09:30.660 --> 09:37.010
+So are easy to class is ready to be implemented on Python.
+
+09:37.170 --> 09:39.580
+So let's just fix those lines.
+
+09:39.600 --> 09:43.310
+So our ID is not going to warn us.
+
+09:43.500 --> 09:48.150
+And here we are ready with our client locator class.
+
+09:48.150 --> 09:55.890
+After that we can just simply start implementing our two methods and the modifications that we're going
+
+09:55.890 --> 09:57.690
+to do on a W-S.

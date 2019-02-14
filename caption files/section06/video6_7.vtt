@@ -1,0 +1,160 @@
+WEBVTT
+
+00:01.580 --> 00:09.500
+So we're finished with our public subnet creation and their subsequent resources like Internet gateways
+
+00:09.560 --> 00:11.290
+and root tables.
+
+00:11.300 --> 00:17.470
+So now we're going to have to create a private subnet for that purpose.
+
+00:17.600 --> 00:25.550
+Since we have the subnet method as the Create subnet in our BPC class I'm just going to make use of
+
+00:25.550 --> 00:26.430
+that.
+
+00:26.450 --> 00:39.710
+So let's just comment out here create a private subnet and within there since I'm going to get the response
+
+00:39.740 --> 00:51.050
+from our AWOS call private underscore subnet underscore response and I'm going to call create subnet
+
+00:51.090 --> 01:01.490
+Methot and I'm going to provide the VPC ID saying the PC that we're going to create and 40 cyder block
+
+01:02.360 --> 01:10.460
+this time I'm going to pick 10 out zero dot to zero slash 24.
+
+01:10.970 --> 01:18.620
+And as you can see it's different from our first public subnet IP block and this have to be different
+
+01:18.830 --> 01:20.740
+from our public subnet.
+
+01:20.750 --> 01:27.950
+BLOCK Because that way it's going to cause a collision and AWOS won't be able to create this subnet
+
+01:27.950 --> 01:29.630
+for me.
+
+01:29.630 --> 01:37.430
+I'm going to have to pick another range of IP addresses or side or block in a couple of US case.
+
+01:37.430 --> 01:42.700
+So this is going to allow me to create my private subnet.
+
+01:42.990 --> 01:51.980
+And let's also get the private subnet ID so that we can make use of it in later parts just like we did
+
+01:51.980 --> 01:54.480
+with our public subnet.
+
+01:54.500 --> 02:05.000
+So let's just copy this part of the public subnet I.D. passing arguments and let's just say private
+
+02:05.360 --> 02:14.640
+subnet ID is going to be private subnet response and then let's just paste it here we go.
+
+02:14.840 --> 02:23.080
+We have our private subnet Id pass into our string object.
+
+02:23.210 --> 02:39.680
+So let's us also say that we created our private subnet and create it private subnet and was also passed
+
+02:39.680 --> 02:56.540
+the private subnet tidy and let's say for the PC and then the PC Id just like that cell that's basically
+
+02:56.540 --> 03:04.010
+all we're going to do for our private subnet says we're not going to allow resources to be accessed
+
+03:04.010 --> 03:05.430
+through Internet.
+
+03:05.450 --> 03:13.190
+We're not going to attach this subnet to our or associate to submit to our public route table.
+
+03:13.190 --> 03:20.810
+We're going to just leave it as is so it is going to be automatically associated with our default route
+
+03:20.810 --> 03:25.190
+table when we created these BPC.
+
+03:25.390 --> 03:34.360
+So one last thing before we move on with the other section for our resources like is two and other things
+
+03:35.410 --> 03:42.780
+we're going to need to provide some name tags to our subnets so that we can be clear about our subnets
+
+03:42.790 --> 03:50.200
+when we launch them on AWOS so that we can distinguish them easily when we see them because as you can
+
+03:50.200 --> 03:56.340
+see when we create our subnets we're not passing any name arguments or anything like that.
+
+03:56.470 --> 04:04.510
+AWOS automatically not allowing to attach or provide a name for our resources like subnets.
+
+04:04.510 --> 04:15.310
+So let's just make some calls here and let's just add a tech to our subnet and name tag actually to
+
+04:16.000 --> 04:19.820
+private subnet.
+
+04:19.810 --> 04:27.520
+And as you can see from the beginnings of our lectures we already have a method implemented when we
+
+04:27.520 --> 04:29.330
+launch our BPC.
+
+04:29.410 --> 04:36.910
+And as you can see it is the name tech and the good part of that method is it is simply expecting a
+
+04:36.910 --> 04:46.510
+resource ID and resource name to attach to that resource as the name argument or name property.
+
+04:46.510 --> 04:51.090
+So since this is a generic method we can make use of that.
+
+04:51.100 --> 04:55.630
+So let's just go down below and make use of that method here.
+
+04:55.780 --> 05:01.470
+And let's just say we see dot at name tag.
+
+05:02.230 --> 05:10.550
+And for resource ID I'm going to pass in the private subnet ID and forward the name of that resource.
+
+05:10.600 --> 05:13.270
+I'm going to say both all three.
+
+05:13.270 --> 05:20.110
+And also you can say simply anything you want both all three private
+
+05:22.670 --> 05:26.020
+and subnet just like that.
+
+05:26.690 --> 05:33.970
+Let's just keep the convention and let's just also do that for our public subnet.
+
+05:34.490 --> 05:43.460
+So I'm going to copy this line right here and I'll just go up to my public subnet creation and after
+
+05:43.460 --> 05:56.270
+that add name tag to public something that and in there I'm going to pass in the public subnet tidy
+
+05:56.900 --> 06:00.850
+and I'm going to change the private to public.
+
+06:00.860 --> 06:02.600
+Here we go.
+
+06:02.660 --> 06:07.990
+So we tasked our public and private subnets to proper naming
+
+06:11.110 --> 06:13.980
+to summarize what we have done in this section.
+
+06:14.230 --> 06:15.840
+I'll be seeing you on the next video.

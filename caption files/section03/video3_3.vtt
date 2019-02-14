@@ -1,0 +1,82 @@
+WEBVTT
+
+00:01.230 --> 00:09.360
+All right we have our Python installed a WS installed and for older to work properly when we type our
+
+00:09.360 --> 00:17.280
+application when we implement our code we have to set our access keys and secret keys and on our previous
+
+00:17.280 --> 00:25.920
+lectures as you can remember we created a user on I am from AWOS castle and we copied the secret key
+
+00:25.980 --> 00:28.960
+an access key to a notepad.
+
+00:29.670 --> 00:37.620
+If you still have it open or if you don't have it yet just open that up just as I have here as the access
+
+00:37.620 --> 00:41.230
+key and secret key.
+
+00:41.580 --> 00:45.440
+We're going to use those to configure our WSC a lie.
+
+00:45.460 --> 00:47.100
+So now let's do that.
+
+00:47.340 --> 00:56.280
+For doing that I'm just going to copy my access key and I'll switch back to my command prompt and I'm
+
+00:56.280 --> 01:04.720
+going to type A W-S and configure just like that.
+
+01:04.930 --> 01:14.260
+And from there AWOS ally is going to start asking me some prompts starting with the access key I'm going
+
+01:14.260 --> 01:20.360
+to pass my access key and then it is going to ask for my security.
+
+01:20.860 --> 01:25.400
+I'm going to copy my secret key and I'm simply going to paste it.
+
+01:26.080 --> 01:34.260
+And from there CLIA is asking for my region that I want to work with for the region.
+
+01:34.270 --> 01:39.690
+I'm simply going to use the Frankfurt are you central one region.
+
+01:39.970 --> 01:45.490
+So I'll say you Central and one.
+
+01:45.550 --> 01:50.720
+So let's just fix those little typos and let's type back again.
+
+01:51.560 --> 01:52.920
+You central one.
+
+01:53.060 --> 02:03.020
+And then the IWC ally is asking for default output format for interacting with the a WSC allied directly
+
+02:03.590 --> 02:10.460
+since we're not going to use that directly since we're going to use the Python and Walthall way let's
+
+02:10.460 --> 02:14.110
+just type in as Jaison and leave it as yes.
+
+02:14.270 --> 02:15.750
+And here we go.
+
+02:16.250 --> 02:25.490
+We have our AWOS Selye configured to work with any connection from our computer to Amazon Web Services.
+
+02:25.490 --> 02:34.910
+From now on we can use like any programming language simply anything on a W-S SDK to access the AWOS
+
+02:34.910 --> 02:44.030
+resources by configuring the access key and secret key this way we don't have to do it within our Python
+
+02:44.030 --> 02:47.950
+code within our botto clients and resources.
+
+02:48.760 --> 02:55.850
+This is a very huge benefit for using a WFC a lie underneath your actual implementation.

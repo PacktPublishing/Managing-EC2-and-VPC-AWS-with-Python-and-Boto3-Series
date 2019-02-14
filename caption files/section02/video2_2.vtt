@@ -1,0 +1,133 @@
+WEBVTT
+
+00:03.340 --> 00:05.810
+So before we get our feet wet.
+
+00:06.460 --> 00:11.470
+Let's take a closer look at the tools and the environment that we're going to build on.
+
+00:11.590 --> 00:18.640
+So you're going to be much more familiar with them before we start actual implementations.
+
+00:20.650 --> 00:30.860
+So J-ws JLI AWOS July is going to be our primary starting point for managing us because we're going
+
+00:30.860 --> 00:35.780
+to use it to configure our environment with credentials.
+
+00:35.780 --> 00:41.460
+We're going to give it the access key secret key and the region that we want to work hard.
+
+00:41.750 --> 00:50.310
+And then we're going to be simply calling our AWOS API using Python and both are three.
+
+00:50.420 --> 00:53.570
+We're not going to be making a heavy use of a WSC.
+
+00:53.810 --> 01:04.180
+But it's nice to know how to configure your credentials as being the access key as secret key Python.
+
+01:04.310 --> 01:13.460
+So Python is an important aspect that you're developing for a W-S because Python is becoming more and
+
+01:13.460 --> 01:18.200
+more popular every day thanks to the the famous both of three library
+
+01:20.820 --> 01:29.730
+so Python will be our primary language for interacting with AWOS and in my honest opinion it's probably
+
+01:29.730 --> 01:30.930
+the best of all.
+
+01:33.420 --> 01:34.000
+Chart.
+
+01:34.050 --> 01:40.120
+So pièce charm is a nice idea from Chip brains for Python the wallet.
+
+01:40.150 --> 01:47.010
+And it is focused around Python development with virtual environments.
+
+01:47.250 --> 01:51.570
+Some nice refactoring sections and everything.
+
+01:51.570 --> 01:57.660
+It is the same look and feel with the energy brains idea that you're going to see in the market today
+
+01:58.140 --> 02:06.070
+and it is a familiar ID for coming from intelligent idea or Webster.
+
+02:06.220 --> 02:13.650
+It's such a breeze to use pi charm man you're developing Python and especially with a W-S.
+
+02:13.870 --> 02:16.380
+So both are three.
+
+02:16.480 --> 02:25.720
+Both are always a beautiful AWOS library and it is currently being backed by Amazon itself and you just
+
+02:25.720 --> 02:28.160
+didn't hear this accidentally.
+
+02:28.180 --> 02:33.060
+Amazon is backing the both of three library itself.
+
+02:33.160 --> 02:42.250
+So whenever a new feature of a WS is released from Amazon you are going to be seeing the API for that
+
+02:42.490 --> 02:45.190
+within botto the next day.
+
+02:45.430 --> 02:55.360
+This is not a joke so Amazon released a new feature something new and you can just get it with botto
+
+02:55.450 --> 02:58.710
+and you can start interacting with it programmatically.
+
+02:59.140 --> 03:00.360
+Just the next day.
+
+03:00.550 --> 03:01.600
+This is just amazing.
+
+03:01.600 --> 03:10.390
+And this is a major benefit for choosing Python and both of three when trying to manage AWOS resources
+
+03:11.630 --> 03:15.220
+because it is just backed by Amazon itself.
+
+03:17.260 --> 03:24.280
+So you're not dealing with a W-S you lied directly you're not trying to manage some ugly code you're
+
+03:24.280 --> 03:31.360
+just managing the familiar code that you wrote on Python and you're adding the both or three on top
+
+03:31.360 --> 03:35.600
+of it and you can manage all of your AWOS resources.
+
+03:35.620 --> 03:37.360
+This is just amazing.
+
+03:40.350 --> 03:44.900
+So tell us about the OS and setups.
+
+03:45.180 --> 03:51.180
+Again I'll be showing you how to prepare your environment on both Mac OS and Windows.
+
+03:51.180 --> 03:56.610
+So depending on the operating system that you have in running in your machine.
+
+03:56.820 --> 04:02.330
+Just watch the videos regarding that operating system and set up your environment.
+
+04:03.520 --> 04:06.410
+And Linux is always welcomed.
+
+04:06.640 --> 04:14.190
+And actually I love Linux because in my every day to day job I use Linux simply every day.
+
+04:14.200 --> 04:22.510
+So if you're insisting on using Linux you can get more details about how to install packages on your
+
+04:22.510 --> 04:27.240
+operating systems package manager on your specific Linux distro.

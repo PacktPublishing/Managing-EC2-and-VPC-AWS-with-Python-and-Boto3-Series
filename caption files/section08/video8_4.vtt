@@ -1,0 +1,103 @@
+WEBVTT
+
+00:01.760 --> 00:07.120
+So we now know how to modify and describe easy to instances.
+
+00:07.130 --> 00:11.820
+How about stopping E.S. two instances to do that.
+
+00:11.910 --> 00:17.430
+Let's just go to our easy to class and let's just close that for a second.
+
+00:17.640 --> 00:30.000
+And after our modified easy to instance call our method let's just add stop instance and 40 parameters
+
+00:30.000 --> 00:30.540
+again.
+
+00:30.660 --> 00:35.010
+I'm just going to check out the method signature for AWOS.
+
+00:35.170 --> 00:44.250
+So both dot underscore client and let's just try stop and there is just only one method for stopping
+
+00:44.300 --> 00:52.410
+E.S. two instances and let's see what it provides what it ask for me to stop instances.
+
+00:52.420 --> 01:00.920
+And as you can see from except dry run I'm going to have to provide instance ID as a list and if I want
+
+01:00.920 --> 01:09.610
+to force this shutdown force to stop behavior or actually I can just do a flag in Bhuiyan to force this
+
+01:09.610 --> 01:10.840
+shutdown behavior.
+
+01:10.850 --> 01:16.050
+So what I'm going to do now is I'm going to provide instance ID.
+
+01:16.340 --> 01:24.980
+So for instance IDs I'm just going to provide a single instance ID and I'm going to provide my private
+
+01:25.010 --> 01:26.340
+easy to instance.
+
+01:26.450 --> 01:37.050
+So I'll say instance ID and I are just going to pass this in from my signature.
+
+01:37.190 --> 01:50.680
+And let's just also add a print statement stopping see to instance and also the instance ID.
+
+01:50.680 --> 01:56.410
+All right let's go back to our main implementation.
+
+01:56.710 --> 02:11.280
+And if there is another method and let's just get a line breaker and stop instance at inside that method.
+
+02:11.470 --> 02:18.580
+What I'm going to do is just copy and paste these lines to my stop instances method.
+
+02:18.580 --> 02:26.260
+You can of course define these up top in your class and use it from everywhere but just showing the
+
+02:26.410 --> 02:27.520
+way to do that.
+
+02:27.520 --> 02:29.890
+This is just one way to do that.
+
+02:29.890 --> 02:38.980
+So what I'm going to do is I'm going to call to dot stop instance and what I'm going to pass is the
+
+02:39.310 --> 02:43.890
+private subnet I.D. private easy to instance ID.
+
+02:43.960 --> 02:52.890
+So to get that let's just go back to a WS console and get the private easy to instance ID.
+
+02:52.990 --> 02:56.970
+And as you can see this is my private is two.
+
+02:57.010 --> 03:03.720
+And I'm just going to copy the instance ID to my clipboard and I'll just get back to my method call
+
+03:04.000 --> 03:06.450
+and I'm just going to paste it.
+
+03:06.800 --> 03:08.450
+Here we go.
+
+03:08.500 --> 03:15.320
+So now I can just comment this out and I can just call the stop instance method.
+
+03:15.880 --> 03:22.570
+All right let's just run it and see what's going to happen on A W-S console.
+
+03:22.690 --> 03:30.450
+All Heidrun and the easy to instance is must be being stopped right now.
+
+03:30.470 --> 03:36.180
+And as you can see the state is already changed to stopping.
+
+03:36.210 --> 03:42.760
+So this is just simple as that to work with both all three on these two as you can see.

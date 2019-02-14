@@ -1,0 +1,250 @@
+WEBVTT
+
+00:03.180 --> 00:10.290
+So probably the most important part in the scores is to have an AWOS account where you can play around
+
+00:10.290 --> 00:17.190
+with AWOS resources that we're going to do in this lecture and all the following lectures.
+
+00:17.610 --> 00:25.050
+So to do that we first have to go to AWOS console but to get there of course we have to create an account.
+
+00:25.050 --> 00:29.870
+We have to sign up to AWOS so to do that.
+
+00:29.910 --> 00:36.290
+Our starting point is YES A W-S that Amazon Dot com.
+
+00:36.450 --> 00:44.870
+So after we launched this Web site we can see that we have a real nice presentation of AWOS services
+
+00:44.940 --> 00:48.660
+and what's going on around A W-S in general.
+
+00:48.660 --> 00:54.950
+So we have all the flashy new services from Amazon and they're just advertising them.
+
+00:55.050 --> 01:04.200
+And after that we have the Amazon subheads events and other things about A W-S and if we go down below
+
+01:04.380 --> 01:11.190
+we have descriptions of AWOS services products and everything about AWOS.
+
+01:11.460 --> 01:20.190
+And after we go down below a little further we have some customers that are running on AWOS and you
+
+01:20.190 --> 01:25.420
+can see that there are just simply big guys running on A W-S.
+
+01:25.440 --> 01:26.210
+All right.
+
+01:27.040 --> 01:37.120
+So to create an AWOS account to sign up to A W-S I'll go click on the yellow button right on the top
+
+01:37.120 --> 01:38.210
+corner.
+
+01:38.230 --> 01:46.660
+So in your case this might be signed into a WS console but in my case since I previously went there
+
+01:46.960 --> 01:52.510
+it is saying that I have to complete this process so all had complete Sign-Up
+
+01:55.770 --> 02:01.390
+and I have the usual log in page for AWOS.
+
+02:01.440 --> 02:05.250
+So in our case we're going to be creating in a W-S account.
+
+02:05.340 --> 02:13.320
+So let's go down below and hit create a new AWOS account.
+
+02:13.330 --> 02:14.600
+All right.
+
+02:14.600 --> 02:19.320
+We here are creating a WS account presented to us.
+
+02:19.490 --> 02:28.910
+And one thing to note in this page is that AWOS has 12 months of free tier access for most of the AWOS
+
+02:28.910 --> 02:32.740
+services simply the most popular services are AWOS.
+
+02:32.840 --> 02:41.600
+So we can say that easy to Esrey dynamo D.B and a couple of other services are available for free tier
+
+02:41.600 --> 02:43.940
+access in AWOS.
+
+02:44.360 --> 02:53.810
+So to check them out let's just go to this web page AWOS Amazon Dot com slash free to see what services
+
+02:54.080 --> 02:57.710
+are available to us in our free tier access.
+
+02:57.770 --> 03:08.440
+So if we go down below we have 12 months of free and always free products and we have simply sold 50
+
+03:08.440 --> 03:10.720
+hours of easy to use.
+
+03:10.960 --> 03:22.380
+We have a 1 gigabyte of kook site five gigabytes of Esrey 750 hours of our D.S. 1 million free requests
+
+03:22.470 --> 03:25.960
+with a W-S Lamda and much more.
+
+03:26.430 --> 03:34.410
+So using a free tier is always beneficial for you because simply your learning to do things with AWOS
+
+03:34.470 --> 03:41.190
+and you're not being charged of anything until you reach your point in your account and it is just not
+
+03:41.190 --> 03:43.020
+so simple to reach out.
+
+03:43.080 --> 03:44.340
+All right.
+
+03:44.340 --> 03:50.970
+After we check out this page let's go back to our sign up process and I'm going to start by typing in
+
+03:50.970 --> 04:02.260
+my e-mail address.
+
+04:02.420 --> 04:09.650
+I have to type a password adhering to the credentials that they showed me here.
+
+04:09.700 --> 04:11.800
+So I'll just type something
+
+04:20.860 --> 04:25.520
+and the AWOS account name is going to be the display name of your account.
+
+04:25.520 --> 04:32.700
+So if your name is like John Doe and then you can simply say John Doe.
+
+04:32.710 --> 04:34.360
+All right.
+
+04:34.360 --> 04:36.340
+And let's hit continue
+
+04:40.330 --> 04:48.130
+and Amazon is asking for the contact information for like billing and other processes.
+
+04:48.370 --> 04:54.190
+So you have to specify that if you're going to use his account as a professional account like for a
+
+04:54.190 --> 04:59.590
+business are you can specify that you're using this account for personal use.
+
+04:59.590 --> 05:03.870
+So in our case I'll be using it for personal purposes.
+
+05:03.910 --> 05:13.880
+So I'll just select personal and I have to specify things like country address city state and postal
+
+05:13.880 --> 05:20.190
+code simply because they might have to send me bills about my AWOS usage.
+
+05:20.450 --> 05:31.100
+So let's just start in and filling in the.
+
+05:31.230 --> 05:33.350
+And I will type my address
+
+05:40.610 --> 05:44.150
+and city and state
+
+05:54.740 --> 06:01.210
+and finally I have to click to accept the terms and conditions from a WS.
+
+06:01.310 --> 06:05.730
+And if you want to write that out you can simply click on this link and check it out.
+
+06:05.750 --> 06:16.730
+But I'll just click on the checkbox right now and create account and continue.
+
+06:16.750 --> 06:17.410
+All right.
+
+06:18.720 --> 06:26.400
+This time a W-S is asking for my credit card information simply because again if I reached the limits
+
+06:26.400 --> 06:33.200
+of my free tier account usage AWOS might have to charge me for some usages of AWOS services.
+
+06:33.300 --> 06:39.390
+So in that case they are just simply needing my credit card so that they can charge me.
+
+06:39.810 --> 06:48.220
+So you have to type in your credit card information your name your expiration date and so on.
+
+06:48.340 --> 06:54.980
+And after you finish them you'll simply have to use the secure submit.
+
+06:55.150 --> 07:02.710
+After that when you submit your credit card and every other information finally AWOS is going to ask
+
+07:02.710 --> 07:11.010
+for your telephone number you simply have to specify or phone number in a format that you have to use
+
+07:11.020 --> 07:18.920
+the country code as the prefix so in my case for Turkey I have to specify plys 90.
+
+07:18.930 --> 07:27.340
+Then my phone number and after I hit next in the section Amazon is going to place me a call actual call
+
+07:27.340 --> 07:28.660
+to my phone.
+
+07:28.660 --> 07:37.350
+So in that call they're going to ask for a code that they showed me in the sign up process so the code
+
+07:37.360 --> 07:43.870
+that they're going to show is on the next page actually wants I provide my telephone number.
+
+07:43.990 --> 07:50.890
+They're going to do me a code four digit code for a WSI sign up process.
+
+07:50.890 --> 07:57.490
+So once I get that code they're going to ask me that card when they place me a call.
+
+07:57.490 --> 08:05.890
+So within the call I'm going to be typing the four digit code with the keypad of my phone and once I've
+
+08:05.890 --> 08:11.890
+finished that they're going to say that your verification is complete and the web page is going to be
+
+08:11.890 --> 08:12.820
+refreshed.
+
+08:13.000 --> 08:19.190
+So it is going to say the sign up is complete and successful.
+
+08:19.370 --> 08:27.860
+So that is basically all about signing up to A W-S is not a real hard process but it's just simply too
+
+08:27.860 --> 08:30.650
+elaborate and sometimes maybe tiring.
+
+08:30.920 --> 08:37.010
+So of course you have to specify your credit card and telephone numbers so that they can verify that
+
+08:37.040 --> 08:39.670
+you are a real person and a bot or something.
+
+08:39.830 --> 08:45.760
+So this is just the usual process on signing up to AWOS.
+
+08:45.850 --> 08:52.900
+I highly encourage you to do it as soon as possible and maybe while watching this video because otherwise
+
+08:53.170 --> 08:58.220
+you can follow up the lectures with me along the Python and Bothell 3.
+
+08:58.270 --> 09:02.530
+While we're managing A W-S resources within our code.

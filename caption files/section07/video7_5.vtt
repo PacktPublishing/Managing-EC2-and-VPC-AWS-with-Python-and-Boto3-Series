@@ -1,0 +1,328 @@
+WEBVTT
+
+00:01.470 --> 00:07.620
+So the next thing that we're going to do is we're going to have to add a rule to our security group
+
+00:07.950 --> 00:16.380
+so that we can allow people from Internet to access our instances and resources on AWOS within the public
+
+00:16.380 --> 00:21.260
+subnet whenever used as Whenever we used a security group.
+
+00:21.330 --> 00:29.070
+So to do that we're going to have to add a method as adding the rule for our security group.
+
+00:29.070 --> 00:29.890
+All right.
+
+00:30.870 --> 00:40.530
+So let's just go to our easy to class and implement our rule creation method for our security group.
+
+00:40.560 --> 00:47.370
+So in this case we're just expecting people to come to us not we're going to them not the other way
+
+00:47.370 --> 00:47.750
+around.
+
+00:47.760 --> 00:52.740
+So we're simply asking for an inbound flu exception here.
+
+00:52.740 --> 01:00.860
+So I'm just naming my method at in-bound rule to security.
+
+01:00.900 --> 01:05.910
+And actually I'm going to use this method for my public machine.
+
+01:06.070 --> 01:08.370
+But let's just keep it this way right now.
+
+01:08.460 --> 01:15.900
+And I'm just going to leave the parameters for later on so I can check out the method to see what I'm
+
+01:15.900 --> 01:17.430
+going to have to do.
+
+01:18.090 --> 01:26.280
+And self-talk client data and the method that we're looking for as the authorized security group ingress
+
+01:26.550 --> 01:33.450
+and egress is the the inbound connection identifier for a number of us so we're going to have to look
+
+01:33.450 --> 01:35.630
+for the methods on ingress.
+
+01:35.640 --> 01:40.920
+And as you can see there are basically two methods involving ingress.
+
+01:40.950 --> 01:48.240
+The first one is the authorized security group ingress and the other one is Revox Security Group ingress.
+
+01:48.360 --> 01:55.400
+And as you can expect the revoke method is simply removing the rules from security group for inbound.
+
+01:55.500 --> 02:01.680
+And the thing that we're neat here dimethyl that we need here is the authorized security group ingress.
+
+02:01.770 --> 02:06.600
+So let's just use that and see what we're going to have to pro-white.
+
+02:06.600 --> 02:11.390
+So there are a couple of things that we have to provide here.
+
+02:11.450 --> 02:19.650
+We either can provide the group name or group ID and then we can have some extensive options here but
+
+02:19.950 --> 02:23.040
+we're not going to have to do everything in this year.
+
+02:23.310 --> 02:31.080
+Only thing that we have to provide is simply the group ID if we have it and the IP permissions list
+
+02:32.050 --> 02:39.150
+that simply everything we're going to have to provide our security group to have our machines being
+
+02:39.150 --> 02:41.750
+connected from the outside world.
+
+02:43.890 --> 02:48.180
+So let's just pro-white First the group.
+
+02:49.290 --> 02:52.920
+And let's just say security
+
+02:55.740 --> 03:06.010
+group I.D. and then we're going to allow some IPs to connect to our instances within the security groups
+
+03:06.020 --> 03:14.750
+so for the IP permissions I'm going to create a list of objects list of a dictionary actually.
+
+03:14.760 --> 03:23.350
+So let's just create our list first and then I'm going to start by adding the items to my dictionary.
+
+03:23.520 --> 03:30.060
+So the first thing that I'm going to do is I'm going to have to define the protocol that I'm allowing
+
+03:30.390 --> 03:31.970
+from the outside world.
+
+03:32.010 --> 03:36.980
+So I'm going to use the IP protocol key right here.
+
+03:37.050 --> 03:45.960
+And for that I'm going to say TCAP so I can just simply allow HTP and other Kline's to connect to my
+
+03:45.960 --> 03:49.820
+machines and 40 per declaration.
+
+03:49.980 --> 03:53.510
+I'm going to say from port 80.
+
+03:53.610 --> 04:03.900
+So people using data simply like browsers and HTP access can connect to my machines and forward the
+
+04:03.900 --> 04:05.940
+port.
+
+04:05.940 --> 04:09.870
+I'm simply just allowing unsecure connections to my machine.
+
+04:09.870 --> 04:13.840
+You can simply fix that with an HTP certificate.
+
+04:14.070 --> 04:17.410
+But in this case I'm just going to keep this simple.
+
+04:17.430 --> 04:21.040
+So I'm just loving the poor lady here.
+
+04:21.120 --> 04:29.850
+So after the port declaration on just simply going to allow the IP ranges to my machines so I'm going
+
+04:29.850 --> 04:32.940
+to say again this is expecting a list.
+
+04:33.090 --> 04:37.960
+So I'll say cyder IP.
+
+04:38.640 --> 04:43.670
+And again this is a key to cyder IP.
+
+04:43.890 --> 04:45.830
+And here we go.
+
+04:46.200 --> 04:51.550
+I'm going to say zero data zero zero slash zero.
+
+04:51.630 --> 05:01.830
+So anyone can come to my PC two instances if I use this subnet if I actually use the security group.
+
+05:01.860 --> 05:02.740
+All right.
+
+05:02.880 --> 05:09.000
+So this is the first rule to my PC to instance to my security group.
+
+05:09.000 --> 05:16.350
+The other thing that I want to do is I want to allow simply like FTB clients to connect to my easy to
+
+05:16.350 --> 05:20.640
+instance maybe I can even SS h into my machine.
+
+05:20.670 --> 05:22.160
+Maybe you want to do that.
+
+05:22.200 --> 05:33.510
+So to allow that capability I'm going to say as the IP protocol again TCAP and for deport of course
+
+05:34.110 --> 05:38.260
+the port of the SS H is 22.
+
+05:38.550 --> 05:50.790
+So let's just say that and for the port I'm going to say 22 again and then I'm going to allow the IP
+
+05:50.790 --> 05:51.700
+ranges.
+
+05:51.770 --> 06:06.830
+Again as with the of course side or definition's side or IP and I'm going to allow everyone just for
+
+06:06.830 --> 06:12.130
+this time then I'm going to close this because this is kind of dangerous to allow everyone to connect
+
+06:12.130 --> 06:14.760
+to your easy to instances.
+
+06:15.680 --> 06:16.750
+All right.
+
+06:16.850 --> 06:21.770
+We're almost ready with our inbound route for security group creation.
+
+06:22.010 --> 06:27.350
+So the only thing that we want to pass in is the security group ID.
+
+06:27.620 --> 06:29.280
+So let's just pass into.
+
+06:29.440 --> 06:32.750
+And here we go.
+
+06:32.840 --> 06:36.860
+We're ready with our inbound security group creation.
+
+06:36.860 --> 06:51.860
+And let's also indicate that we're adding the inbound public access to security group and that's also
+
+06:51.890 --> 06:55.060
+indicate the idea of this security group.
+
+06:55.100 --> 06:57.940
+And here we go.
+
+06:57.980 --> 07:06.620
+So now let's just go back to our deployment class and let's just say that we want to have this rule
+
+07:06.620 --> 07:10.420
+added to our public security group.
+
+07:10.700 --> 07:20.600
+So let's just say at public access to security group.
+
+07:20.840 --> 07:22.640
+All right.
+
+07:22.640 --> 07:30.050
+The one thing that we're going to have to do is we're going to have to just call this matter first at
+
+07:31.370 --> 07:33.520
+of course.
+
+07:33.740 --> 07:40.310
+Let's just check out the name of our method for a second and it is add inbound rule
+
+07:43.030 --> 07:46.150
+and inbound rule to security group.
+
+07:46.160 --> 07:52.450
+So we're expecting to have a security group I.D. just to get that.
+
+07:52.730 --> 07:59.210
+I'm going to have to take the response from this method for the security group creation.
+
+07:59.390 --> 08:12.380
+So I'm going to say public security group and response here we go.
+
+08:12.460 --> 08:18.130
+So how to get the security group Heidi for doing that.
+
+08:18.130 --> 08:24.610
+I can see you're saying that we have to check both documentation and you're absolutely right.
+
+08:24.610 --> 08:34.230
+So let's go back to our bowlful three documentation and find a method for create security group.
+
+08:34.270 --> 08:35.510
+And here we go.
+
+08:36.530 --> 08:42.290
+So this method is simply returning a security crew resource.
+
+08:42.300 --> 08:45.430
+But this is for implementing resources.
+
+08:45.560 --> 08:50.790
+We just want the client method for both of three not to resource one.
+
+08:50.900 --> 08:56.780
+So let's just find that out and he Rigaud.
+
+08:57.110 --> 09:06.230
+So this method is again returning a type of dictionary and it is simply returning the group ID to us.
+
+09:06.290 --> 09:08.210
+All right.
+
+09:08.210 --> 09:10.850
+And so forget that group ID.
+
+09:11.060 --> 09:19.720
+Let's just go back to our implementation and from the public security group response fetch fetched e-group
+
+09:19.720 --> 09:20.870
+ID.
+
+09:21.380 --> 09:23.270
+And here we go.
+
+09:23.300 --> 09:32.960
+So the public security group Heidi is going to be this one just like that.
+
+09:32.990 --> 09:39.800
+So if we passed this in to our methhead Dan for us to go right
+
+09:42.480 --> 09:49.800
+so forty one last thing we might just add a print statement for indicating that we added the rule to
+
+09:49.860 --> 09:52.580
+our security group.
+
+09:55.130 --> 09:59.180
+Added public access through to
+
+10:01.780 --> 10:13.980
+security group and the security group of course is public security group name.
+
+10:14.060 --> 10:17.000
+And that's actually all we need.
+
+10:17.000 --> 10:24.260
+All right let's just leave some blank lines right here so that we can be clear about what we're doing.
+
+10:24.560 --> 10:32.180
+And this is basically it for our security group creation and adding an inbound role for our security
+
+10:32.180 --> 10:33.080
+group.
+
+10:33.500 --> 10:35.120
+So I'll be seeing you on the next media.

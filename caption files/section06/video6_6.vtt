@@ -1,0 +1,115 @@
+WEBVTT
+
+00:01.640 --> 00:08.580
+So we created our public subnet and a public route table for that subnet specifically.
+
+00:08.690 --> 00:16.160
+And also we attached our internet gateway with the public Croot table and also associated our subnet
+
+00:16.160 --> 00:17.750
+with the route table.
+
+00:18.130 --> 00:26.870
+But there's one thing missing in this picture to be accessed from the Internet or the internet resources
+
+00:27.140 --> 00:29.750
+available to simply everyone.
+
+00:29.780 --> 00:40.010
+So for our resources like easy to to get them public IP for themselves we have to allow auto assigned
+
+00:40.070 --> 00:40.870
+IP.
+
+00:40.940 --> 00:44.220
+Once we allow a resource under these subnets.
+
+00:44.240 --> 00:53.720
+So in this case for the public subnet So to solve that we're going to have to enable the public auto
+
+00:53.720 --> 00:57.980
+assign IP addresses for resources under these subnets.
+
+00:58.010 --> 01:00.370
+So under these public Sublette.
+
+01:00.890 --> 01:06.050
+So to solve that we're going to have to modify the subnet attributes.
+
+01:06.290 --> 01:14.690
+So let's go to our C-Class and let's just provide a method.
+
+01:15.400 --> 01:19.650
+And I'm going to say allow auto assign
+
+01:22.430 --> 01:30.890
+IP addresses for subnet.
+
+01:30.930 --> 01:34.850
+This is a bit long method name but it is quite declarative.
+
+01:34.850 --> 01:43.710
+So let's just try and type in so we can see what we're going to have to pro-white self underscore client.
+
+01:43.770 --> 01:49.840
+And then we're going to have to modify the subnet attributes.
+
+01:49.830 --> 02:01.240
+And let's just say modifies subnet attributes and it is basically expecting the subnet ID and the map
+
+02:01.300 --> 02:04.830
+public IP addresses is a lounge.
+
+02:04.900 --> 02:10.280
+And as you can see use a dictionary type not a generic object or string type.
+
+02:10.450 --> 02:20.320
+And if you're on IP version 6 then you can also use the sign IP version 6 addresses on creation.
+
+02:20.320 --> 02:27.630
+But since we're on pillars and for again we're going to have to use the public IP on lounge.
+
+02:28.060 --> 02:34.380
+So there are basically two things that we're going to have to provide for the subnet tidy.
+
+02:34.450 --> 02:44.920
+I'm going to pass in a subnet tidy and then I'm going to provide my public ID on lounge and that property
+
+02:44.920 --> 02:47.360
+is going to be expecting a dictionary.
+
+02:47.380 --> 02:51.440
+So let's just pro-white the dictionary like there's
+
+02:54.170 --> 03:02.480
+And within that dictionary I'm going to have to pass on a key value pair and for the value I'm going
+
+03:02.480 --> 03:06.250
+to provide just true.
+
+03:06.560 --> 03:07.570
+Here we go.
+
+03:07.910 --> 03:15.350
+So let's just also pass in the subnet ID from the method signature.
+
+03:15.350 --> 03:22.930
+And let's just go back to our main implementation from our main implementation.
+
+03:22.940 --> 03:39.430
+Let's just comment out allow auto assigned public IP addresses for subnet just like that.
+
+03:39.950 --> 03:45.920
+Let's just fix that typo and let's just call the method that we just created.
+
+03:46.520 --> 03:54.970
+Allow us to assign IP addresses so I'm going to have to pass in the public subnet ID.
+
+03:55.010 --> 03:56.490
+And here we go.
+
+03:56.870 --> 04:06.710
+So once you lounge these are public subnet we'll be able to pass in some or assign some public IP addresses
+
+04:06.950 --> 04:13.130
+for our resources like easy to when we launch some machines in a double us.

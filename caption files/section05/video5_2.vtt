@@ -1,0 +1,64 @@
+WEBVTT
+
+00:01.380 --> 00:05.140
+All right I logged into my AWOS consol.
+
+00:05.160 --> 00:11.670
+And if you haven't done that already if you haven't signed then yet then you should do it now because
+
+00:11.670 --> 00:14.140
+we're going to check out what we're going to build on.
+
+00:14.150 --> 00:17.210
+AWOS All right.
+
+00:18.120 --> 00:26.370
+From the search bar right here I'm going to type in as we see and as you can see it is isolated cloud
+
+00:26.370 --> 00:38.970
+resources and within the BPC section as you can see there is already a default PC from Amazon or AWOS.
+
+00:39.190 --> 00:42.610
+This PPC is created by Amazon itself.
+
+00:42.680 --> 00:51.000
+So you should not touch this PC because if you do that you have to create a support ticket to a double
+
+00:51.010 --> 00:59.270
+you asked to have it created for you just keep it that way and leave that PC as is in our case.
+
+00:59.390 --> 01:07.670
+We're going to be creating a PC just like we can do it from the AWOS console itself like typing the
+
+01:07.670 --> 01:15.740
+name IP for block or the cyder block and providing us are well used to our Ribisi.
+
+01:15.740 --> 01:22.080
+We can definitely do that from a W-S console but we're going to do all these with Python.
+
+01:22.430 --> 01:29.540
+And after launching our PC we're going to take a look at these subnets and we're going to launch our
+
+01:29.540 --> 01:38.870
+own subnets to that PC and when we finish with our private and public subnets then we're going to go
+
+01:38.870 --> 01:41.230
+to Internet gateways.
+
+01:41.780 --> 01:49.940
+As you can see here from the internet gateway we're going to create and Gateway and then we're going
+
+01:49.940 --> 01:58.040
+to attach that internet get way to a subnet and that some net is going to belong to a PC that we created.
+
+01:59.140 --> 02:03.820
+Again we're going to do all of that using Python and both all three.
+
+02:03.820 --> 02:10.030
+We're not going to go to AWOS castle and try to type in to create something from there.
+
+02:10.030 --> 02:12.730
+We're going to do all of that within our code.
+
+02:13.880 --> 02:18.790
+So to start implementing our project I'll be seeing you on the next video.

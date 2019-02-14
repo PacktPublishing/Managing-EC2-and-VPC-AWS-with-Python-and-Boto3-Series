@@ -1,0 +1,154 @@
+WEBVTT
+
+00:01.560 --> 00:09.660
+So now it's time to add a route to our public route table for our internet gateway so anyone can access
+
+00:09.660 --> 00:10.050
+it.
+
+00:10.980 --> 00:15.960
+So for that purpose we're going to have to add a route to our route table.
+
+00:15.960 --> 00:25.230
+So let's go to our P.S. class and within our Ribisi class I'm going to implement another method and
+
+00:25.230 --> 00:38.090
+I'm going to say create internet gateway a route to public route table.
+
+00:38.580 --> 00:47.670
+So we're declarative naming and after that let's just see what we're going to have to provide to adding
+
+00:47.680 --> 01:00.030
+root with the client and decide after that self underscore client and create underscore route and from
+
+01:00.060 --> 01:05.080
+there there are simply a lot of things that we have to provide.
+
+01:05.240 --> 01:13.970
+But the most important part for adding a route is adding the route table idea of course and then you're
+
+01:13.970 --> 01:20.630
+going to have to provide the destination side or block which is going to be used as the access level
+
+01:20.630 --> 01:26.450
+control because you're not going to want to allow everyone coming from the Internet.
+
+01:26.480 --> 01:33.470
+But for our purposes for our testing purposes we're going to be providing zero IP blocks so anyone can
+
+01:33.470 --> 01:36.980
+come up to our public subnet.
+
+01:36.980 --> 01:44.330
+And also we're going to have to provide the gateway ID as you can see here.
+
+01:44.450 --> 01:52.710
+These are basically all we have to provide to our table or to root for that root table.
+
+01:53.980 --> 02:01.340
+So let's just provide the root table first and I'm going to say root tape allowed.
+
+02:01.570 --> 02:06.070
+As the RTP ID just to be simple.
+
+02:06.550 --> 02:12.240
+And after that I'm going to be providing the gateway ID.
+
+02:12.910 --> 02:15.100
+So this is the internet gateway.
+
+02:15.100 --> 02:26.140
+In our case and I'm going to say AGW ID and also we're going to have to pro-white the destination side
+
+02:26.140 --> 02:26.960
+or block.
+
+02:27.340 --> 02:35.770
+So since we're on IP version 4 I'm going to be providing destination cyder block if you're using IP
+
+02:35.770 --> 02:43.350
+version 6 then you're going to have to provide the destination IP 6 or Version 6 side or block.
+
+02:43.660 --> 02:53.280
+So for the side or block I'm going to simply pro-white 0 0 0 slash 0.
+
+02:53.320 --> 02:58.850
+So anyone can come to my public subnet resources.
+
+02:59.090 --> 03:00.080
+All right.
+
+03:00.500 --> 03:10.220
+As you can see we're going to have to pass in the route table ID and also the Internet Gateway Id just
+
+03:10.220 --> 03:11.530
+like that.
+
+03:11.580 --> 03:21.210
+So now since we know that we need to route table ID and internet gateway ID Let's go back to our main
+
+03:21.210 --> 03:30.310
+class and take the route table Id All right we have our public room table response from a couple of
+
+03:30.310 --> 03:40.990
+us but to see how to get to the root table Id let's just go to our Bothell 3 documentation and let's
+
+03:40.990 --> 03:47.020
+just search for create root table.
+
+03:47.020 --> 03:48.000
+Here we go.
+
+03:49.420 --> 03:56.140
+The method is simply returning a dictionary and we have the truth table as the root object.
+
+03:56.140 --> 04:00.570
+And after that we have Druitt table ID.
+
+04:00.750 --> 04:10.530
+So let's just copy the root table and go back to our method and in there I'm going to assign the root
+
+04:10.530 --> 04:21.230
+table ID as RTP underscore ID and I'm going to say public truth table response and from their root table
+
+04:21.900 --> 04:26.140
+and then root table D.
+
+04:26.520 --> 04:27.320
+Here we go.
+
+04:28.120 --> 04:32.980
+We have our route table Id received from our response.
+
+04:33.010 --> 04:37.960
+So let's use that and also comment out here.
+
+04:38.200 --> 04:47.990
+Adding the internet gateway to public table.
+
+04:48.100 --> 04:53.750
+Here we go and let's just call the PC dot.
+
+04:53.930 --> 04:54.670
+Create
+
+04:57.350 --> 05:01.340
+and let's just check out the name of that method.
+
+05:01.340 --> 05:05.050
+Create internet gateway your route to public Croot Tejpal
+
+05:07.780 --> 05:12.570
+create Internet Gateway your route to public route table.
+
+05:12.670 --> 05:13.760
+Here we go.
+
+05:14.350 --> 05:23.340
+So let's just pass in the router table ID and then also pass in the Internet Gateway Id just like that
+
+05:24.650 --> 05:34.550
+so our route table is really to access or is to be accessed from the internet with the help of internet
+
+05:34.550 --> 05:40.020
+gateway and with the of course help of the route to that internet gateway.

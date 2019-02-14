@@ -1,0 +1,43 @@
+WEBVTT
+
+00:00.790 --> 00:06.660
+All right we're together with another section on Python and both are three.
+
+00:07.060 --> 00:16.390
+And in this section with the PC part 2 we're going to be creating first a public cabinet and after that
+
+00:16.690 --> 00:21.930
+we're going to allow us to assign public IP addresses on those subnets.
+
+00:22.060 --> 00:27.910
+And of course this subnet is going to be a part of the VPC that we created earlier.
+
+00:28.330 --> 00:33.380
+And after that we're going to create a PRI with some net.
+
+00:33.590 --> 00:41.000
+And when we finish with our private subnet which is isolated from the Internet world or the outside
+
+00:41.000 --> 00:49.280
+world we're going to create a route table for our public routes or public subnet so we can access this
+
+00:49.640 --> 00:54.040
+net resources from the Internet or over the Internet.
+
+00:54.380 --> 01:02.540
+And after we finish with our public route table we're going to add our internet gateway route to route
+
+01:02.660 --> 01:11.150
+table for our public subnet so that we can get a way to access their resources under the public subnet
+
+01:12.640 --> 01:19.360
+and when we are finished with all that we're going to associate our public subnet with the public route
+
+01:19.360 --> 01:25.940
+table so that they can be connected together to form alongside.
+
+01:25.940 --> 01:33.200
+So this has basically sums up what we're going to do in this section and let's get to our implementation
+
+01:33.230 --> 01:34.960
+and I'll be seeing you on the next video.

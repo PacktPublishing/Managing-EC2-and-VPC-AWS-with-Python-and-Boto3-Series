@@ -1,0 +1,88 @@
+WEBVTT
+
+00:01.540 --> 00:08.590
+Are right we're about to start with easy too and working well easier to resources.
+
+00:08.600 --> 00:15.050
+So before we dig into private and public see two instances let's take a look at what we're going to
+
+00:15.050 --> 00:18.360
+cover in the section in this section.
+
+00:18.500 --> 00:25.520
+We're going to take a look at what we're going to build on AWOS castle just like we do with other sections
+
+00:25.520 --> 00:27.840
+like subnets and the PCs.
+
+00:27.920 --> 00:35.810
+So to get a feeling of what we're going to build on A W-S actually and after that we're going to start
+
+00:36.020 --> 00:45.110
+creating some resources on Ws and we'll first start with a key pair to connect to our easy to instance
+
+00:45.200 --> 00:52.540
+so that we can use it to connect to the instances that we're going to lunch both for private and public.
+
+00:52.550 --> 00:54.740
+Easy to instances.
+
+00:54.740 --> 01:00.080
+And after that we're going to create security groups both for private and public.
+
+01:00.080 --> 01:02.760
+Easily two instances that we're going to launch.
+
+01:03.050 --> 01:10.140
+And after that for our public easy to instance we're going to develop a startup script.
+
+01:10.280 --> 01:17.090
+So when we launch our public easy to insiders that script is going to be executed and is going to prepare
+
+01:17.090 --> 01:24.290
+a Web site for us to see that if we can possibly connect to our public easily to instance from anywhere
+
+01:24.290 --> 01:25.200
+in the world.
+
+01:26.370 --> 01:33.210
+And after we finish with our creations and preparations for our easy to instance we're going to actually
+
+01:33.210 --> 01:39.100
+change our public easy to instance within our public subnet that we created earlier.
+
+01:39.330 --> 01:46.440
+And after that we're going to verify that the script that we developed is working as expected by trying
+
+01:46.440 --> 01:47.990
+to connect to our public.
+
+01:48.000 --> 01:55.380
+Easy to instance and trying to see the web page that we developed earlier and after we've finished with
+
+01:55.380 --> 02:00.560
+our public easy to instance we're going to launch a private is to instance.
+
+02:00.600 --> 02:08.400
+So the first private comes from that it's being under the private subnet as a sole resource of our private
+
+02:08.400 --> 02:10.180
+subnet.
+
+02:10.310 --> 02:16.040
+And after we've finished with launching our private easy to instance we're going to verify that the
+
+02:16.040 --> 02:18.470
+connection is not possible to this private.
+
+02:18.470 --> 02:22.900
+Easy to instance except from within the subnets itself.
+
+02:23.840 --> 02:26.150
+So this is going to be a lot of fun.
+
+02:26.270 --> 02:30.230
+A great section to learn about easy to do and how they work.
+
+02:30.230 --> 02:33.890
+So are we expecting to see you in the next video.

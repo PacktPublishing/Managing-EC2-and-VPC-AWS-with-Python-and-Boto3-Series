@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00.620 --> 00:08.720
+So now it's time to install the a WSC a lie so that we can easily configure our access keys in secret
+
+00:08.720 --> 00:17.150
+keys so that we can access AWOS resources from command lines applications other languages and simply
+
+00:17.150 --> 00:21.190
+from everywhere on our machine to do that.
+
+00:21.200 --> 00:25.240
+Of course there are several ways of achieving this goal.
+
+00:25.280 --> 00:35.150
+You can simply install with Peppe and you can simply download the package for a WSC ally and by far
+
+00:35.330 --> 00:45.260
+the easiest way to install a WSC lie on Mac OS is with homebrew homebrew is the missing package manager
+
+00:45.260 --> 00:46.730
+on Mac OS.
+
+00:46.730 --> 00:52.370
+If you go to its Web site and let's just type in homebrew
+
+00:54.780 --> 00:58.110
+and if we go check it out.
+
+00:58.260 --> 01:02.940
+It is simply the missing package manager for Mac OS.
+
+01:02.940 --> 01:10.560
+The best part of homebrew is you don't have to deal with the path variables and setting the executables
+
+01:10.560 --> 01:13.660
+so that you can work with them in your command lines.
+
+01:13.920 --> 01:20.760
+Homebrewed just takes care of everything so you just simply call the command like just the Brue install
+
+01:20.820 --> 01:23.400
+and a WSC apply in our case.
+
+01:23.490 --> 01:31.620
+Dan you just have the AWOS Seelye ready for your command line for any application that you have.
+
+01:31.710 --> 01:42.830
+Again you can just simply go and check the AWOS apply for Mac OS on a WSS original web site.
+
+01:43.680 --> 01:47.160
+This is the another option to install a WSC.
+
+01:47.190 --> 01:54.010
+But it has some downsides because you have to export the path because it doesn't work all the time.
+
+01:54.060 --> 02:02.190
+When you install it with Pipp and package managers so I'm going to follow the way of using the homebrew
+
+02:02.430 --> 02:05.160
+for a WSC applies to lation.
+
+02:05.340 --> 02:16.350
+So I'm going to go back to my terminal so I'm going to type pin Ru install AWOS lie just like that
+
+02:19.310 --> 02:21.970
+and homebrew is updating itself.
+
+02:23.090 --> 02:30.620
+And then it's going to install my a WSC ally with along with the all of the Pender's see that it has
+
+02:32.620 --> 02:44.160
+so are AWOS Seelye is being installed with of course the dependencies that it needs to operate properly.
+
+02:44.280 --> 02:45.620
+And here we go.
+
+02:45.990 --> 02:50.260
+Our AWOS Theola is now ready and up and running.
+
+02:50.280 --> 02:52.160
+Let's just test it out.
+
+02:52.320 --> 02:57.360
+So I'm going to type in a W-S and here we go.
+
+02:57.450 --> 03:01.230
+Our AWOS is now working as expected.

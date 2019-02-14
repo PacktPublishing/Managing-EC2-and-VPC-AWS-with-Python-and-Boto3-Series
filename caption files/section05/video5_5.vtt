@@ -1,0 +1,172 @@
+WEBVTT
+
+00:02.420 --> 00:10.810
+So we're going to start implementing a lot of classes for our lectures and for a AWOS implementation.
+
+00:11.210 --> 00:18.380
+But having to check out the documentation every time we want to implement something is kind of tedious
+
+00:18.380 --> 00:26.090
+right because otherwise our implementation would be interrupted with documentation checks and all that
+
+00:26.090 --> 00:26.540
+stuff.
+
+00:26.560 --> 00:28.730
+But we don't want that.
+
+00:28.820 --> 00:31.020
+So there is a solution to that.
+
+00:31.060 --> 00:41.840
+We had pie boto the guys from the way we cloud has a great news for us they have a pythonic interface
+
+00:41.960 --> 00:44.980
+for AWOS Bothell free implementation.
+
+00:45.110 --> 00:49.880
+That gives you autocomplete and you didn't misheard that.
+
+00:49.970 --> 00:58.390
+It is full auto complete on PI Chayyim ID using both or three as you can see with the screenshots we
+
+00:58.410 --> 01:06.980
+can simply provide the type for your client and then you can get the auto complete magic for your AWOS
+
+01:07.010 --> 01:12.500
+implementation for Python and both of three so to use that.
+
+01:12.520 --> 01:17.950
+Let's go back to our ID and launch a terminal session.
+
+01:18.430 --> 01:31.940
+I'm going to type in Pipp install PI both Fourie But of course our pipin installation was for the 3.6
+
+01:32.030 --> 01:33.330
+version of Python.
+
+01:33.380 --> 01:40.490
+So lets just type in that and I'm going to just hit enter and here we go.
+
+01:41.390 --> 01:46.980
+Our PI both though is being installed and it is ready.
+
+01:47.020 --> 01:53.950
+So what we're going to do now is we're going to create declasse that we're going to type in that we're
+
+01:53.950 --> 02:03.060
+going to program our implementation for AWOS on the PC resources and then we're going to provide the
+
+02:03.150 --> 02:07.460
+autocomplete capabilities to our PC class.
+
+02:07.470 --> 02:13.560
+So let's go and create a package for our BPC
+
+02:16.350 --> 02:25.810
+an for the package name I'm going to say this is going to be an easy to package says we pre-series sources
+
+02:25.810 --> 02:28.580
+are bound to be easy to implementation.
+
+02:28.600 --> 02:37.000
+I'm going to keep that convention and going to name this package as easy to add within the U.S. to package.
+
+02:37.000 --> 02:46.090
+I'm going to create my PC class I'm going to type in the PC as the lowercase of course and then I'm
+
+02:46.090 --> 02:48.590
+going to hit enter.
+
+02:48.600 --> 02:56.220
+So what we're going to do now is we're going to start implementing our class and then we're going to
+
+02:56.580 --> 03:01.040
+provide the autocomplete capabilities to our Ribisi class.
+
+03:01.410 --> 03:11.580
+So to do that I'll just go down below and say class BPC and within the initialiser method of that class
+
+03:12.300 --> 03:20.010
+we're going to get the client that we're going to pass in from our implementation and set decline to
+
+03:20.010 --> 03:21.230
+that client.
+
+03:21.360 --> 03:27.700
+So we're going to make use of our client locator utility class.
+
+03:27.730 --> 03:35.830
+So let's just put our initialiser Methot and within our initialiser a matter of course we're going to
+
+03:35.830 --> 03:46.470
+get the both of three client for our PC and I'm going to say self underscore client is going to be client
+
+03:46.560 --> 03:49.140
+Deadeye passed in.
+
+03:50.410 --> 03:52.360
+So set it there.
+
+03:52.390 --> 04:02.010
+And the most important part of lecture of this lecture actually is the pie both of free usage.
+
+04:02.170 --> 04:14.140
+So to use that I'm going to put three quotes to my saying of type and I'm going to say type and then
+
+04:14.860 --> 04:26.220
+I'm simply going to say pie both are three dot not easy to just like that are auto complete.
+
+04:26.220 --> 04:27.880
+She'll be working now.
+
+04:28.170 --> 04:36.120
+So to test it out let's just try to write a method from both of three documentation.
+
+04:36.180 --> 04:44.120
+So let's go back to our both of three documentation and we have various methods as you can see here.
+
+04:44.220 --> 04:44.910
+Let's just try to.
+
+04:44.910 --> 04:54.300
+First one accept preserved instances Xchange quote and so to do that lets us go down below and try to
+
+04:54.300 --> 05:08.170
+type in a method a simple method to test it out and I'm going to say self underscore client and then
+
+05:09.250 --> 05:14.830
+attach let's just verify accept.
+
+05:14.860 --> 05:15.850
+Here we go.
+
+05:16.270 --> 05:18.210
+We have the method.
+
+05:18.280 --> 05:22.450
+And there are signatures coming to us automatically.
+
+05:22.600 --> 05:25.490
+We don't have to go and check that documentation.
+
+05:25.540 --> 05:30.910
+We can just type in the method and let's just go back and rewind this.
+
+05:31.060 --> 05:36.160
+We can just type in the letter that we want to implement the method with.
+
+05:36.250 --> 05:45.130
+And we can just get the suggestions the intellisense with our PI charme ID as you can see here we can
+
+05:45.130 --> 05:51.670
+create everything without even taking a single look at the documentation.
+
+05:51.670 --> 06:00.400
+This is a very beautiful way to work with Python and PI charm ID of course with both of three.
+
+06:00.730 --> 06:09.130
+So big shout out to guys at way we Klout for providing this nice little library and I encourage you
+
+06:09.130 --> 06:13.200
+to use this library for any of your implementations.

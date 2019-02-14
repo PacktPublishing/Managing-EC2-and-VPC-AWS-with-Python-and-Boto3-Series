@@ -1,0 +1,136 @@
+WEBVTT
+
+00:04.150 --> 00:07.750
+All right this is what we're going to be building in the scores.
+
+00:08.530 --> 00:13.820
+This picture this whole diagram might seem a little too much but just don't worry about it.
+
+00:13.930 --> 00:16.070
+I'll be explaining everything to you.
+
+00:16.540 --> 00:21.210
+So let's get started from the other part of the diagram.
+
+00:21.490 --> 00:29.580
+You first start by creating our own custom BPC our virtual private cloud and worriment and we're going
+
+00:29.580 --> 00:40.170
+to be using 10.0 data that those last 16 as the cyder block of this diagram of this PC actually and
+
+00:40.470 --> 00:47.850
+after we've finished with our BPC creation we're going to be launching two subnets one of them is going
+
+00:47.850 --> 00:59.250
+to be a public subnet and we're going to be using 10.0 1.0 slice 24 with the public subnet and 40 probably
+
+00:59.250 --> 01:00.090
+would sub net.
+
+01:00.120 --> 01:11.730
+We're going to be using 10.00 slash 2.0 slash 24 these IP blocks are going to allow us to provide all
+
+01:11.730 --> 01:20.690
+our 200 IPs for our machines and for the network elements that we're going to launch in this subnets.
+
+01:20.750 --> 01:27.560
+So I'm hoping that you're familiar with cyder blocks and this is going to be a very useful exercise
+
+01:27.650 --> 01:30.050
+on them how to implement from the code
+
+01:32.840 --> 01:41.220
+after we finish with our subnets and we PCI-E we're going to be adding a root table to our public subnet
+
+01:42.960 --> 01:49.720
+that table is going to be special because with that route table we're going to be able to access internet
+
+01:50.140 --> 01:57.740
+through the internet gateway that we're going to also create with the help of the internet gateway with
+
+01:57.740 --> 02:06.710
+the usage of route table will connect that to our public subnet and eventually we'll be able to access
+
+02:06.740 --> 02:12.140
+internet within the machines that we're going to launch in the public subnet.
+
+02:12.140 --> 02:15.920
+This is very important and I'll show you every detail about it.
+
+02:16.010 --> 02:17.520
+Just don't worry about it right now.
+
+02:18.850 --> 02:27.160
+And let me finish with our BPC public solving that root table and internet gateway will eventually start
+
+02:27.400 --> 02:31.090
+launching easy two instances within those subnets.
+
+02:32.140 --> 02:42.220
+And we first start by launching a public East to instance within the of course public subnet and with
+
+02:42.220 --> 02:49.870
+the help of our internet gateway and our custom route table we will be able to access internet from
+
+02:49.870 --> 02:58.210
+that easy to instance and we're also going to use a startup script for our easy to instance add and
+
+02:58.240 --> 03:06.370
+we're going to show a web page where Millau are easy to instance and let me try to access it from the
+
+03:06.370 --> 03:07.240
+Internet.
+
+03:07.390 --> 03:16.260
+We'll be able to see our Web page that we provided with from the startup script of the easy to instance.
+
+03:16.490 --> 03:23.340
+And after experimenting with our public easy to instance we're going to be launching a private issue
+
+03:23.390 --> 03:29.460
+to instance and we're going to verify that it is not accessible from the Internet.
+
+03:30.480 --> 03:38.160
+And to connect to our private easy to instance we're going to be making use of our subnet blocks and
+
+03:38.670 --> 03:46.590
+with the help of our default route table since all these subnets are within the same BPC we will be
+
+03:46.590 --> 03:54.870
+able to access our private institutes instance from our public easy to instance exclusively no one outside
+
+03:54.930 --> 04:00.330
+our PC will be able to access our private is to instance.
+
+04:00.510 --> 04:07.620
+So this is going to be a very useful exercise to either isolate or allow connections to network elements
+
+04:07.830 --> 04:10.610
+within PCs and subnets.
+
+04:10.890 --> 04:19.680
+And eventually when the finish are BPC and easy to sections we will be having this diagram programmatically
+
+04:19.680 --> 04:30.890
+created on a W-S and in every step after couple of implementations about both three and Python we're
+
+04:30.890 --> 04:38.110
+going to be launching our AWOS console logging into it and verifying everything that we did from the
+
+04:38.110 --> 04:38.970
+code.
+
+04:38.990 --> 04:46.600
+So you'll be seeing everything in action from the code perspective to AWOS console perspective.
+
+04:46.940 --> 04:51.070
+So this is going to be very hands on in a very interactive course.
+
+04:51.140 --> 04:58.340
+So I'm happy that you chose to take this course and you're going to be learning a lot about AWOS and
+
+04:58.520 --> 05:05.690
+how to manage your resources within which all private cloud environments or PCs and how to launch instances
+
+05:05.990 --> 05:08.150
+both privately and publicly.

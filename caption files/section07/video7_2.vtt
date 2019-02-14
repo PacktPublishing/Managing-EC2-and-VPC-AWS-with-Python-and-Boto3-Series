@@ -1,0 +1,55 @@
+WEBVTT
+
+00:01.140 --> 00:07.890
+Before we start developing our easy to solutions for being as private and public let's talk about what
+
+00:07.890 --> 00:12.230
+we're going to build from the AWOS Council perspective.
+
+00:12.510 --> 00:16.830
+So on the search bar I'm simply typing easy too.
+
+00:16.830 --> 00:20.660
+And as you can see it is which will sort of in the cloud.
+
+00:20.760 --> 00:27.540
+So when I launched DC to the general overview page is greeting me.
+
+00:27.540 --> 00:34.600
+So in this page I consider running instances elastic IPs security grooves key pairs and everything.
+
+00:34.620 --> 00:41.440
+So we first start going to create a key player for ourselves just like we can do from here.
+
+00:41.760 --> 00:46.480
+But again we're not going to use this way we're going to do all of that from our code.
+
+00:46.680 --> 00:55.160
+And after that we're going to create a security group and with those in in our hands we can go and launch
+
+00:55.160 --> 01:02.490
+our instance like we can do from here and we're going to use Amazon Linux am I.
+
+01:02.670 --> 01:10.980
+So we can probably use the latest one as you can see here with the SSD volume type and we're going to
+
+01:10.980 --> 01:16.410
+like following the wizard steps and selecting things from this page.
+
+01:16.410 --> 01:23.250
+We can simply launch are easy to instance from our pipeline and both all three client and it is going
+
+01:23.250 --> 01:30.970
+to be a huge fund to do that because launching machines from your code it is actually a great feeling.
+
+01:31.160 --> 01:37.880
+And after we've finished with our public easy to instance we're going to launch our private is to instance
+
+01:37.880 --> 01:40.020
+just like we could do from here.
+
+01:40.460 --> 01:47.360
+So to start developing our solution and start by creating a key pair I'll be seeing you on the next
+
+01:47.360 --> 01:47.790
+video.

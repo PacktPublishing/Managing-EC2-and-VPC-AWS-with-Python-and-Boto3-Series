@@ -1,0 +1,130 @@
+WEBVTT
+
+00:02.380 --> 00:10.760
+Now let's go and download the AWOS apply and have it up and running on our windows machine to do that.
+
+00:10.780 --> 00:18.350
+I'll say a WSC apply for Windows just like that.
+
+00:18.430 --> 00:28.840
+And from there I'm going to go to the first link from Amazon and on the top right of the screen on there
+
+00:28.840 --> 00:38.290
+the window section I can see that 64 bit and 32 bit Windows installers for AWOS command line interface.
+
+00:38.380 --> 00:49.810
+And of course since I'm on a 64 bit of operating system Windows 10 I have to select the 64 bit and are
+
+00:50.410 --> 00:51.310
+AWOS.
+
+00:51.370 --> 00:52.940
+Download is tarting.
+
+00:53.170 --> 01:00.790
+And once we finish we're going to start installing us on our windows machine.
+
+01:01.990 --> 01:05.940
+All right our AWOS realize Towler is now.
+
+01:05.940 --> 01:06.950
+Download it.
+
+01:07.240 --> 01:08.350
+Let's just head from
+
+01:10.940 --> 01:18.550
+and let's just select the Windows Installer and hit OK.
+
+01:18.620 --> 01:27.050
+Now let's hit next and accept the license agreement and we want everything about a WSC a lie on our
+
+01:27.050 --> 01:28.050
+computer.
+
+01:28.100 --> 01:29.200
+I'll hit next.
+
+01:29.240 --> 01:37.910
+And I'm simply going to hit install and of course I am excepting the control of administrator access
+
+01:37.970 --> 01:39.830
+for this installer and I'll hit.
+
+01:39.830 --> 01:41.090
+Yes.
+
+01:41.090 --> 01:45.470
+Now are a WSC allies being installed on our computer.
+
+01:50.390 --> 01:51.530
+Here we go.
+
+01:51.530 --> 01:56.370
+Our AWOS command line interface is now set up on our windows machine.
+
+01:57.470 --> 02:04.700
+Now we have to verify that if we have our a key U.S. ally properly installed on our machine.
+
+02:06.590 --> 02:09.630
+To do that let's open up a command prompt
+
+02:16.430 --> 02:21.770
+and from there let's just type A W-S.
+
+02:21.820 --> 02:22.540
+All right.
+
+02:22.600 --> 02:28.900
+As you can see our AWOS command is not recognized with the windows command line.
+
+02:29.200 --> 02:34.050
+So there are a few things to do when we receive this error.
+
+02:34.480 --> 02:40.840
+The problem is that the AWOS install could not properly set our path for A W-S.
+
+02:40.840 --> 02:46.230
+So our command prompt cannot see the command to fix that.
+
+02:46.540 --> 02:58.990
+Let's first locate the AWOS CLIA installation and within our computer let's go to our C-Drive and from
+
+02:58.990 --> 03:05.930
+there let's go to Program Files and with an Amazon and a U.S..
+
+03:05.980 --> 03:06.630
+All right.
+
+03:06.760 --> 03:09.410
+This is the base path that we need to get to.
+
+03:09.550 --> 03:16.410
+And I'm just going to copy this path and I'm going to search for the environment variables
+
+03:20.040 --> 03:32.520
+and from the environment variables I'm going to select the path and I'm going to add the path for our
+
+03:33.060 --> 03:43.670
+AWOS Seelye I'll hit OK and I'll just go down below and with the system variables I'm going to do the
+
+03:43.670 --> 03:52.360
+exact same thing so that any other user might want to use a a U.S. ally can just simply use it.
+
+03:52.430 --> 03:55.020
+So all right.
+
+03:55.060 --> 03:58.550
+OK I'll hit ok again.
+
+03:58.830 --> 04:00.700
+And here we go.
+
+04:01.140 --> 04:12.250
+If we relaunch our command prompt again we should now see the AWOS running.
+
+04:12.350 --> 04:13.790
+And here we go.
+
+04:14.060 --> 04:18.860
+Our AWOS July is working properly and as we expect.

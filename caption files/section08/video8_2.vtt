@@ -1,0 +1,205 @@
+WEBVTT
+
+00:02.410 --> 00:09.190
+All right we're back to our project and we're not going to take a look at how to describe instances
+
+00:09.370 --> 00:11.110
+on A W-S.
+
+00:11.620 --> 00:17.950
+So to do that let me just first close this tab and we can see everything clearly.
+
+00:18.070 --> 00:22.560
+So no what we want to do is describe instances with both of three.
+
+00:22.720 --> 00:30.710
+And to do that I'm going to go to my easy to class and I'm going to add a method for describing easy
+
+00:30.730 --> 00:40.240
+to instances describe easy to instances or right for the arguments.
+
+00:40.250 --> 00:48.770
+I'm just going to leave them as it is right now and I'm simply going to return self underscore client
+
+00:49.760 --> 01:02.420
+describe an instance is here we go and you can also see that you can specifically describe and specific
+
+01:02.420 --> 01:06.660
+properties of these two instances like their status.
+
+01:06.800 --> 01:14.270
+If they're reserved or not and they are scheduled or any other thing for is the two instances.
+
+01:14.270 --> 01:22.100
+But for now what I'm interested in is describe instances method the best method for describing the two
+
+01:22.100 --> 01:23.040
+instances.
+
+01:23.210 --> 01:27.130
+So let's hit enter and see what's going to happen.
+
+01:27.440 --> 01:33.320
+And except from the dry run parameter we can provide instance IDs.
+
+01:33.320 --> 01:35.090
+Let me just bring that up again.
+
+01:35.180 --> 01:43.850
+We can provide instance IDs we can have filters for various things like tags and other things like IP
+
+01:43.850 --> 01:46.590
+version 4 IP version 6 et cetera.
+
+01:46.880 --> 01:53.900
+And then we can have the next token for the next resolve within the instances list when we describe
+
+01:54.000 --> 02:02.340
+these two instances and you can also limit the number of results for as being TMX results for your describe
+
+02:02.420 --> 02:03.920
+instances method.
+
+02:04.460 --> 02:11.990
+And the cool thing about this describe instances method if you do not specify an instance IDs in the
+
+02:12.020 --> 02:20.750
+parameters it describes everything on your account on that region for your defined region on your client
+
+02:20.810 --> 02:22.330
+on AWOS.
+
+02:22.340 --> 02:28.610
+So that's what we're going to do now since none of these arguments are required for this client.
+
+02:28.640 --> 02:32.280
+Then I can just simply use to describe instances method.
+
+02:32.480 --> 02:45.460
+So let's just add a print statement so that we're describing We see two instances in.
+
+02:45.650 --> 02:49.390
+Let's just add some dots there.
+
+02:49.780 --> 02:55.360
+Since this is going to take some time to describe and here we go.
+
+02:55.510 --> 02:58.960
+The only thing that we need is to call this method.
+
+02:59.140 --> 03:07.180
+And again I should note that you can just pass in some easy to instance IDs and just describe those
+
+03:07.180 --> 03:07.640
+things.
+
+03:07.650 --> 03:15.160
+Or if you have like thousands of easy to instances you can just simply specify the maximum result of
+
+03:15.190 --> 03:16.840
+easy two instances.
+
+03:16.840 --> 03:18.800
+After you call this method.
+
+03:19.000 --> 03:29.640
+So let's go back to our main class and from there I'm just going to type in another method since we
+
+03:29.640 --> 03:36.900
+have our main method already around for us and we can't just simply run that without deleting all the
+
+03:36.900 --> 03:39.260
+resources on a US.
+
+03:39.300 --> 03:45.730
+I'm going to define another method as describe instances.
+
+03:46.140 --> 03:55.650
+All right describe instances method is simply going to call my PC to dot describe the two instances
+
+03:55.650 --> 04:03.030
+method but for doing that of course I have to get the easy to Colline first just like we did with our
+
+04:03.030 --> 04:04.230
+main client.
+
+04:04.230 --> 04:14.520
+Main method actually and I'm going to say easy to client and then get client and after that what I'm
+
+04:14.520 --> 04:22.290
+going to do is I'm going to get the easy to reference for my actual Easy to a class and a way to do
+
+04:22.290 --> 04:28.040
+that is easy to an easy to client just like that.
+
+04:28.050 --> 04:35.370
+So we had a reference to our easy to class just as we did with our previous implementation as you can
+
+04:35.370 --> 04:36.850
+see here.
+
+04:36.870 --> 04:42.630
+So what we're going to do now is simply call the descrive instances method.
+
+04:42.990 --> 04:51.540
+All right so once we call this method it's going to describe you see two instances and what I want to
+
+04:51.540 --> 04:57.160
+do now is I just want to simply print out everything coming out of this method.
+
+04:57.450 --> 05:06.120
+So let's just get a reference for this response and I'm just going to say see two response and print
+
+05:06.120 --> 05:14.160
+out the result and I can just simply call this with a string wrapping since this is going to be a list
+
+05:14.220 --> 05:20.970
+or a dictionary but I don't care right now because I just want to print out the result and I can say
+
+05:21.030 --> 05:23.220
+easy to response.
+
+05:23.220 --> 05:29.340
+And the other thing I'm going to do is I'm going to comment out this main method call and I just want
+
+05:29.340 --> 05:32.600
+to have the describe instances method call.
+
+05:32.640 --> 05:33.880
+All right.
+
+05:34.110 --> 05:40.420
+So let's do that now and see if we can get the two instances from a double.
+
+05:40.500 --> 05:47.690
+One of them being as the private easy to instance and the other one is the public is to instance.
+
+05:47.730 --> 05:48.980
+So let's just hit run
+
+05:51.980 --> 05:53.610
+and here we go.
+
+05:53.820 --> 06:00.110
+We are easy to instances from their image IDs to their instances.
+
+06:00.110 --> 06:09.860
+And what the key player as you can see here we have all of atre about are you see two instances.
+
+06:10.430 --> 06:17.620
+And as you can see we have the private IP address public IP address.
+
+06:17.620 --> 06:21.400
+And this is our public easy to Easton's as you can guess.
+
+06:21.730 --> 06:28.080
+And we have all the data about an easy to instance.
+
+06:28.150 --> 06:34.320
+So this is how to check out and describe your two instances on a with us.
+
+06:34.330 --> 06:44.020
+Again you can't just simply pass instance IDs on this method as we can see here and you can just specify
+
+06:44.140 --> 06:47.350
+the instances to filter on a Dober U.S..

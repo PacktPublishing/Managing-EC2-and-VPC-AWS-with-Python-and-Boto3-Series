@@ -1,0 +1,181 @@
+WEBVTT
+
+00:02.020 --> 00:05.720
+In our previous lecture we created a VPC.
+
+00:06.220 --> 00:14.080
+But to state that again we're going to be developing our application until the end then we're going
+
+00:14.080 --> 00:17.610
+to launch everything at once with our application.
+
+00:19.010 --> 00:29.030
+So as you saw with our BPC creation as you can see Amazon is not giving the PC an option to provide
+
+00:29.090 --> 00:30.420
+a name.
+
+00:30.560 --> 00:33.170
+You have to provide the name for your replies.
+
+00:33.410 --> 00:42.320
+After you create or PPC this is somehow a weird way to give a name to your resource in a WSP PC.
+
+00:42.360 --> 00:51.060
+But anyways we will have to provide a name so that we can distinguish our ypc from the everything else.
+
+00:51.170 --> 01:03.330
+To do that there is a method in both of API our AWOS API to tag resources in easy to this Methodius
+
+01:03.360 --> 01:05.020
+create Tagamet it.
+
+01:05.430 --> 01:13.500
+So let's just write down a method within our PC so that we can use this method in a generic way to tag
+
+01:13.590 --> 01:20.320
+any of the resources that we want to attack within AWOS is the perspective.
+
+01:20.370 --> 01:32.760
+So I'm going to go down below and I'll say add name tag and this method is expecting a resource ID and
+
+01:32.760 --> 01:34.520
+or a resource name.
+
+01:34.560 --> 01:39.280
+Let me just type that method in and you're going to see what I'm trying to say.
+
+01:40.820 --> 01:42.130
+Self.
+
+01:42.230 --> 01:46.470
+Client create tags.
+
+01:47.990 --> 01:56.210
+And as you can see it is expecting a list of resources or resource IDs and Danni's is expecting also
+
+01:56.320 --> 01:59.470
+the tags that you want to attach to those resources.
+
+02:00.220 --> 02:01.540
+All right.
+
+02:01.690 --> 02:12.620
+So let's just get the resource ID because I'm going to attach the tags the to the resources one by one
+
+02:13.220 --> 02:17.420
+and also the resource name because we want to tap this resource.
+
+02:17.530 --> 02:19.180
+Its Name.
+
+02:19.350 --> 02:25.970
+So let's just apply the changes to our resources on J-ws.
+
+02:26.020 --> 02:31.040
+The first thing is the resources for the resources.
+
+02:31.210 --> 02:34.410
+The API is expecting a list of resources.
+
+02:34.540 --> 02:41.890
+But since we want to attach the tags or named resources one by one I'm just going to provide a list
+
+02:41.950 --> 02:44.210
+of one.
+
+02:44.330 --> 02:47.980
+And let's just provide elso the tax.
+
+02:47.980 --> 02:55.640
+The most important part of what we're going to provide and for the tax it is also expecting a list but
+
+02:56.150 --> 03:03.200
+within that list we have to be providing a multiple well-you elements so instead of that I'm going to
+
+03:03.200 --> 03:05.860
+provide a single dictionary.
+
+03:06.080 --> 03:19.790
+So I'm going to say the key for that task is going to be name of course and the value for that name
+
+03:19.790 --> 03:24.860
+tag is going to be the name of the resource.
+
+03:24.890 --> 03:27.070
+Simple as that.
+
+03:27.220 --> 03:35.490
+And let's just also print out a nice little message that we're adding a tag to a resource.
+
+03:35.530 --> 03:46.420
+So let's say adding resource name tak to the.
+
+03:46.650 --> 03:55.660
+And let's just provide the resource ID and seems like we have a typo there.
+
+03:56.810 --> 03:59.060
+And let's just fix all those
+
+04:02.980 --> 04:07.130
+and here we go.
+
+04:07.170 --> 04:15.200
+So the next thing we would do is we will take the response from the Create BPC method as we called with
+
+04:15.200 --> 04:24.120
+in here as the PC response we get from a of us as you can see and we're going to take the PC ID from
+
+04:24.120 --> 04:31.940
+that response and then we're going to attach the tag to that BPC as the name of it.
+
+04:32.460 --> 04:45.320
+So let's just go down below and let's just put a add name tag to the PC comment here and then what I'm
+
+04:45.320 --> 04:49.170
+going to do is I'm going to say BPC name.
+
+04:50.180 --> 04:54.140
+Yes going to be both.
+
+04:54.220 --> 04:58.350
+Three PC just like that.
+
+04:59.220 --> 05:09.060
+And the next thing that I want to do is I want to extract the the PC ID from the PC response and the
+
+05:09.060 --> 05:15.930
+way to do is as you can see here we're receiving a dictionary object in the Python language.
+
+05:15.930 --> 05:24.900
+So we first have to take the PC and then within that dictionary there is another dictionary and inside
+
+05:24.900 --> 05:28.550
+that dictionary we have the UPC ID.
+
+05:28.560 --> 05:40.110
+So what we're going to do is we're going to first get the VPC and then we're going to retrieve the BPC.
+
+05:40.110 --> 05:42.840
+Id just like that.
+
+05:43.200 --> 05:49.870
+This is going to give us the necessary information that we need to add the tag to the CPC.
+
+05:49.890 --> 05:56.390
+So the last thing we're going to do is we're going to call the ADD name tag method.
+
+05:56.640 --> 06:05.010
+And of course we're going to provide the BPC ID as the resource ID and for the name of course we're
+
+06:05.010 --> 06:09.980
+going to call it with the UPC name just like that.
+
+06:10.020 --> 06:14.460
+This is going to attach and name for our PC.
+
+06:15.000 --> 06:25.250
+And let's also print out added the PC name to
+
+06:28.750 --> 06:34.070
+and PC Id just like that.

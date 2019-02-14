@@ -1,0 +1,82 @@
+WEBVTT
+
+00:01.500 --> 00:07.220
+Now we will come to one of the most important parts of our tutorials.
+
+00:07.420 --> 00:15.610
+And remember that when you launch a public easy to instance with a startup script startup script is
+
+00:15.790 --> 00:18.310
+right here and I'm going to show you.
+
+00:18.310 --> 00:18.840
+Yeah.
+
+00:19.000 --> 00:25.220
+This is the startup script that we added as the user data on our public.
+
+00:25.220 --> 00:33.920
+Easy to instance and that startup script has to be greeting us when we try to access our easy to instance.
+
+00:34.090 --> 00:41.130
+Hello from both L3 using Python and does scripts should be available under indexed.
+
+00:41.320 --> 00:49.900
+DML and it should be served also from the HTP the server on my PC to instance.
+
+00:49.960 --> 00:51.440
+So to verify that.
+
+00:51.520 --> 01:01.230
+Let's go to a AWOS and see if we can access our public easy to instance and let's just hit refresh.
+
+01:01.310 --> 01:09.260
+And this is our public easy to instance as we can see with the public IP address and we already checked
+
+01:09.530 --> 01:11.550
+in the earlier video.
+
+01:11.570 --> 01:20.580
+Let's just copy the IP address and let's open a new tab and let's just hit enter to see if we can access
+
+01:20.580 --> 01:22.490
+this easy to instance.
+
+01:23.330 --> 01:25.060
+And here we go.
+
+01:25.220 --> 01:35.210
+This is the great payoff of our efforts on A W-S using Python and both all three with our extensor architecture
+
+01:35.450 --> 01:42.320
+using public subnets private subnets and they are specific route tables and Internet gateways.
+
+01:42.510 --> 01:51.110
+We were able to allow our machine from public subnet and lounge machine from public subnet to be able
+
+01:51.110 --> 01:53.870
+to be accessed from the Internet.
+
+01:53.960 --> 02:01.580
+And as you can see our startup script is working just as we expected and with this way you can define
+
+02:01.610 --> 02:09.290
+any kind of startup scripts within your easy two instances to be use so that you can do preparation
+
+02:09.290 --> 02:14.190
+work before launching your E.C two instances on a W-S.
+
+02:14.510 --> 02:22.370
+So I'm really happy to have you displaying this message on AWOS because this is the actual pay off of
+
+02:22.400 --> 02:24.820
+our AWOS implementation.
+
+02:24.830 --> 02:35.030
+As you can see here you had a great implementation made up of us from our PC two subnets and other resources
+
+02:35.290 --> 02:42.970
+and we can see that our efforts are paid off and we can see our message on our web page from our easy
+
+02:42.970 --> 02:45.520
+to instances on a W-S.

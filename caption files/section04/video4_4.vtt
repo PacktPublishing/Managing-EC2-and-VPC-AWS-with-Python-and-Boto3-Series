@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00.600 --> 00:08.930
+The next thing we need to do is we need to install the both of three library for our Python project.
+
+00:09.180 --> 00:14.030
+The way to do that is of course using the Python package manager which is Pipp.
+
+00:14.070 --> 00:23.120
+So let's just type and PIREP 3.6 since I'm using the third version for Python.
+
+00:23.130 --> 00:31.590
+And of course the Python package manager I'm going to say Pipp for you and install and then both of
+
+00:31.610 --> 00:37.580
+three and I'm going to hit enter and both are three.
+
+00:37.630 --> 00:42.690
+As already installed just like that so fast.
+
+00:42.880 --> 00:50.530
+So I'm almost ready to work with AWOS and his API with my Python project.

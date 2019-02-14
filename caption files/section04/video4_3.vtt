@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00.770 --> 00:08.840
+Know what we have to do is we have to reconfigure our HWC lie with our secret key an access key.
+
+00:08.840 --> 00:11.640
+The way to do that is quite simple.
+
+00:11.690 --> 00:19.880
+So what I'm going to do now since I have the access key and secret key taken into a separate notepad
+
+00:20.090 --> 00:22.460
+so I can just copy and paste it.
+
+00:22.700 --> 00:26.090
+I'm going to use the AWOS configure command.
+
+00:26.090 --> 00:34.890
+So I'll say AWOS configure and then I'm simply going to hit enter right now.
+
+00:36.110 --> 00:41.830
+So AWOS Seelye is first asking for the access key from me.
+
+00:42.020 --> 00:51.000
+Let's just copy and paste it and hit enter and then it's asking for the secret access key.
+
+00:51.140 --> 00:56.520
+Let's just copy it and paste it to our command line.
+
+00:58.700 --> 01:01.890
+And it is asking for the default region.
+
+01:02.450 --> 01:05.810
+We can specify and not a region anytime we want.
+
+01:05.810 --> 01:13.520
+But in this case if you want to operate with the WSC allied directly we have to specify a region.
+
+01:13.520 --> 01:24.110
+So in our case I'm going to say EU central one or simply franc for the default or put format as the
+
+01:24.200 --> 01:32.180
+format that you received the response from a WSC ally operations or requests underscoring to say it's
+
+01:32.180 --> 01:34.020
+going to be Jason.
+
+01:34.640 --> 01:35.840
+And here we go.
+
+01:36.550 --> 01:44.830
+Our AWOS Seelye is configured with the access key and secret key that we just created from our I am
+
+01:44.830 --> 01:47.400
+user from our AWOS consol.
+
+01:47.410 --> 01:52.810
+So now we're due to work with AWOS API.
+
+01:52.880 --> 01:59.830
+The next thing we're going to do is we're going to install the both of three library on our Python installation.

@@ -1,0 +1,199 @@
+WEBVTT
+
+00:01.270 --> 00:06.470
+All right we're about to launch our first to instance.
+
+00:06.810 --> 00:15.660
+But for this instance forward public is to instance we're going to be using a user data or a startup
+
+00:15.660 --> 00:18.110
+script for our easy to instance.
+
+00:18.120 --> 00:25.030
+So the purpose of the startup script is to prepare your AC to instance before doing anything else.
+
+00:25.080 --> 00:33.080
+So you can simply use the startup script to install some scripts some packages prepare your environment
+
+00:33.120 --> 00:36.730
+set some environment variables and so on.
+
+00:36.780 --> 00:43.870
+So you can how a whereis uses for the startup script option for easy to.
+
+00:43.920 --> 00:52.570
+So in this video we're going to be creating our startup script for our public easy to instance.
+
+00:52.630 --> 01:06.580
+So to do that I'm going to create a user data object and within that user data object I'm going to use
+
+01:06.580 --> 01:12.640
+the bash shell and provide my startup script to my easy to instance.
+
+01:12.640 --> 01:20.170
+So to do that I'm going to open up a string definition like this and then I'm starting off with the
+
+01:20.290 --> 01:27.460
+shebang so I can use the bash shell within my easy to instance.
+
+01:27.530 --> 01:34.690
+And one thing to note that I'm going to be using Amazon's Elmis for my easy to instance.
+
+01:34.690 --> 01:43.180
+So you can simply use any other shell or anything else with the image from A W-S depending on the image
+
+01:43.190 --> 01:44.510
+from A W-S.
+
+01:44.800 --> 01:47.710
+So in my case I'm using my eyes.
+
+01:47.830 --> 01:57.940
+And so let's say big bash and then I'm going to first start off with the update of yum the package manager
+
+01:58.210 --> 02:01.890
+on Mei's or Amazon machine images.
+
+02:01.930 --> 02:10.060
+So I'm going to say yum update and I'm going to give the argument as yes so that it doesn't prompt me
+
+02:10.060 --> 02:18.830
+to ask so it can automatically do the update process and then I'm going to install an HGT piecer in
+
+02:18.850 --> 02:27.280
+this easy to instance so that I can start this HGT piecer and then I can put my DML file in there so
+
+02:27.280 --> 02:30.210
+I can access my easy to instance.
+
+02:30.220 --> 02:43.580
+So let's just install a TTP d 24 and let's also give the flag as yes so it can automatically be installed.
+
+02:43.840 --> 02:52.420
+And the next thing I'm going to do is I'm going to start the TPD service on my easy to instance.
+
+02:52.420 --> 03:04.060
+So let's say service as GTP and start and after that to verify my ETP server is up and running I'm going
+
+03:04.060 --> 03:06.630
+to use the check config.
+
+03:06.850 --> 03:11.470
+So the C-h k SK can think
+
+03:14.170 --> 03:21.710
+and then I'm going to give the h t t P D and to verify it I'm going to say on.
+
+03:22.270 --> 03:29.170
+And the next thing I'm going to do is I'm going to provide my t m l file.
+
+03:29.290 --> 03:39.580
+So to put my SJM all file in there I'm going to simply say Ekho and then I'm going to start giving my
+
+03:39.920 --> 03:41.160
+a CML file.
+
+03:41.200 --> 03:45.470
+So I'll start my ASTM L bracket.
+
+03:45.910 --> 03:54.130
+And then of course I'm going to give it a body and within that body I'm going to have a header of that
+
+03:54.170 --> 03:55.110
+one.
+
+03:55.690 --> 04:05.470
+And within that header I'm going to say hello from both all three using Python.
+
+04:06.160 --> 04:14.830
+And it's an exclamation mark there and then I'm going to simply say this is going to be a Balwant let's
+
+04:14.830 --> 04:26.430
+just say this guy is bald and I'm going to wrap it up with the B.Tech from a DML and.
+
+04:26.770 --> 04:27.590
+All right.
+
+04:28.520 --> 04:34.700
+So the next thing is to close everything up and go back to business.
+
+04:34.700 --> 04:35.360
+All right.
+
+04:35.510 --> 04:46.250
+So let's first close the H1 tag and after that list is close by the tech and the last thing is to close
+
+04:46.250 --> 04:48.140
+the DML track.
+
+04:48.140 --> 04:50.240
+All right.
+
+04:50.240 --> 04:59.920
+And what I'm going to do now is I'm going to put this echo statement put this file to an actual DML
+
+04:59.960 --> 05:00.410
+file.
+
+05:00.410 --> 05:01.560
+All right.
+
+05:01.940 --> 05:10.490
+So to do that what I'm going to do is I'm going to let's just remove this guy and let's put it there.
+
+05:10.610 --> 05:18.260
+What I'm going to do is I'm going to give the reader sign and then I'm asking for the interpreter to
+
+05:18.500 --> 05:22.690
+put this content to an actual DML file.
+
+05:22.760 --> 05:27.680
+So former H.T. TPD server to work by default.
+
+05:27.680 --> 05:42.260
+I'm going to go to war w w w and then I'm going to say this is under a DML and then I'll say Index dot
+
+05:42.540 --> 05:44.690
+h t m l.
+
+05:44.690 --> 05:55.230
+So this is basically everything I need to do to provide my startup script to my easy to instance.
+
+05:55.230 --> 06:03.520
+All right let's go over our startup script for one more time and see what we've done here in this script.
+
+06:03.570 --> 06:10.750
+We're using the best shell and we indicated that with the Shabak slash bin and slash Bash.
+
+06:10.920 --> 06:19.200
+And after that we had a quick update to our machine with the package manager for all the packages inside
+
+06:19.200 --> 06:22.500
+the machine coming from Amazon image.
+
+06:22.680 --> 06:30.150
+And after that we install the HTP d 24 library from the repository.
+
+06:30.390 --> 06:37.270
+And after that we started the HTP dieser on our easy to instance.
+
+06:37.400 --> 06:40.860
+And when we finished with that we had a check.
+
+06:40.860 --> 06:45.780
+Can't fake it for H.T. TPD as if it is on or not.
+
+06:45.780 --> 06:57.000
+So when we checked out our TPD server we echoed our A I'll file a stream of fat content to a file under
+
+06:57.960 --> 07:04.820
+war slash w w w slash h t M-L slash index that HMO.
+
+07:05.250 --> 07:13.130
+So we're going to be using this user data as our startup script on our easy to instance on our Public
+
+07:13.140 --> 07:14.740
+easy to instance.
+
+07:14.910 --> 07:20.460
+So to actually launch our public easy to instance I'll be seeing you on the next video.

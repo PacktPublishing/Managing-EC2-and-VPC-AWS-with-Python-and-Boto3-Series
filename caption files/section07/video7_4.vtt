@@ -1,0 +1,148 @@
+WEBVTT
+
+00:01.510 --> 00:08.470
+After creating our keepers next time we're going to do is create a security group for our public.
+
+00:08.480 --> 00:15.070
+Easy to instance so that people coming out of internet can access are easy to instance.
+
+00:15.220 --> 00:24.830
+So to do that let's go back to our easy to class and implement a method for creating a security group.
+
+00:25.030 --> 00:30.430
+So I'm going to say create security group.
+
+00:30.430 --> 00:39.190
+And as I always do I'm going to leave my mother's signature to later on so that I can check out my actual
+
+00:39.190 --> 00:43.720
+method signature from A W-S API with both of three.
+
+00:43.720 --> 00:54.070
+So let's just try to return self underscore client and then create a security group and within that
+
+00:54.070 --> 01:01.600
+security group method except from the dry run again we have to provide the group name description and
+
+01:01.660 --> 01:04.890
+a VPC ID for the security group.
+
+01:04.900 --> 01:12.880
+So the there are simply three things that we have to provide to this method group name description and
+
+01:12.880 --> 01:14.310
+the VPC ID.
+
+01:14.350 --> 01:27.820
+So let's just do that green group name is going to be simply group name and description as description.
+
+01:27.820 --> 01:31.820
+And the last thing is we PC ID.
+
+01:31.870 --> 01:33.580
+So let's just do that.
+
+01:33.610 --> 01:47.030
+And let's also pass these arguments in to our method and for the description he Rico and the VPC ID.
+
+01:47.050 --> 01:48.020
+All right.
+
+01:48.400 --> 01:53.410
+So let's also print out that we're creating a security group
+
+01:56.580 --> 02:04.880
+and with name actually to be much more clear about our intentions.
+
+02:06.360 --> 02:17.840
+And also let's just indicate the VPC that are using this security group for VPC and PPC ID.
+
+02:17.850 --> 02:18.880
+Here we go.
+
+02:19.260 --> 02:24.930
+So only thing left is to use this method from our main class.
+
+02:24.930 --> 02:30.600
+So let's go back to our main class and make use of this method.
+
+02:32.330 --> 02:41.050
+So what I'm going to do now is I'm going to first comment out line for my security group creation
+
+02:43.570 --> 02:46.540
+create a security group
+
+02:49.200 --> 02:57.000
+and in this line what I'm going to do is I'm going to simply call my create security group method and
+
+02:57.000 --> 03:08.240
+as you can see here and for group name I'm simply going to create a variable for my public security
+
+03:08.240 --> 03:14.750
+group name and I can just keep it as security group.
+
+03:14.990 --> 03:26.300
+So to be simple about my variable and my Both are three public security group as S-G.
+
+03:26.480 --> 03:32.120
+So let's just fix that variable naming and make it public security group.
+
+03:32.120 --> 03:33.210
+All right.
+
+03:33.740 --> 03:36.400
+And also add the name to the end.
+
+03:36.530 --> 03:38.220
+And here we go.
+
+03:38.240 --> 03:46.850
+So if the past is and to our Methot public security group name and the other thing that we're going
+
+03:46.850 --> 03:48.850
+to have to pass is the description.
+
+03:48.890 --> 04:03.230
+So let's also have the public security group description and let's just say public security group
+
+04:10.690 --> 04:19.470
+for public subnet internet access.
+
+04:19.720 --> 04:20.500
+All right.
+
+04:20.620 --> 04:28.720
+So the intention here is to create a security group that is going to be allowed to be accessed from
+
+04:28.720 --> 04:29.690
+the internet.
+
+04:29.920 --> 04:33.010
+Anyone can come if we allow them to.
+
+04:33.020 --> 04:40.660
+So right now we're just going to create a security group but about the rules of that security group
+
+04:40.780 --> 04:44.070
+we're going to do that in just a minute after that.
+
+04:44.080 --> 04:52.260
+So let's just pass in the security group description and the last thing that we have to provide is the
+
+04:52.560 --> 04:56.700
+VPC I.D. And here we go.
+
+04:56.700 --> 05:04.950
+So this is simply everything that we need to create our security group and we have a just simple typo
+
+05:04.950 --> 05:07.360
+there and let's just fix those.
+
+05:07.470 --> 05:09.840
+Just a second or more.
+
+05:10.390 --> 05:14.710
+And here we go.
+
+05:14.720 --> 05:15.190
+All right.

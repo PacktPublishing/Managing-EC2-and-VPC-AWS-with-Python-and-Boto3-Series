@@ -1,0 +1,106 @@
+WEBVTT
+
+00:01.690 --> 00:07.500
+All right we learned how to stop a running instance on A W-S.
+
+00:07.510 --> 00:10.440
+So let's see how we can restart that.
+
+00:10.480 --> 00:16.700
+Easy to instance call a start on that easy to instance to do that.
+
+00:16.900 --> 00:26.830
+I'm just going to go to my PC to class and a method for starting and easy to instance as instance.
+
+00:27.130 --> 00:32.930
+And let's just take out the method for starting easy to instance.
+
+00:32.950 --> 00:41.650
+So I'll just start and there is just only one method for starting easy two instances and it has a similar
+
+00:41.650 --> 00:46.960
+structure similar parameter structure as the stop instances method.
+
+00:46.960 --> 00:49.460
+It has some additional info.
+
+00:49.600 --> 00:58.130
+While you're like while you're starting it why to start such a machine or the dry run as we always get.
+
+00:58.180 --> 01:02.540
+And the instance ID to start the instance.
+
+01:02.600 --> 01:07.720
+So for my purpose all the things I need is to provide instance ID.
+
+01:07.870 --> 01:11.690
+So let's just go and do that instance.
+
+01:11.710 --> 01:17.700
+D and just pass it in from the method signature.
+
+01:18.460 --> 01:30.160
+And let's just copy this line and change the command there so so I want to do is I want it to say starting
+
+01:30.160 --> 01:31.840
+a C to instance.
+
+01:31.840 --> 01:38.240
+All right so now let's go back to our main implementation and in there.
+
+01:38.350 --> 01:48.850
+Let's just have a simple method starved instance and that instance call is going to do a similar job
+
+01:48.910 --> 01:58.690
+with my stop instance call and I'm just going to do it like start easy to dot start instance and for
+
+01:58.690 --> 02:07.850
+the instance Id I'm going to provide the same private C to instance ID so I can just restart it.
+
+02:08.350 --> 02:17.740
+So what I'm going to do now is also comment this line out and just call my star instance method.
+
+02:18.280 --> 02:26.050
+So before we actually run this let's go back to a WS consol and see what's the status of this instance
+
+02:26.050 --> 02:26.900
+right now.
+
+02:27.130 --> 02:33.380
+And as you can see if we hit refresh it is already stopped on a WS.
+
+02:33.390 --> 02:37.960
+So now let's go back and run this method and see what's going to happen.
+
+02:41.610 --> 02:45.050
+All right we have a little problem here.
+
+02:45.290 --> 02:54.070
+And yes the start instance call is actually expecting a list but we provided a tuple to it.
+
+02:54.110 --> 02:56.220
+So let's go and fix that.
+
+02:56.230 --> 03:05.720
+And what I have to do now is just wrap this method wrap is instance ID with the list signature so I
+
+03:05.720 --> 03:11.990
+can just hit pre-run and you see two instances now being started.
+
+03:12.020 --> 03:15.130
+So let's just hit refresh and verify this.
+
+03:15.210 --> 03:16.950
+And here we go.
+
+03:17.000 --> 03:19.990
+The ISS is now in the pending state.
+
+03:20.120 --> 03:23.530
+So within a minute or so but.
+
+03:23.540 --> 03:25.730
+And it's already running.
+
+03:25.730 --> 03:33.970
+It started the easy to instance so stopping and starting E.C two instances are just simple as that.

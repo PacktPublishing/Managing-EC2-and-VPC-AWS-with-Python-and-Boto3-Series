@@ -1,0 +1,112 @@
+WEBVTT
+
+00:02.270 --> 00:07.300
+All right we have our internet gateway create it.
+
+00:07.310 --> 00:16.420
+So the next thing that we're going to do is we're going to attach this internet gateway to our PC so
+
+00:16.600 --> 00:23.950
+to do that we're going to take out the Internet Gateway ID from the internet gateway response and then
+
+00:24.280 --> 00:30.530
+we're going to use that ID to attach the in a gateway to our PC.
+
+00:30.760 --> 00:40.460
+But of course to get the internet gateway idea let's go back to both of three documentation and from
+
+00:40.460 --> 00:44.220
+the both of the free documentation.
+
+00:44.440 --> 00:50.140
+Let's find the method for creating the internet gateway.
+
+00:50.230 --> 00:56.740
+And here we go and let's see what it returns so we can get the internet gateway ID.
+
+00:57.190 --> 01:04.240
+And as you can see it is returning a type of dictionary and then with the internet gateway object at
+
+01:04.240 --> 01:09.360
+the parent level then we have the internet gateway ID.
+
+01:09.510 --> 01:21.590
+So let's just copy the Internet Gateway and after our response let's say Internet Gateway ID is going
+
+01:21.590 --> 01:22.040
+to be
+
+01:26.320 --> 01:32.720
+internet gateway response and then the internet gateway ID.
+
+01:32.920 --> 01:37.200
+And after that following the object response structure
+
+01:39.630 --> 01:43.870
+internet gateway Id just like that.
+
+01:44.200 --> 01:52.470
+So this is going to give us the necessary information for retrieving the internet gateway ID.
+
+01:52.540 --> 02:00.360
+The next thing that we're going to do is to attach the internet gateway to our PC.
+
+02:00.490 --> 02:05.270
+Let's go to our C-Class and create a method.
+
+02:05.890 --> 02:10.720
+So I'll go down below and I'm going to define a method.
+
+02:11.500 --> 02:23.780
+Attach internet gateway to the PC opes and Eurico.
+
+02:23.950 --> 02:34.340
+And what this method is going to get is of course a PC ID and an internet gateway ID.
+
+02:35.100 --> 02:46.350
+So if we tried to type the method using with the help of Pi both a library and attach internet gateway
+
+02:46.800 --> 02:54.360
+to the PC and as you can see it is expecting basically two things except the dry run of course it is
+
+02:54.360 --> 02:56.650
+expecting an internet gateway ID.
+
+02:56.760 --> 02:59.910
+And then of course a VPC ID.
+
+03:00.060 --> 03:05.550
+So let's just provide those methods those Arden's actually.
+
+03:05.550 --> 03:17.240
+And I'm going to say Internet Gateway ID is going to be IGAD And let's just go a line below and see
+
+03:17.240 --> 03:20.150
+what we're doing more clearly.
+
+03:20.150 --> 03:29.480
+And then of course we're going to have to provide the PC ID and for that I'm going to say the PC Id
+
+03:29.540 --> 03:30.890
+just like that.
+
+03:31.760 --> 03:39.230
+And of course let's just print out the statement that we're attaching the internet gateway to our CPC
+
+03:43.740 --> 03:58.340
+internet gateway and of course provide the ID for internet gateway and then to be PC and PPC ID.
+
+03:59.110 --> 04:01.180
+All right.
+
+04:01.360 --> 04:09.580
+So let's go back to our main test in class my implementation class and just typed a method then.
+
+04:09.580 --> 04:19.990
+So we're going to say the PC got attach AGW to VPC and the first thing that we're going to provide is
+
+04:19.990 --> 04:29.190
+the PC ID and then we're going to provide the internet gateway Id just like that.
+
+04:29.200 --> 04:34.840
+So this is all we have to do to attach our internet gateway to the PC.

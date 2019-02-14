@@ -1,0 +1,49 @@
+WEBVTT
+
+00:01.760 --> 00:10.750
+Before we move on to our next section let's take a look at what we've done in this section in this section.
+
+00:10.760 --> 00:19.990
+We first created a public Cybernet so that we can put our resources put our public resources within
+
+00:20.000 --> 00:29.750
+the subnet and then we created a specific group table or a public room table namely for our public routes
+
+00:29.880 --> 00:31.640
+for this subnet.
+
+00:32.000 --> 00:40.040
+And after that we added the internet gateway that we created earlier to do Schrute table so that we
+
+00:40.040 --> 00:49.760
+can have an internet access to the subnet and then we simply associate it our public subnet with this
+
+00:50.000 --> 00:58.370
+public route table so that it can use this connection while being accessed from internet or going out
+
+00:58.370 --> 01:00.350
+to Internet.
+
+01:00.440 --> 01:11.030
+And finally for publicity of our public subnet we allowed people to sign on this public subnet so that
+
+01:11.320 --> 01:19.820
+when we launch an issue to resource or any other specific resources within this public subnet they can
+
+01:19.880 --> 01:23.950
+assign themselves with a public IP address.
+
+01:24.010 --> 01:29.570
+It will be a IP version of four address or IP version 6 address.
+
+01:29.690 --> 01:35.620
+This is allowed with the modification of a subnet property.
+
+01:35.780 --> 01:45.200
+And finally we created a private subnet but we're going to locate or put our private resources private
+
+01:45.200 --> 01:53.970
+machines and anything like that so to move all with our Python and both are three implementation I'll
+
+01:53.970 --> 01:55.790
+be seeing you on the next section.

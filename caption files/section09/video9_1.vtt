@@ -1,0 +1,142 @@
+WEBVTT
+
+00:01.890 --> 00:02.890
+All right.
+
+00:03.000 --> 00:08.700
+We're wrapping up with our AWOS Python and both of Rickers.
+
+00:08.700 --> 00:16.500
+And before we wrap up let's check out and see what we have this Khowar and this extenso Coral's ON A
+
+00:16.500 --> 00:25.200
+W-S Python and both all three and see what have you learned and the scores in this course you learned
+
+00:25.200 --> 00:30.570
+how to create your own AWOS API credentials.
+
+00:30.570 --> 00:42.270
+We checked out the I am identity and access management in its a name and we created our own AWOS API
+
+00:42.270 --> 00:45.550
+credentials using the Amazon.
+
+00:45.660 --> 00:47.020
+I am again.
+
+00:47.400 --> 00:57.990
+And then we install and actually you learn to install Python 3 AWOS Seelye PI charme ID and prepare
+
+00:57.990 --> 01:07.620
+down with your own AWOS credentials and then we also install both all three on top of those and configured
+
+01:07.680 --> 01:10.110
+our environment.
+
+01:10.110 --> 01:17.520
+And then we checked out what were going to build through the course we checked out the diagram of what
+
+01:17.520 --> 01:27.030
+were going to build and it was consisting of a PC and through subnets an internet gateway a root table
+
+01:27.030 --> 01:36.600
+for internet access and an outer room table for private access and the subsequent resources like routes
+
+01:36.690 --> 01:40.790
+security groups key payers for you see two instances.
+
+01:40.860 --> 01:51.150
+And most importantly of course there were two easy two instances launched by us on a W-S and we learnt
+
+01:51.150 --> 02:00.450
+how to use autocomplete feature on pie charts with both Three thanks to the PI both of 3 library and
+
+02:01.130 --> 02:08.250
+I'm again saying you that you should definitely use that Bible for three library whenever you implement
+
+02:08.550 --> 02:11.740
+anything with Python on AWOS.
+
+02:11.820 --> 02:20.780
+It's quite useful and an amazing library with a simplicity and gives you all the benefits of both three
+
+02:20.970 --> 02:24.590
+and Python on AWOS.
+
+02:24.790 --> 02:33.070
+And one of the most important parts of this course was to learning the Bothell 3 documentation and how
+
+02:33.070 --> 02:37.060
+to use that in our most of the videos.
+
+02:37.090 --> 02:44.200
+And in a specific video about that we learned how to check out the both or three documentation and how
+
+02:44.200 --> 02:52.060
+to navigate decode code samples and arguments and return types and all about the AWOS using both A-3
+
+02:52.090 --> 02:53.270
+and Python.
+
+02:54.750 --> 03:03.810
+And in the latter part of our course we started creating our own BPC and after recreated our PC and
+
+03:03.810 --> 03:11.310
+tagged with our own name our specific name the large two subnets one of them was public and the other
+
+03:11.310 --> 03:19.650
+one was private and then we created an Internet gateway so that our public net and their subsequent
+
+03:19.650 --> 03:24.930
+resources could access internet and let the traffic flow into them.
+
+03:25.680 --> 03:33.600
+And after creating our Internet Gateway we created ourselves a public route table and the subsequent
+
+03:33.600 --> 03:42.160
+routes for the Internet access for example for the internet gateway and we created our own security
+
+03:42.160 --> 03:53.420
+groups and their rules like SS aging for port 22 and for HTP port 80 and then we've moved on to our
+
+03:53.620 --> 04:02.870
+easy to part and we created a key pair to lounge are easy to instances and connect to them from anywhere
+
+04:02.870 --> 04:09.290
+in the world or with the specific IP address that we could define in security groups.
+
+04:10.280 --> 04:15.860
+And after we created our key pairs be large two easy two instances.
+
+04:16.190 --> 04:22.970
+One of them was in the public that with the auto assigned IP address was enabled.
+
+04:23.210 --> 04:31.010
+When we launched our easy to instance and it could assign itself a public IP address IP version 4 address
+
+04:31.010 --> 04:38.540
+actually and the other easy to instance was in the private subnet so that you see to instance who was
+
+04:38.870 --> 04:40.850
+blocked to the outside world.
+
+04:40.910 --> 04:51.960
+So it could be only accessed through the private subnet or the resources of the public subnet and with
+
+04:51.960 --> 05:01.350
+our public subnet we added a user data a piece of code a code snippet that could run when we launch
+
+05:01.350 --> 05:02.910
+are easy to instance.
+
+05:02.970 --> 05:13.170
+And within that code snippet we defined a 82 piece for ADD we added an HDMI file inside that HTP server
+
+05:13.470 --> 05:16.690
+and we had launched on easy to watch.
+
+05:16.800 --> 05:24.210
+And that way we could have a page up and running would be automatically large are easy to instance from
+
+05:24.210 --> 05:27.950
+our Python both those three and AWOS.

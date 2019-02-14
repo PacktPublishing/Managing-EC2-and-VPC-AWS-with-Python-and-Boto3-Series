@@ -1,0 +1,100 @@
+WEBVTT
+
+00:01.460 --> 00:10.910
+On Mac OS first thing we need to do is install Python 3 and pay package manager for Pitre for doing
+
+00:10.910 --> 00:11.500
+that.
+
+00:12.780 --> 00:13.790
+Python.
+
+00:14.010 --> 00:15.350
+Dot org.
+
+00:18.260 --> 00:30.750
+And from there under the downloads section let's just select the python 3.0 65 for Mac OS and our package
+
+00:30.760 --> 00:32.550
+is now being downloaded
+
+00:40.560 --> 00:46.380
+let's click on our package and let's just install Python for Mac OS
+
+00:49.330 --> 00:52.160
+and I'll hit next.
+
+00:52.290 --> 01:03.120
+And after the license agreement I'll hit next and Except And let's just customize it for a moment and
+
+01:03.990 --> 01:09.380
+I'm going to install Python package manager PIREP along with Python 3.
+
+01:09.630 --> 01:19.080
+I want the documentation I want the shell integration for python under my path for Mac OS and I'll just
+
+01:19.080 --> 01:26.850
+hit install and I'm going to type in my password.
+
+01:27.020 --> 01:31.460
+And here we go our Python 3 is now installed.
+
+01:32.640 --> 01:38.420
+As you can see here and I can simply just put it there.
+
+01:38.440 --> 01:46.750
+Trash the installer and as you can see we have the launcher Python automatically presented to us on
+
+01:46.750 --> 01:48.230
+our Mac OS.
+
+01:48.580 --> 01:50.490
+But to where dat.
+
+01:50.690 --> 01:53.480
+Let's open up a terminal session.
+
+01:58.210 --> 02:03.100
+And from there I'm just going to type in Python.
+
+02:03.880 --> 02:13.750
+And from the python we can see that our Python is showing us the default Python installation on Mac
+
+02:13.750 --> 02:14.690
+OS.
+
+02:14.860 --> 02:19.150
+But we're of course asking for the Python 3.
+
+02:19.180 --> 02:26.720
+So let's just accept this and I'm going to type in Python tree dot 6.
+
+02:28.920 --> 02:30.520
+And here we go.
+
+02:30.600 --> 02:38.320
+We can access the python 3.6 from our macros command line just like this way.
+
+02:40.090 --> 02:45.510
+Now let's just where to find the Pipp installation on our Mac OS.
+
+02:46.840 --> 02:52.940
+And for that purpose I'm simply going to type in as Pip.
+
+02:53.200 --> 03:00.280
+Of course when we tried to type in the pip command and tried to launch the Python package manager it
+
+03:00.310 --> 03:08.230
+automatically went back to Python to 7 on our default installation on Mac OS.
+
+03:08.290 --> 03:12.230
+But we want the Python 3 that's 6 Peppe.
+
+03:12.280 --> 03:17.190
+So we have to type in pipe 3 that 6.
+
+03:17.200 --> 03:18.440
+And here we go.
+
+03:18.610 --> 03:23.590
+We have the Piep Python package manager installed on Mac OS.

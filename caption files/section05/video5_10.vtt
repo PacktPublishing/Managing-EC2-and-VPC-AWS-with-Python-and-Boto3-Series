@@ -1,0 +1,58 @@
+WEBVTT
+
+00:01.270 --> 00:09.780
+Are right after this very long section let's take a look at what we've done in this section in this
+
+00:09.780 --> 00:10.860
+section.
+
+00:10.860 --> 00:15.520
+We took a look at what we're going to build on A W-S console.
+
+00:15.540 --> 00:22.530
+We had a perspective on what we're going to build as with the the PC Internet gateways subnets and so
+
+00:22.530 --> 00:24.060
+on.
+
+00:24.060 --> 00:32.940
+And after that we prepared our Python environment as being the library setting on the Python Id our
+
+00:32.960 --> 00:42.660
+pie chart ID and Dan we created our project with PI chime or the after that we discovered the very extenso
+
+00:42.660 --> 00:47.780
+Bothell 3 documentation on read the docs that I know.
+
+00:47.970 --> 00:55.380
+And again this is a highly qualified documentation from those guys that both know the implementers of
+
+00:55.380 --> 01:00.990
+the library and big shout out to them for providing such a great documentation.
+
+01:00.990 --> 01:07.410
+You should definitely go and check it out sometimes to get a feeling of a good documentation and finding
+
+01:07.410 --> 01:10.060
+your way around a AWOS resources.
+
+01:11.130 --> 01:19.550
+And after that you provided an auto complete capability to our PI charme ID with the huge help of Pi
+
+01:19.560 --> 01:21.960
+both those three.
+
+01:22.160 --> 01:29.950
+And then we started on to create our resources and we first created a PC.
+
+01:30.040 --> 01:39.250
+After that we created an Internet Gateway or EGW and then we attached this internet gateway to our PC
+
+01:39.910 --> 01:48.010
+and we were all done that using the Python and both of three libraries to move on with our implementations
+
+01:48.040 --> 01:54.550
+as implementing subnets and their route tables and other resources.
+
+01:54.960 --> 01:56.630
+I'll be seeing you on the next video.

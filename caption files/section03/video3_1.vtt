@@ -1,0 +1,85 @@
+WEBVTT
+
+00:01.380 --> 00:08.950
+The first thing we need to do to set up our environment as of course install Python 3.
+
+00:09.030 --> 00:17.760
+So let's do that now and open up a browser window and within the browser window I'm going to simply
+
+00:17.760 --> 00:20.460
+go to Python dot org
+
+00:24.000 --> 00:27.660
+and with them the python official site
+
+00:33.470 --> 00:42.050
+I'm going to go to the download section and I can simply see that downloads for Python for Windows as
+
+00:42.200 --> 00:50.060
+the supplied to me right next to the page and I'm interested in the words and tree not the two words.
+
+00:50.240 --> 01:03.220
+So I'm going to click on the three dot sixty five and the download has start it.
+
+01:03.310 --> 01:05.650
+And here we go.
+
+01:06.200 --> 01:08.640
+And downloading is complete.
+
+01:08.660 --> 01:16.410
+So let's just run our install right now and let's just customize the installation.
+
+01:16.520 --> 01:26.480
+I want the first documentation Pip and I simply just keeping everything about Python just to get every
+
+01:26.480 --> 01:36.200
+benefit for Python and I'm just going to go back and I'm going to add Python to path for 3.6.
+
+01:36.200 --> 01:43.010
+This is really important because otherwise you won't have to be accessing the python from anywhere in
+
+01:43.010 --> 01:44.550
+your file system.
+
+01:44.630 --> 01:49.400
+You can simply type python within your command line and you can just start using it.
+
+01:49.520 --> 01:53.990
+Otherwise you have to manually do that after the installation.
+
+01:54.450 --> 02:06.210
+So I'm going to hit on install now and alt select Yes and Python is being installed on my computer for
+
+02:06.210 --> 02:07.100
+Windows.
+
+02:08.320 --> 02:13.520
+It's almost complete and here we go.
+
+02:14.780 --> 02:18.860
+Our Python installation is ready for Windows.
+
+02:19.250 --> 02:21.010
+Let's just go and test it out.
+
+02:21.050 --> 02:30.540
+If we have it and to do that I'm going to open up a command prompt I'll type CMD.
+
+02:31.070 --> 02:35.170
+And from there I'm simply going to type in Python.
+
+02:35.570 --> 02:43.970
+And as you can see I can see the python three dots sixty five on my Windows machine and I have the little
+
+02:43.970 --> 02:46.120
+mice interpreter for Python.
+
+02:46.220 --> 02:48.630
+I can start playing around with.
+
+02:48.650 --> 02:53.050
+So are python installation as ready for Windows.
+
+02:53.270 --> 02:57.350
+And we of course have the pip package manager ready.

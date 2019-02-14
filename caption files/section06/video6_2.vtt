@@ -1,0 +1,136 @@
+WEBVTT
+
+00:02.260 --> 00:10.180
+All right let's start by creating a public Soap Net so to do that.
+
+00:10.420 --> 00:20.110
+I'm going to go to my PPC class and I'm going to implement a generic method that I can use both for
+
+00:20.350 --> 00:22.210
+public and private subnets.
+
+00:22.210 --> 00:27.090
+So I'm going to name this method as create subnet
+
+00:29.740 --> 00:36.420
+and as for the arguments I'm going to decide after seeing the client parameters.
+
+00:36.490 --> 00:45.710
+So let's just type in self underscore client and then create subnet.
+
+00:45.730 --> 00:47.650
+All right.
+
+00:47.650 --> 00:56.470
+So as you can see after the dry run the first arguments that the mother is expecting are we PC ID and
+
+00:56.470 --> 00:58.470
+the side or block.
+
+00:58.480 --> 01:08.680
+Other than that if you're not curious about the availability zones or IP 6 or IP for cyder blocks let's
+
+01:08.680 --> 01:15.040
+just only pro-white the PPC ID and the IP for side road blocks.
+
+01:15.040 --> 01:22.530
+That's because all we need to create a subnet in the IP version 4 perspective.
+
+01:22.690 --> 01:33.980
+So let's go down below and for the VPC I-T let's imagine we're going to have a BPC ID argument and for
+
+01:34.120 --> 01:35.290
+side or block.
+
+01:35.380 --> 01:42.270
+Again let's say we're going to pass in a side or block argument from our method.
+
+01:42.340 --> 01:51.310
+So let's go up to our arguments and say we want to pass in a BPC ID and then of course we're going to
+
+01:51.310 --> 01:56.070
+pass in a side or block just like that.
+
+01:56.070 --> 02:04.380
+So this is going to help to create a subnet or be public or a private one.
+
+02:04.380 --> 02:08.540
+So let's go up here like the tradition of.
+
+02:09.060 --> 02:10.950
+Let's just say creating
+
+02:13.730 --> 02:15.020
+a subnet
+
+02:17.390 --> 02:20.810
+for the PC.
+
+02:21.020 --> 02:29.390
+And of course the BPC ID and with cyder block
+
+02:33.570 --> 02:40.320
+and let's just fix that typo and let's say cyder block just like that.
+
+02:41.800 --> 02:45.840
+So this method is going to help us create a subnet.
+
+02:45.910 --> 02:49.230
+We want providing the correct Ribisi ID.
+
+02:49.240 --> 02:52.880
+And of course the cyder block as you can see here.
+
+02:52.900 --> 03:02.270
+So let's go back to our main class main implementation and from there let's just for his command tell
+
+03:02.290 --> 03:11.900
+what we're going to do create a public subnet just like that.
+
+03:12.250 --> 03:24.010
+And after that of course I'm going to take the response of public subnet call to AWOS and I'm going
+
+03:24.010 --> 03:31.090
+to say public underscore subnet underscore response and then I'm going to simply call the method that
+
+03:31.150 --> 03:33.900
+I just wrote create subnet.
+
+03:33.910 --> 03:46.130
+Here we go and I'm going to pass in the VPC ID and 4-D side or block I'm going to say since we have
+
+03:46.130 --> 03:56.140
+the bay side or blog as if we go and check that we have the 10.0 that 0.0 slash 16.
+
+03:56.420 --> 04:02.450
+So we have to pro-lie something in between $4 for those IP ranges.
+
+04:02.690 --> 04:09.290
+And of course thinking about the private submittals Also we're going to have to be careful about our
+
+04:09.770 --> 04:20.360
+IP blocks and I'm going to say 10 dot 0 dot 1.0 and slash 24.
+
+04:20.360 --> 04:27.450
+All right so debt is almost debt for our public subnet creation.
+
+04:27.450 --> 04:37.590
+And let's also print printout the actions happened after the response of subnet creation subnet
+
+04:40.710 --> 04:52.580
+created and let's just fix that typo for PPC and UPC ID.
+
+04:53.550 --> 05:04.860
+And after that let's just pass in response to our print call and public submit response.
+
+05:04.950 --> 05:07.800
+And of course this is again a dictionary.
+
+05:07.800 --> 05:10.510
+So we just wrap it up with string.
+
+05:11.480 --> 05:12.040
+Casting.
+
+05:12.050 --> 05:16.800
+And here we go our soap net call is ready.

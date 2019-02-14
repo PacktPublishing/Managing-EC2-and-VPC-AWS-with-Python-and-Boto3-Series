@@ -1,0 +1,157 @@
+WEBVTT
+
+00:01.640 --> 00:02.710
+All right.
+
+00:02.920 --> 00:09.390
+As I said in the last part of the previous video we can actually run this whole thing.
+
+00:09.400 --> 00:12.230
+And how are we PCI-E subnets.
+
+00:12.280 --> 00:16.550
+And is two instances lounged on a AWOS.
+
+00:16.750 --> 00:22.990
+It's a great time to test all things out because these are all connected things to each other tightly
+
+00:22.990 --> 00:29.440
+connected actually because we're launching an easy to instance and to launch that easy to instance we're
+
+00:29.440 --> 00:37.330
+going to have to provide a subnet and for that purpose we created a VPC for our own and then we launched
+
+00:37.330 --> 00:40.230
+two subnets as being private and public.
+
+00:40.300 --> 00:46.250
+And we launched Tui's to two instances within those public and private subnets.
+
+00:46.270 --> 00:54.760
+So no it's a great time to test all things out and I'm simply going to go down and run this whole thing.
+
+00:54.910 --> 01:05.200
+So I'm going to go here and I'm just going to run the main methhead so wish me luck here and let's just
+
+01:05.200 --> 01:08.580
+run it.
+
+01:08.790 --> 01:18.450
+And here we go our script as running and it is already finished with everything we want to create on
+
+01:18.510 --> 01:19.860
+a date with us.
+
+01:19.860 --> 01:28.740
+Isn't this beautiful having to be able to launch a whole infrastructure within your code and not just
+
+01:29.400 --> 01:33.830
+enlarge this and check everything out one by one.
+
+01:34.170 --> 01:45.450
+And the first thing that we did was to create a PC with the side or block of 10.0 dot 0.06 last 16 and
+
+01:45.450 --> 01:48.200
+the state of that BPC is pending.
+
+01:48.220 --> 01:51.740
+Why don't we call the BPC creation method.
+
+01:51.750 --> 02:01.110
+But it must be available up until now and then we added the both of three dash Ribisi tag to our PC
+
+02:01.650 --> 02:11.510
+and then we created an Internet gateway to use for our very PC and then we created a public subnet for
+
+02:11.520 --> 02:19.180
+this PC with the cyder block of 10 dot 0.2 1.0 slash 24.
+
+02:19.590 --> 02:26.170
+And as you can see with the subnet response we can see everything about our subnet.
+
+02:26.670 --> 02:33.930
+And after we created ourselves that we added the bowlful three Dasch public Desch subnet tag to our
+
+02:33.930 --> 02:43.550
+subnet and then we created a public Croot table explicitly to be used for our public subnet for our
+
+02:43.620 --> 02:52.950
+PC and then we added a route to our public route table for internet gateway to be able to be accessed
+
+02:53.190 --> 02:56.940
+from the internet and wice versa.
+
+02:57.330 --> 03:05.520
+And then we associated our subnet with this route table so that we can use this through table actions
+
+03:05.520 --> 03:14.190
+and rules within our subnet and then we moved on to creating a private subnet with the side or block
+
+03:14.190 --> 03:18.640
+of 10.0 dot 2.0 slash 24.
+
+03:18.870 --> 03:28.180
+And then we added the tech to our subnet our private subnet as both all three dash private Dasch subnet
+
+03:28.680 --> 03:29.810
+as you can see here.
+
+03:30.120 --> 03:39.830
+And then we moved on to our easy to section and we first created a key pair and the response from key
+
+03:39.830 --> 03:46.760
+player as you can see we can actually the key See the key material from A W-S.
+
+03:46.830 --> 03:54.610
+So the string within these brackets these lines here beginning RSA private key pair.
+
+03:54.900 --> 04:02.310
+You can just simply copy this key pair and you can see that is highly aligned quite long and you can
+
+04:02.310 --> 04:09.180
+just copy this keep their data and you can say that in a file and you can just simply use this key pair
+
+04:09.210 --> 04:17.070
+to connect to are easy to instances but in our case since we only allowed our public to instance to
+
+04:17.070 --> 04:24.720
+be connected from the outside world you can only use this key pair for our public easy to instance not
+
+04:24.720 --> 04:27.810
+for the private easy to instance.
+
+04:27.810 --> 04:37.200
+So after giving this information we moved on to create a security group for our public to instance.
+
+04:37.710 --> 04:47.160
+And of course using divi PC and then we added a public access route to our security group and then we
+
+04:47.520 --> 04:50.920
+added this through to attach this rule to our security group.
+
+04:50.940 --> 04:58.830
+Then we moved on to our actual thing and which is the launching of easy to instance within the public
+
+04:58.830 --> 04:59.380
+subnet.
+
+04:59.400 --> 05:07.440
+And as you can see here and for launching that you see two instance we use the Amazon Elmis.
+
+05:07.440 --> 05:15.660
+So this is going to be Amazon Linux machine and then we created another security group with similar
+
+05:15.660 --> 05:23.970
+properties of inbound and outbound access rules and we are going to use that security group for adding
+
+05:24.030 --> 05:30.060
+or attaching it to our private to instance within our private subnet.
+
+05:30.060 --> 05:37.860
+And as you can see our comments are showing that our outputs from the command line are showing that
+
+05:38.800 --> 05:46.050
+cell through check whole thing out on a double U.S. console and verify our connections.
+
+05:46.050 --> 05:47.800
+I'll be seeing you on the next video.

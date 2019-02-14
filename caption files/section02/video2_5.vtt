@@ -1,0 +1,328 @@
+WEBVTT
+
+00:02.360 --> 00:09.040
+We know how to access AWOS Casal by signing in from its web interface.
+
+00:09.200 --> 00:17.840
+But how about the programmatic access when we want to Manoo play things and access resources on AWOS
+
+00:18.110 --> 00:26.330
+using our popular or favorite programming language to do debt access keys and secret keys are coming
+
+00:26.330 --> 00:28.030
+into picture.
+
+00:28.270 --> 00:37.000
+So for creating an access key and secret key you first have to create a user for that and a place to
+
+00:37.000 --> 00:46.330
+do that on AWOS console is I am our identity and access management so to access identity and access
+
+00:46.330 --> 00:56.140
+management or I am less typing I am and let's jump right in and within the identity and access management
+
+00:56.140 --> 01:03.410
+page we have users groups policies roles and identity providers.
+
+01:03.490 --> 01:09.240
+I'm not going to go into the details of everything in this page and everything about the I am.
+
+01:09.250 --> 01:16.120
+But the important thing that we need to know about I am is we have to create a user for us and then
+
+01:16.360 --> 01:23.350
+we have to be generating our access keys and keys for the user.
+
+01:23.380 --> 01:31.300
+And another important thing about I am is that you see these security status on the bottom of the page.
+
+01:31.600 --> 01:37.660
+It has some checkmarks that you have to verify once you do the things that it wants you to do.
+
+01:37.660 --> 01:45.670
+So first of all Amazon is asking for do healing the root access keys for your account since it's already
+
+01:45.670 --> 01:55.780
+done within the AWOS con. It is checked as success and after that AWOS is asking me to activate the
+
+01:56.050 --> 02:04.920
+multi-factor authentication like the s m s or application base authentication for my account.
+
+02:05.110 --> 02:12.490
+You really have to do this because otherwise your account is not going to be highly secure for accessing
+
+02:12.490 --> 02:13.680
+A W-S.
+
+02:13.690 --> 02:19.870
+You might just simply lose your credentials or you're logging information and then someone else just
+
+02:19.870 --> 02:27.640
+might go into your AWOS account and start launching E.S. two instances and start doing fancy stuff in
+
+02:27.640 --> 02:34.980
+your AWOS account and you might get there where you surprised Bill about your usages on AWOS resources.
+
+02:34.990 --> 02:42.940
+So to avoid that and to be careful about your AWOS usage you really have to enable your multi-factor
+
+02:42.940 --> 02:44.970
+authentication on your account.
+
+02:45.460 --> 02:51.980
+And after that we have the individual I am users.
+
+02:52.050 --> 02:54.050
+So what do I mean by that.
+
+02:54.300 --> 03:02.670
+So you have a account that you simply use for deployment and similar things with like let's say Python
+
+03:02.910 --> 03:05.580
+a WSC a lie or anything else.
+
+03:05.690 --> 03:07.190
+Just like we're going to do.
+
+03:07.290 --> 03:11.440
+We're about to do in the lectures that we're going to follow.
+
+03:11.820 --> 03:16.020
+You have to create the user per the purpose.
+
+03:16.140 --> 03:21.520
+So you have a deployment user that you just simply use for deployment.
+
+03:22.420 --> 03:33.130
+You have a console user that you simply use only for logging into AWOS Casal Amazon and AWOS has very
+
+03:33.130 --> 03:38.790
+specific policies about accessing the console and with the programmatic access.
+
+03:38.920 --> 03:43.160
+So you can simply specify what policies you want to attach to that use.
+
+03:43.300 --> 03:50.590
+And you can do a very finely grained management on those user accounts and apart from that apart from
+
+03:50.590 --> 03:58.670
+the individual users on J-ws you can simply create groups and assign your users within those groups.
+
+03:58.810 --> 04:05.410
+And of course you can apply and I am password policy to your users in a W-S.
+
+04:05.440 --> 04:14.170
+So let's say you want to ex-party passwords for users on J-ws within like 90 days or maybe you're just
+
+04:14.170 --> 04:19.500
+simply forcing your users to use special characters in their passwords.
+
+04:19.510 --> 04:21.220
+So you want to enforce that.
+
+04:21.220 --> 04:27.750
+And this is the way to do that in A W-S within I am in this section.
+
+04:27.890 --> 04:31.680
+So let's go back to our purpose after this.
+
+04:31.680 --> 04:38.860
+Well I am lecturer and let's go into the users and let's just add a new user on.
+
+04:39.010 --> 04:40.910
+I AM ON A W-S.
+
+04:41.110 --> 04:46.940
+I'll hit on at user and I'll simply going to type in my e-mail address
+
+04:53.830 --> 04:59.680
+and once I do that all I want is a programmatic access.
+
+04:59.980 --> 05:06.910
+And as you can see as I mentioned like couple of minutes earlier you can specify where your user can
+
+05:06.910 --> 05:13.690
+access to either play programmatic level or a console based web based level.
+
+05:13.690 --> 05:22.420
+So since I care about the programmatic access I'm thinking on that and I can simply say that this user
+
+05:22.420 --> 05:30.640
+is going to be used as a deployment user and I can simply switch the name to deployment just to be specific
+
+05:30.640 --> 05:32.130
+about my purpose.
+
+05:32.270 --> 05:34.800
+And let's hit next.
+
+05:37.340 --> 05:46.490
+Since I don't have to specify a group for now because I'm simply going to use this for my API level
+
+05:46.520 --> 05:48.030
+experimentation.
+
+05:48.200 --> 05:54.770
+I'm not going to specify a group now but for accessing AWOS resources of course I have to attach some
+
+05:54.770 --> 06:03.530
+policies and I have to say that this user can access some resources on A W-S and for doing that since
+
+06:03.530 --> 06:10.790
+I don't have any existing user just like we had in the section here I have to attach existing policies
+
+06:10.790 --> 06:12.520
+directly to this user.
+
+06:12.890 --> 06:19.010
+And as you can see that we have a really nice interface in here so that we can attach policies to our
+
+06:19.010 --> 06:22.360
+user and for our purpose.
+
+06:22.370 --> 06:29.240
+I have the highest level of account on AWOS which is the administrators level access.
+
+06:29.240 --> 06:36.170
+But if you want to be specific about your purposes you can simply type easy too and you can get all
+
+06:36.170 --> 06:42.100
+the purposes about Easy to and all the policies about it for your use or for your specific users.
+
+06:42.290 --> 06:49.060
+And you can simply do you see to full access easy to read only Xs and sofort.
+
+06:49.200 --> 06:56.250
+But if you go back to our purpose again I have to give the administrative capabilities to my user so
+
+06:56.250 --> 06:57.080
+to do that.
+
+06:57.210 --> 07:03.900
+As you can see here we have the administrator access for a W-S on a programmatic level.
+
+07:04.080 --> 07:12.080
+So within the description section I can see that it provides a full access to AWOS services and resources.
+
+07:12.090 --> 07:17.420
+So this is just what I want on a W-S programmatic level access.
+
+07:17.430 --> 07:27.960
+So once I select that I can just go hit next for reviewing and I have a nice little review about my
+
+07:28.260 --> 07:29.670
+user creation.
+
+07:29.670 --> 07:36.690
+It says My user name is deployment and I want a programmatic access with an access key which I'm about
+
+07:36.690 --> 07:43.020
+to create right now and I'm going to get create user.
+
+07:43.060 --> 07:43.980
+Here we go.
+
+07:44.260 --> 07:46.740
+Our user creation is a success.
+
+07:46.840 --> 07:54.400
+And as you can see that AWOS has also given me the option to sign in within a different username and
+
+07:54.400 --> 07:58.400
+address with the URL they just showed me here.
+
+07:58.690 --> 08:05.230
+But since I don't have the programmatic access my users simply cannot do that.
+
+08:05.240 --> 08:13.100
+But just below that within the user section you can see that an access key and this secret key is already
+
+08:13.100 --> 08:16.630
+created for me from a W-S.
+
+08:16.700 --> 08:18.680
+Just expand this section.
+
+08:18.800 --> 08:26.150
+It says creative use or deployment attached policy as the administrate or access to user deployment
+
+08:26.390 --> 08:30.420
+and then created access key for user deployment.
+
+08:30.440 --> 08:31.600
+And here we go.
+
+08:31.940 --> 08:34.450
+I have my access key and secret key.
+
+08:34.450 --> 08:35.770
+Create it.
+
+08:35.780 --> 08:44.270
+So now all we have to do is just take a copy of these and keep them in a separate tap or separate application
+
+08:44.270 --> 08:52.270
+or a notepad or something so that we can use them later on when we try to configure our a WSC a lie.
+
+08:52.370 --> 09:03.300
+So let's do that now and I'm going to open up a text editor and I want a new document and also just
+
+09:04.230 --> 09:10.800
+access key as and the secret key
+
+09:16.270 --> 09:20.850
+Let's go back and select it and copied it.
+
+09:23.010 --> 09:32.340
+And here we go we have our access key and secret key created and taken into our notepad for later use.
+
+09:32.340 --> 09:38.640
+So let's go back to our AWOS castle for a second and you can see that there is a list a little button
+
+09:38.640 --> 09:47.670
+right here as saying the download C-s we file within this while you can see the access key secret keys
+
+09:47.820 --> 09:52.200
+and other useful information about your user on AWOS.
+
+09:52.230 --> 09:57.270
+You can get a nice little table about your AWOS user.
+
+09:57.480 --> 10:03.330
+So that's all for creating access key and secret key on AWOS.
+
+10:03.360 --> 10:10.710
+So let's recap our steps and first thing we had to do was to create a user for our purpose.
+
+10:10.710 --> 10:17.540
+And after that we have to attach a policy for that user specifying the level of access.
+
+10:17.560 --> 10:24.810
+Either the administrators level or a like a guest level read only our full right level.
+
+10:24.810 --> 10:31.120
+We have to specify the policy for accessing resources on a W-S.
+
+10:31.310 --> 10:39.410
+After attaching the policy to our user we have to specify the access level like the console based our
+
+10:39.530 --> 10:46.940
+programmatic or simply both of those access levels we have to pick either of them or none of them.
+
+10:47.060 --> 10:48.600
+That's the basic idea.
+
+10:48.710 --> 10:55.070
+We have to know the purpose of our user first and after we select everything we have to just simply
+
+10:55.070 --> 11:02.480
+give the name of our user and we can just simply create it once we finished with creation as you can
+
+11:02.480 --> 11:10.160
+see within the screen a W-S gives us a nice little overview of our user specifying our access key and
+
+11:10.160 --> 11:10.960
+secret key.
+
+11:11.060 --> 11:11.650
+That's all.

@@ -1,0 +1,136 @@
+WEBVTT
+
+00:02.010 --> 00:06.890
+So now let's take a look at what do you need to take this course properly.
+
+00:07.750 --> 00:11.540
+The tools that you need.
+
+00:11.870 --> 00:15.950
+First and foremost you need an AWOS account.
+
+00:16.430 --> 00:23.540
+Well since we're talking about AWOS resources and managing them of course you're going to need an AWOS
+
+00:23.540 --> 00:31.780
+account to properly take the course and too many play things with Python and both are three.
+
+00:32.030 --> 00:36.390
+So I highly encourage you to take a uneatable Yes account for yourself.
+
+00:36.510 --> 00:44.750
+And there's also surprisingly from Amazon a free tier account available for up to one year.
+
+00:44.750 --> 00:50.450
+So this is a great benefit for learning and managing a WS.
+
+00:50.450 --> 00:52.350
+So I'll say go for it.
+
+00:52.640 --> 01:00.680
+Take this free account for up to one year and you're going to be experimenting with AWOS resources actual
+
+01:01.320 --> 01:09.990
+resources and you're going to be learning a love with the help of this course and of course I'm going
+
+01:09.990 --> 01:20.740
+to need a basic knowledge of what we and easy to do on a WS services are we PC again is a virtual private
+
+01:20.740 --> 01:25.850
+cloud environment and easy too is Elastic Compute Cloud.
+
+01:25.930 --> 01:36.630
+From a US WHAT WE PC is basically it's an isolated Witchell private cloud a moment and you can launch
+
+01:36.630 --> 01:47.440
+subnets network elements from gateways to root tables to access control lists and easy to erase the
+
+01:47.650 --> 01:56.780
+Elastic Compute Cloud where you can launch machines within those subnets and we PPCs That's the highest
+
+01:56.780 --> 02:00.980
+level of information that you need to know about PC and easy to.
+
+02:01.100 --> 02:09.420
+But of course you have to be familiar with those resources on A W-S to have the scores taken properly.
+
+02:09.590 --> 02:17.670
+But if you have the working knowledge of the PC and easy to then that is also we're going to need that
+
+02:17.670 --> 02:24.510
+information within the schools and you're going to be seeing that it's super easy when you know what
+
+02:24.510 --> 02:34.370
+we PC and easy to our and of course since we're talking about managing AWOS resources using Python and
+
+02:34.370 --> 02:40.340
+both of three you're going to need to know Python in a very basic level.
+
+02:40.340 --> 02:47.270
+You don't have to be like intermediate or advanced user of Python but you need to know what your variables
+
+02:47.300 --> 02:56.120
+are and how to create classes and how to code methods and actually write methods within Python.
+
+02:56.420 --> 02:58.440
+But just don't worry about it.
+
+02:58.620 --> 03:05.390
+I'll be showing you everything you need to know about both those three and how to use it with Python.
+
+03:07.150 --> 03:15.370
+And again if you're an experienced user on Python then that's great because knowing your variables and
+
+03:15.370 --> 03:21.760
+methods and functions within Python environments you're going to be seeing this as just super easy to
+
+03:21.760 --> 03:22.560
+manage.
+
+03:22.680 --> 03:28.010
+AWOS resources using both a theory and Python itself.
+
+03:29.680 --> 03:39.770
+And of course you're going to need a python ID this ID can be simply anything from a basic text editor
+
+03:40.070 --> 03:45.450
+to things like Sublime Text at home editor or not.
+
+03:45.510 --> 03:46.660
+Plus plus.
+
+03:47.300 --> 03:57.410
+But I encourage you to download PI charme ID from Jepp brains which arm is a python oriented ID from
+
+03:57.410 --> 04:06.570
+Jepp brains and it has some nice features like managing package's Python virtual environments and so
+
+04:06.570 --> 04:07.220
+on.
+
+04:07.800 --> 04:16.940
+And the best part of my charm is it has a free edition for community so you dont have to buy a license
+
+04:16.940 --> 04:19.030
+for pi charm or anything.
+
+04:19.130 --> 04:26.920
+You can just simply go to Jepp brain stock car and download the community edition and I'll be showing
+
+04:26.920 --> 04:30.610
+you how to download Python ID as pie chart.
+
+04:30.610 --> 04:37.910
+In this case and I'll be showing you how to install and launch it both on Windows and Mac OS.
+
+04:37.990 --> 04:41.710
+So this is basically what we're going to need to succeed in the scores.
+
+04:41.860 --> 04:48.700
+And I hope you don't have any problems with those prerequisites in the score and to start getting our
+
+04:48.700 --> 04:49.840
+hands dirty.
+
+04:49.840 --> 04:51.660
+I'll be seeing you on the next section.

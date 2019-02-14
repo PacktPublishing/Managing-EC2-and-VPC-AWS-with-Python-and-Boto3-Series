@@ -1,0 +1,91 @@
+WEBVTT
+
+00:01.350 --> 00:08.020
+So we how our public Cybernet ready to recreate it with both of three.
+
+00:08.040 --> 00:16.290
+So for this public subnet to access internet we're going to have to have the attach internet gateway
+
+00:16.410 --> 00:20.910
+to the public subnet and also to a testis internet gateway.
+
+00:20.970 --> 00:27.030
+We have to have a root table of course after we create a PC.
+
+00:27.060 --> 00:35.100
+Amazon is also creating as a table but we're going to use that table for our pro with subnet.
+
+00:35.160 --> 00:38.100
+So we're going to keep it unchanged.
+
+00:38.400 --> 00:46.490
+We're going to need another and new table for our public subnet so that we can attach our internet gateway
+
+00:46.770 --> 00:50.970
+and we can have it accessed from all over the Internet.
+
+00:51.930 --> 01:01.020
+So for doing that we're going to create a public route table so that we can allow public access to our
+
+01:01.380 --> 01:05.440
+subnet resources our public subnet resources.
+
+01:05.460 --> 01:13.060
+So for that purpose I'm going to go to my PC class and let's just close this one.
+
+01:13.290 --> 01:25.400
+And within my RE PC class I'm going to type in a Methot create public Ruut table
+
+01:27.990 --> 01:39.180
+and let's see what we're going to have to provide to dismember it self underscore client and then create
+
+01:40.360 --> 01:43.730
+root table just like that.
+
+01:43.920 --> 01:53.710
+And as you can see from the method arguments after dry run of course only we have to provide the BPC
+
+01:53.710 --> 01:54.890
+ID.
+
+01:55.180 --> 01:56.920
+So let's just do that.
+
+01:57.160 --> 02:04.400
+And for the VPC I-T let's pass in a PCI ID.
+
+02:04.480 --> 02:13.270
+Here we go and let's just not forget to return this and also a print statement indicating that we're
+
+02:13.540 --> 02:28.560
+creating the public route table creating public route table for creepies see of course and that BPC
+
+02:28.590 --> 02:34.040
+is going to be as we PC ID.
+
+02:34.480 --> 02:43.510
+So let's go back to our main class and from there let's just call this method and also let's just put
+
+02:43.510 --> 02:58.570
+a comment there and create a public Ruut table and let's just call the PCT that create public Crute
+
+02:58.570 --> 03:04.250
+table and let's pass in the VPC Id just like that.
+
+03:05.310 --> 03:10.410
+And also let's just keep the response from public Crute table
+
+03:14.790 --> 03:20.180
+public underscore root under call table underscore response.
+
+03:20.180 --> 03:25.090
+This is a bit long but it is quite declarative.
+
+03:25.170 --> 03:32.160
+So we have a response from our public Croot table creation.
+
+03:32.180 --> 03:39.950
+So now our public table is ready and in the next video we're going to add a route to this public route
+
+03:39.950 --> 03:47.360
+table for the internet gateway so that anyone coming out of internet can access our AWOS resources.

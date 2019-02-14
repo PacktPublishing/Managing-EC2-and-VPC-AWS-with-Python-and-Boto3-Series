@@ -1,0 +1,244 @@
+WEBVTT
+
+00:01.620 --> 00:15.670
+All right let's now start with creating a b c so I'm going to type in a little method to create a real
+
+00:15.670 --> 00:18.490
+PC within that method.
+
+00:18.970 --> 00:29.640
+I'm going to simply call the client and from there I'm going to call create the PC Methot.
+
+00:29.840 --> 00:37.720
+And as you can see this method is expecting a couple of things but the most important thing that it
+
+00:37.720 --> 00:42.240
+needs is the cider block for the BPC.
+
+00:42.280 --> 00:58.120
+So for the cyder block I'm going to pro-white the block as then that zero dot zero dot slash and then
+
+00:58.360 --> 01:01.200
+I'm going to provide 16.
+
+01:01.220 --> 01:03.710
+So this is going to be our side of the block.
+
+01:03.710 --> 01:11.130
+So we're going to have a wide range of IPs available to our subnet and there so resources like easy
+
+01:11.210 --> 01:13.520
+tools and everything else.
+
+01:13.580 --> 01:19.910
+So I'm going to provide the side of a block like this and I don't have to provide any sort of thing
+
+01:20.150 --> 01:22.960
+to my PPC creation method.
+
+01:25.000 --> 01:36.280
+And of course let's just put in a simple print statement indicating that we're creating a PC.
+
+01:36.320 --> 01:37.040
+Here we go.
+
+01:38.630 --> 01:42.000
+Our create PPC method is ready now.
+
+01:42.970 --> 01:51.910
+For our general testing and implementation purposes I'm going to create a new python file and from that
+
+01:51.910 --> 01:58.240
+point on file We're going to be testing things out and you can of course turn things out.
+
+01:58.240 --> 02:05.140
+So let's go to our source directory and create a new python file.
+
+02:05.140 --> 02:11.180
+So I'm going to name this class as test deployment.
+
+02:11.390 --> 02:16.650
+And within that class we're going to import a couple of things.
+
+02:17.590 --> 02:26.770
+The first thing that we have to import is of course our PC class and the other thing is to include our
+
+02:26.830 --> 02:32.270
+easy to Colline so that we can make use of our PPC.
+
+02:32.270 --> 02:45.420
+So what I'm going to do now is I'm going to import from source that you see to what we see and of course
+
+02:45.420 --> 02:48.170
+the BPC class itself.
+
+02:48.540 --> 03:02.070
+And also I'm going to get the easy to client from Sir's dot client locator and easy to client just like
+
+03:02.100 --> 03:08.950
+that and right below that I'm going to type in a main Methot
+
+03:12.410 --> 03:16.070
+not this main course but my own main method.
+
+03:16.160 --> 03:20.220
+So I can the first things out anywhere I want.
+
+03:20.240 --> 03:26.060
+So the first thing that we have to test out is of course our BPC creation.
+
+03:26.060 --> 03:29.700
+So let's just type in a little comment right here.
+
+03:29.810 --> 03:39.730
+And after that the first thing that we have to do is get the client so that we can pass it into the
+
+03:39.840 --> 03:42.290
+PC class.
+
+03:42.340 --> 03:54.120
+So I'm going to do as easy to client and get the pc to client and get client just like that.
+
+03:54.370 --> 03:58.690
+And then the most important part is getting the PC class.
+
+03:58.690 --> 04:06.550
+So I'll say we PC equals the PC and I'm going to pass in the client.
+
+04:06.550 --> 04:12.830
+And as you can see with the method signature right here it is expecting a client.
+
+04:12.850 --> 04:16.990
+So I'm going to pass in the easy to client to the PC class.
+
+04:17.020 --> 04:20.740
+So everybody is going to be happy just like that.
+
+04:20.920 --> 04:26.670
+So our PC is ready to be interacted with.
+
+04:26.890 --> 04:32.420
+So what I'm going to do now is I'm going to call the Create Ribisi method.
+
+04:32.980 --> 04:44.680
+I'm going to hold the response in a PC response object and I'm going to call BPC and create the PC just
+
+04:44.680 --> 04:46.200
+like that.
+
+04:46.600 --> 04:58.260
+And of course I want to print out the response from AWOS BPC create it just like that and of course
+
+04:58.320 --> 05:05.010
+I have to string of Y.D. response because it's a dictionary object in our print statement is not going
+
+05:05.010 --> 05:06.660
+to be able to handle that.
+
+05:06.690 --> 05:09.760
+So I'll say the PC response.
+
+05:09.810 --> 05:11.640
+And here we go.
+
+05:11.640 --> 05:19.500
+So what we're going to do next is to have a main method to call this main method.
+
+05:19.800 --> 05:25.330
+So I'm simply going to call the main method just like that.
+
+05:25.390 --> 05:31.900
+Let's put a line break down here and we're ready to test out our main method.
+
+05:33.560 --> 05:36.090
+We PC creation actually.
+
+05:36.160 --> 05:38.730
+So I'm going to go right here.
+
+05:38.750 --> 05:51.860
+And so if Fernandez and here we go our PC is created and we received response as a BPC data with the
+
+05:52.100 --> 06:00.860
+cyder block that we chose and the default options for DHP and the state is ASP pending.
+
+06:01.490 --> 06:11.610
+So to check out our CPC our newly created BPC Let's go to AWOS Konsole from AWOS consol.
+
+06:11.670 --> 06:13.960
+Let's go to the PC section.
+
+06:18.120 --> 06:28.080
+And of course this is the Ohio region the PC that we created was in use central one as you can remember
+
+06:28.260 --> 06:30.930
+from our client locator class.
+
+06:30.930 --> 06:32.990
+So let's go to Frankfurt.
+
+06:33.000 --> 06:42.270
+Are you central one region and check out our CPC.
+
+06:42.290 --> 06:42.970
+All right.
+
+06:43.020 --> 06:51.560
+And as you can see we have two PCs one with the default Amazon PC and the PC that we just created.
+
+06:51.560 --> 06:56.380
+As you can see here with the cyder block that we create it.
+
+06:56.810 --> 07:05.360
+So the next steps for this section is to create subnets and Internet gateways attached together and
+
+07:05.360 --> 07:06.890
+connect them together.
+
+07:06.950 --> 07:16.430
+But as you can see when we create a PC or any AWOS resource with the both code with the Python code
+
+07:16.940 --> 07:19.010
+we have to go and check.
+
+07:19.220 --> 07:22.820
+And this is a very tedious task since we want a daisy chain.
+
+07:22.850 --> 07:31.820
+All these tasks like when I want to continue about creating new VPC adding a task to that PC adding
+
+07:31.820 --> 07:36.310
+subnets and launching instances to that BPC.
+
+07:36.600 --> 07:44.760
+Whenever I run my methods I will have to go to a W-S console and need to remove everything that I created.
+
+07:44.780 --> 07:45.380
+Right.
+
+07:45.470 --> 07:47.450
+And this is super tedious.
+
+07:47.450 --> 07:48.720
+I don't want to do that.
+
+07:49.010 --> 07:57.650
+So from now on we're going to start writing our code against the both of the API and we're going to
+
+07:57.800 --> 08:05.900
+by the end of the lectures we're going to run our application and have our three PCs subnets and internet
+
+08:05.900 --> 08:12.030
+gateway the easy two instances all them automatically created one by line.
+
+08:12.170 --> 08:15.320
+When we finished all of our application.
+
+08:15.350 --> 08:21.440
+So this is a way that I prefer because otherwise we would have to go to AWOS console each time we run
+
+08:21.440 --> 08:26.350
+our application and have to delete all the resources that we created.
+
+08:26.720 --> 08:34.480
+All right after giving you this information let's move on to next lecture and create an internet gateway.

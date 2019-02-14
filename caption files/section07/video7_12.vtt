@@ -1,0 +1,76 @@
+WEBVTT
+
+00:01.370 --> 00:08.810
+As we saw with the response from our public easy to instance and the web page from there we can access
+
+00:08.870 --> 00:10.920
+our public easy to instance.
+
+00:11.030 --> 00:15.040
+But how about our private is to instance.
+
+00:15.290 --> 00:22.610
+And as you can see our private easy to instance doesn't have any public IP addresses as it is being
+
+00:22.610 --> 00:23.230
+private.
+
+00:23.360 --> 00:28.740
+That's actually what we wanted to achieve with our private easy to instance.
+
+00:28.880 --> 00:37.150
+So it has the 10.0 that to that 200 IP as the private IP address.
+
+00:37.430 --> 00:45.280
+So it is not possible to go to this easy to instance in any way from the outside internet.
+
+00:45.410 --> 00:52.840
+The only way to connect to this is to instance is either from the another machine within the private
+
+00:52.850 --> 01:01.070
+easy to instance private subnet actually or from the public subnet or public easy to instance within
+
+01:01.070 --> 01:06.890
+the public subnet since they are on the same PC block same BPC.
+
+01:07.010 --> 01:09.430
+Then we can simply access them.
+
+01:09.620 --> 01:18.540
+And the way to do that is basically using the key pair for private easy to access and remember'd out
+
+01:18.550 --> 01:24.230
+we have the same key pair for both public and private is the two instances.
+
+01:24.230 --> 01:27.970
+So if you get the.
+
+01:28.150 --> 01:29.380
+Sorry about that.
+
+01:29.380 --> 01:40.210
+So if we go back to our all part and if you get the private key for our easy two instances and save
+
+01:40.210 --> 01:48.110
+that in a file and try to S-sh into our public easy to instance and once you connect there you can use
+
+01:48.110 --> 01:53.720
+the same private key for our private easy to instance to connect to that machine.
+
+01:54.010 --> 02:01.180
+That's basically the only way for now to connect to our private E.S. two instances.
+
+02:01.180 --> 02:08.200
+And for the time being I'm not going to do that but you're definitely encouraged to do within your local
+
+02:08.200 --> 02:13.960
+environment to copy this private key and then use it to connect to first to public.
+
+02:13.960 --> 02:22.250
+Easy to instance and then to private is to instance that's the basic way to access our private easy
+
+02:22.270 --> 02:23.160
+to instance.
+
+02:23.170 --> 02:28.270
+Again it's not open to the world to the outside world for accessing.

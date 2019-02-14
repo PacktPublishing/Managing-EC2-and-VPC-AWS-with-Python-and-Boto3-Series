@@ -1,0 +1,295 @@
+WEBVTT
+
+00:02.050 --> 00:09.400
+All right we're about to start implementing our easy to instances and we're going to start by creating
+
+00:09.430 --> 00:13.150
+a key pair for our easy two instances.
+
+00:13.150 --> 00:19.570
+But before we do that let's check out the current structure of our code to see where we can place our
+
+00:19.630 --> 00:23.410
+easy to her weighted methods and functions.
+
+00:23.410 --> 00:29.280
+And if we go to our RE PC class as you can see this class is mostly about.
+
+00:29.290 --> 00:37.300
+And actually all of them are about subnets we PCs route tables Internet gateways and basically everything
+
+00:37.300 --> 00:40.150
+about PCs and their resources.
+
+00:40.180 --> 00:47.890
+So it's not going to be best to put those methods about easy to inside this class so we better have
+
+00:47.890 --> 00:50.700
+our own class for easy to management.
+
+00:50.800 --> 00:57.920
+So to do that I'm going to create a easy two class so I'll just go here.
+
+00:59.030 --> 01:09.560
+And I'm going to say a python file and I'm just simply going to say easy to and within that class I'm
+
+01:09.560 --> 01:21.130
+going to name this class as easy to write and of course as we usually do with our implementations Regarding
+
+01:21.130 --> 01:28.600
+like easy to PC and everything we're going to have the initialiser method that we have to pass in to
+
+01:28.600 --> 01:35.540
+our client so that we can use it as an actual Bothell three client for interacting with a W-S.
+
+01:35.600 --> 01:41.770
+So just going to go down here and I'm going to define an initialize or method.
+
+01:42.100 --> 01:48.550
+So and as you can remember our initialiser method is expecting a both or three Colline that we can inject
+
+01:48.550 --> 01:51.280
+to our Python source code.
+
+01:51.310 --> 01:59.460
+So I'm going to say South underscore client is going to be the client that I'm passing in.
+
+01:59.500 --> 02:00.920
+All right.
+
+02:01.000 --> 02:08.140
+And the other thing that we're going to do is we're going to allow PI both of 3 to autocomplete capabilities
+
+02:08.140 --> 02:12.410
+within our pièce arm ID and how are doing that.
+
+02:12.430 --> 02:17.620
+We were simply doing that by this interpreter argument.
+
+02:17.620 --> 02:27.780
+So we're simply saying type and both all three and then easy to just like that.
+
+02:27.780 --> 02:35.070
+So this is going to help us autocomplete capabilities within our code when we try to lounge easy to
+
+02:35.160 --> 02:38.160
+methods and easy to parameters.
+
+02:38.670 --> 02:45.240
+So let's go down here and let's focus on what we're actually going to do in this video.
+
+02:45.300 --> 02:47.680
+So we're going to create a key pair.
+
+02:47.680 --> 02:48.380
+All right.
+
+02:48.420 --> 02:58.590
+So to create that I'm simply starting to implement my method as create Key Pair and I'm going to think
+
+02:58.590 --> 03:04.830
+about the arguments later on because since I have to check out the client first and see what's offering
+
+03:04.830 --> 03:11.070
+it to me and then I'm going to decide on the arguments and everything I need to pass into this method
+
+03:11.270 --> 03:11.910
+afterward.
+
+03:11.910 --> 03:20.910
+So let's just try to return the Create keeper method the actual Bothell three method and I'm going to
+
+03:20.910 --> 03:27.720
+say create keep here and as you can see are also complete with PI both of three is working as expected.
+
+03:27.990 --> 03:33.620
+And I'm saying create Key Pair and except from the dry run method.
+
+03:33.630 --> 03:39.410
+Grier an argument actually only the thing that I have to provide is the key name the actual name but
+
+03:39.420 --> 03:41.470
+I want to have to recreate it.
+
+03:41.520 --> 03:46.800
+So for a key name argument I'm simply saying that key name is key.
+
+03:46.800 --> 03:47.940
+Underscore a name.
+
+03:47.970 --> 03:54.040
+So I'm going to pass this end with my method and here we go.
+
+03:54.180 --> 04:03.600
+We have our key name ready to be created on AWOS and to have a signifying thing before we create our
+
+04:03.810 --> 04:05.890
+key name actual key pair.
+
+04:06.090 --> 04:20.490
+Let's just say creating a key pair let's just separate those with name and key name just like that.
+
+04:20.510 --> 04:21.740
+All right.
+
+04:21.920 --> 04:28.250
+So the other thing that we're going to do is of course we're going to have to call this method to actually
+
+04:28.250 --> 04:30.540
+have our key pair created.
+
+04:30.770 --> 04:36.120
+So let's go back to our test deployment class and do that there.
+
+04:36.530 --> 04:41.930
+And I'm just going to go down here and open up some lines so that you can clearly see what I'm doing
+
+04:41.930 --> 04:42.440
+here.
+
+04:42.620 --> 04:51.530
+And let's just say this section is about easy two instances and I'm just going to put a line for a comment
+
+04:51.530 --> 04:59.120
+there and I'm just going to say create a key pair.
+
+04:59.120 --> 05:00.170
+All right.
+
+05:00.740 --> 05:09.050
+And as you can see now we have a separate class for easy to we were until now we were using the VPC
+
+05:09.050 --> 05:12.820
+class that we injected are both a three client within that.
+
+05:13.070 --> 05:20.520
+So this time we're going to have to inject our easy to or both or three collide within the two class.
+
+05:20.600 --> 05:28.420
+So once we pass our client in this method in this class to class we're going to be able to use the easy
+
+05:28.420 --> 05:32.600
+to functionality just like we did with the PC class.
+
+05:32.600 --> 05:39.530
+So what I'm going to do now is I'm going to simply say easy two equals easy.
+
+05:39.590 --> 05:44.190
+And of course we're going to have to import the C to class first.
+
+05:44.360 --> 05:45.960
+So let's just do that now.
+
+05:47.420 --> 05:50.450
+An easy two and easy two.
+
+05:50.450 --> 05:51.630
+All right.
+
+05:52.010 --> 06:02.920
+And this easy to class is going to help my client for the PC and let's take out the name for that clan.
+
+06:02.930 --> 06:05.710
+And as you can see it is easy to client.
+
+06:06.080 --> 06:10.530
+So let's just pass in the easy to client and here we go.
+
+06:10.850 --> 06:16.930
+We're ready to interact with our easy to collide on the AWOS resources.
+
+06:16.940 --> 06:25.520
+So what I'm going to do now is to create a key pair and let's just move this declaration up top and
+
+06:25.880 --> 06:29.980
+we can be clear about what we're going to do and what your intentions are.
+
+06:30.170 --> 06:38.600
+So I'm just going to say create key pair and for the name of that key player and is going to have a
+
+06:38.690 --> 06:41.270
+string argument right here.
+
+06:41.390 --> 06:50.720
+Keep your name as both the three key pair just like that.
+
+06:53.050 --> 06:54.630
+Whoops.
+
+06:55.020 --> 06:56.670
+And here we go let's just pass it.
+
+06:56.670 --> 06:58.260
+They keep their name.
+
+06:58.500 --> 06:59.840
+And here we go.
+
+06:59.910 --> 07:04.550
+And of course we want to keep the response of the key player creation.
+
+07:04.590 --> 07:11.880
+That's only because the key pair creation response has the actual key pair returning from a WS.
+
+07:12.030 --> 07:16.680
+And this is quite important if you're creating your key pairs from your code.
+
+07:16.770 --> 07:21.780
+You're not doing them manually you're going to have to keep them because otherwise you won't be able
+
+07:21.780 --> 07:26.800
+to access your easy to instances unless you have the key pair.
+
+07:26.940 --> 07:32.910
+If you happen to lose your key pair you simply say goodbye to your easy to instance because there is
+
+07:32.910 --> 07:36.500
+no way around to access that easy to instance after that.
+
+07:36.600 --> 07:44.130
+So be careful to keep those key pairs returning from AWOS calls and after giving you this important
+
+07:44.130 --> 07:49.230
+information actual Paramount informant paramount important information.
+
+07:49.290 --> 07:54.760
+Let's just keep the response from you to keep their creation.
+
+07:55.410 --> 08:01.180
+And let's just say keep pair and response.
+
+08:01.180 --> 08:02.820
+And here we go.
+
+08:03.600 --> 08:08.610
+So this is going to how are key pair created and returned to us with them.
+
+08:08.610 --> 08:12.440
+The key player response so let's just print out.
+
+08:12.450 --> 08:21.000
+We have our key pair created and actually to see our key paired data actual key pair actual Pamphile
+
+08:21.000 --> 08:27.510
+that we're going to use Let's print the content of our response so that we can catch that data for our
+
+08:27.510 --> 08:31.980
+key pair and maybe use that to connect to our easy two instances.
+
+08:32.220 --> 08:38.400
+So let's just say create that key pair
+
+08:41.220 --> 08:50.830
+with name and of course they keep their name and then let's just say the response.
+
+08:51.270 --> 08:56.490
+And of course the response is going to be again a dictionary.
+
+08:56.490 --> 09:04.040
+So let's just wrap it up with string object and then let's just say key pair response just like that.
+
+09:05.820 --> 09:15.590
+So this is all we need to have our key player created on a W-S to move one with our implementation.
+
+09:15.640 --> 09:17.070
+I'll be seeing you on the next video.

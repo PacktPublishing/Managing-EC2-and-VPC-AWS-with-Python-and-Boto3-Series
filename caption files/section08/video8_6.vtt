@@ -1,0 +1,85 @@
+WEBVTT
+
+00:01.750 --> 00:08.970
+So one last thing to know before we wrap up with our easy to section is to learn how to terminate easy
+
+00:09.010 --> 00:10.640
+to instances.
+
+00:10.930 --> 00:22.810
+So to do that let's just create another method to terminate instance and let's just check out the signature
+
+00:22.810 --> 00:30.700
+of this method self underscore client terminate instances.
+
+00:30.730 --> 00:38.920
+So and as you can see it has a very similar structure with the start and stop instances methods.
+
+00:38.970 --> 00:43.370
+So all we have to do is provide instance IDs to this method.
+
+00:43.490 --> 00:47.110
+And so I just want to shut down a single instance.
+
+00:47.280 --> 00:53.720
+I just want to provide instance Id all right within a list format.
+
+00:53.850 --> 01:03.840
+And I also passed this within my method parameters and I'm going to say in a print statement terminating
+
+01:05.130 --> 01:12.400
+easy to instance and also the instance Id just like that.
+
+01:12.420 --> 01:21.810
+So let's go back to our main implementation and in there again another method for terminate instance
+
+01:23.890 --> 01:26.470
+right within this method.
+
+01:26.520 --> 01:29.610
+I'm going to do a very similar thing again.
+
+01:30.240 --> 01:38.160
+I'm just going to copy this client retrieval calls and I'm just going to use them too easy to dot terminate
+
+01:38.250 --> 01:47.460
+instance and within that terminate instance I'm going to pass in the private easy to instance ID and
+
+01:47.700 --> 01:53.190
+I'm going to be expecting it to be terminated on A W-S.
+
+01:53.220 --> 01:58.320
+So that's everything I need to terminate an instance on A W-S.
+
+01:58.320 --> 02:05.390
+So let's just go down here and comment out the start instance call and at our terminate instance call
+
+02:05.700 --> 02:06.900
+just like that.
+
+02:07.350 --> 02:15.720
+So I'm going to hit Crohn and check out the AWOS console and hit refreshed.
+
+02:16.200 --> 02:25.170
+And as you can see our instance is being shut down on a deal with us within a couple of seconds or maybe
+
+02:25.200 --> 02:31.740
+couple of minutes depending on the size of the U.S. two instances and the resources they use.
+
+02:31.740 --> 02:40.510
+It's going to be set to terminate it with a red mark indicating the termination status.
+
+02:40.510 --> 02:48.370
+So this is basically have to terminate the two instances on a deal with us as you can see it's kind
+
+02:48.370 --> 02:53.400
+of that simple to do with with Python and both all three.
+
+02:53.430 --> 03:00.330
+So in the next videos we're going to wrap up what we learn in this section and what we actually learn
+
+03:00.360 --> 03:02.220
+in easy too.
+
+03:02.310 --> 03:06.310
+So I'll be seeing you on the next video to wrap things up.

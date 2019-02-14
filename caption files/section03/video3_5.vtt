@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00.970 --> 00:07.780
+Before we jump into our implementation with Python and both are three Lets first where we find that
+
+00:07.810 --> 00:15.040
+we have everything we need to work with Python and both are three on AWOS resources.
+
+00:15.070 --> 00:19.570
+The first thing we have to verify is our AWOS credentials.
+
+00:19.570 --> 00:28.480
+If they are set properly so to check that out I'm simply going to type the command for AWOS configure
+
+00:29.350 --> 00:35.050
+and as you can see I can see the extension of my access key.
+
+00:35.230 --> 00:38.890
+With the hidden fields on the prefix part.
+
+00:38.890 --> 00:47.950
+So I can see that my access key is properly set and I'll hit enter and I can see the last part of my
+
+00:47.950 --> 00:57.130
+secret key and I keep pressing enter and I can verify that my credentials and the region that I want
+
+00:57.130 --> 00:59.640
+to work on is set properly.
+
+01:01.690 --> 01:08.260
+So the other thing that I have to verify is the python installation for debt.
+
+01:08.260 --> 01:19.570
+I simply have to type python and I can see that my Python is installed as the version 3.0 6.5 All right
+
+01:20.250 --> 01:25.270
+let's go back to our command prompt using the exit command.
+
+01:25.490 --> 01:34.580
+And from there let's just verify that we have the both of 3 installed properly and for that purpose
+
+01:34.820 --> 01:45.290
+I'm going to use Python package manager or Pipp and I say PIREP show and Bolto free.
+
+01:45.600 --> 01:55.830
+And as you can see the bowlful 3 is installed with the version 1 7 2 and it says the the AWOS SDK for
+
+01:55.830 --> 01:57.020
+Python.
+
+01:57.480 --> 02:06.600
+So we have our everything all the dependencies ready for our implementations on Python and AWOS using
+
+02:06.600 --> 02:08.340
+both of three library.
+
+02:08.490 --> 02:12.190
+We can now move on to our actual implementations.
+
+02:12.240 --> 02:14.420
+So I'll be seeing you on the next with iOS.

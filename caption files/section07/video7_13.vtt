@@ -1,0 +1,73 @@
+WEBVTT
+
+00:01.310 --> 00:04.660
+All right this was quite a section right.
+
+00:04.790 --> 00:11.540
+We have a lot of things in the section and just to summarize all the things that we did within the section
+
+00:12.910 --> 00:14.080
+in this section.
+
+00:14.210 --> 00:23.450
+We first took a look at what we're going to build on A W-S castle and then we created a key pair for
+
+00:23.450 --> 00:25.240
+our public and private.
+
+00:25.400 --> 00:32.930
+Two instances and the security group for public and another security group for our private easy to instance
+
+00:33.230 --> 00:40.610
+and we do all of a start up script for launching a Web page where we launch our public is to instance
+
+00:40.610 --> 00:48.540
+on AWOS and then we launched the our public easy to instance within our public subnet on a number of
+
+00:48.540 --> 00:56.180
+us and then we verified that our scripts work as expected that we could connect to our public easy to
+
+00:56.180 --> 01:04.340
+instance and by doing that we also verified that our hosted web page the index a DML file that we use
+
+01:04.340 --> 01:12.290
+as a user data while we lounge are easy to instance for public to instance is working as expected and
+
+01:12.290 --> 01:17.000
+we could see the web page as Hello from both all three with Python.
+
+01:18.100 --> 01:26.060
+And then be large enough or easy to instance within the private subnet as being the private is to instance.
+
+01:26.200 --> 01:34.300
+And also we prepare the subsequent resources like subnets and security groups for that private easy
+
+01:34.300 --> 01:43.150
+to instance and for the final part we also verified that its not so easy to connect to these private
+
+01:43.210 --> 01:49.730
+easy to instance since its being closed to outside world close to internet.
+
+01:49.810 --> 01:58.360
+It is within our private network where we could only connect from sources within private subnet or public
+
+01:58.360 --> 02:00.650
+subnet.
+
+02:00.650 --> 02:01.500
+All right.
+
+02:01.590 --> 02:08.760
+This was a great section where we could exercise how to lounge easy to instances and how to add security
+
+02:08.760 --> 02:14.120
+groups to them and also how to add rules and everything in between.
+
+02:14.130 --> 02:21.420
+So in the next section we're going to take a look at how to modify have to start and stop machines on
+
+02:21.510 --> 02:22.950
+a W-S.
+
+02:22.980 --> 02:25.010
+So I'll be seeing you on the next section.

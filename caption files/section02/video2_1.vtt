@@ -1,0 +1,100 @@
+WEBVTT
+
+00:02.380 --> 00:10.210
+Before we begin downloading tools and preparing our environment for development for A W-S Let's take
+
+00:10.210 --> 00:15.810
+a look at what we're going to cover in the section in this section.
+
+00:15.830 --> 00:20.580
+We'll take a look at our development tools and environment.
+
+00:20.630 --> 00:29.540
+This is basically the idea is Python versions installing Bothell library on Python and everything related
+
+00:29.540 --> 00:36.660
+to that of course we're going to take a taste of a WSC a lie.
+
+00:36.680 --> 00:44.730
+Let me try to configure our A WOSM moment on our machines for access keys and secret keys and reagents
+
+00:46.050 --> 00:52.600
+and of course we're going to take a moment to download and install Python on our machines.
+
+00:55.980 --> 01:01.910
+And after we how Python on our machines we're of course going to have our ID.
+
+01:01.920 --> 01:11.510
+And again I recommend you use pi charm since it has a both free edition and a professional version.
+
+01:11.580 --> 01:20.820
+You can just go to Jepp brains and download it then of course both of three is our main ingredient in
+
+01:20.820 --> 01:25.680
+the score and I'll of course show you how to get it and how to use it.
+
+01:27.140 --> 01:33.920
+The operating system part of the score is important because in the following lectures there will be
+
+01:34.310 --> 01:39.730
+dedicated videos about installing tools on Windows or Mac OS.
+
+01:39.980 --> 01:47.770
+So depending on your operating system choose a video to install the tools and set up your environment
+
+01:48.110 --> 01:51.290
+and you just can skip the other ones.
+
+01:51.290 --> 01:58.700
+So in that case if you're a Mac user you can just simply skip the window sections of the videos.
+
+02:00.980 --> 02:07.800
+And after we have our implement already I'll show you how to create an AWOS account.
+
+02:07.910 --> 02:09.650
+If you don't have it already.
+
+02:09.800 --> 02:17.870
+But again I highly encourage you to take a moment to prepare an AWOS account and get it free because
+
+02:18.380 --> 02:21.400
+it has a free tier for up to one year.
+
+02:21.410 --> 02:28.510
+So this is a very great opportunity from A W-S.
+
+02:28.760 --> 02:37.970
+And after we how are a W-S account ready will log into A W-S console and take a walk through it.
+
+02:38.090 --> 02:41.360
+I'll be showing you the easy to section.
+
+02:41.450 --> 02:49.450
+And of course the PC section primarily and of course we're going to take your general walkthrough of
+
+02:50.060 --> 02:53.090
+some of the important parts of AWOS
+
+02:56.600 --> 03:04.500
+And when we finish walking through the AWOS console we're going to be creating a development user Ferraro
+
+03:04.520 --> 03:09.430
+account and we're going to be obtaining our AWOS credentials.
+
+03:09.440 --> 03:17.870
+So these are going to be access Keys and Key is of course we're going to create our own keys and we're
+
+03:17.870 --> 03:22.690
+going to be configuring them using a WSC rely on our machines.
+
+03:22.730 --> 03:27.550
+So all a showing in that exact steps to.
+
+03:27.710 --> 03:34.410
+And again we're going to be setting up our moment using a WSC alive and I'll be showing me all the steps
+
+03:34.410 --> 03:41.220
+and modeling that and I'll be explaining you how to set region and how to set your access keys and secret
+
+03:41.220 --> 03:41.730
+keys.

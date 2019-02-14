@@ -1,0 +1,49 @@
+WEBVTT
+
+00:01.100 --> 00:08.240
+So before we wrap everything up and this curse Let's wrap up what we learned in this section on the
+
+00:08.390 --> 00:14.770
+second part of easy to or Elastic Compute club from AWOS.
+
+00:14.810 --> 00:23.340
+So in this section we learned how to describe easy to instances to describe easy to instances.
+
+00:23.450 --> 00:31.010
+We implemented our own method passing in our instance ID and with that instance ID we could describe
+
+00:31.020 --> 00:38.450
+easy to instances but instead we implemented a blank easy to instance method describe easy to instance
+
+00:38.450 --> 00:45.190
+method actually to describe every instance on our account on that region on a date with us.
+
+00:45.500 --> 00:53.540
+And then we learned how to modify a running easy to instance on a table with us by changing the API
+
+00:53.540 --> 00:55.670
+termination disabling.
+
+00:55.670 --> 01:03.910
+And after that we learned how to start and easy to instance after discovering how to start and easy
+
+01:03.910 --> 01:10.190
+to instance we learned how to stop that easy to instance using both three and Python.
+
+01:10.500 --> 01:20.730
+And finally we learned how to terminate completely shut down and eventually be deleted from A W-S.
+
+01:20.730 --> 01:25.890
+That's the termination behavior on AWOS and we learned how to do that.
+
+01:26.040 --> 01:34.780
+And this is a quite valuable information on managing easy to and there are some resources on a W-S.
+
+01:34.920 --> 01:43.830
+I think you added quite a knowledge to your base in this section and to wrap things up wrap the whole
+
+01:43.830 --> 01:49.220
+course up and see what we learned and you achieved that actually in this course.
+
+01:49.290 --> 01:51.220
+I'll be seeing you on the next section.

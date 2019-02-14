@@ -1,0 +1,190 @@
+WEBVTT
+
+00:02.110 --> 00:06.740
+All right after launching our public you see two instance.
+
+00:06.840 --> 00:14.130
+The next thing that we're going to do is to lounge a private is to instance so to do that.
+
+00:14.280 --> 00:17.230
+There are a couple of things that we're going to have to do.
+
+00:17.460 --> 00:27.680
+And the first of those is to have a private security group and to do that I'm going to have to go back
+
+00:27.680 --> 00:38.690
+to my UC tube and actually to my yes a C to class and for my security group as you can see I have to
+
+00:38.690 --> 00:46.730
+provide a group name a description and a VPC Id only the distinguishing part for the security groups
+
+00:46.760 --> 00:49.580
+as being public or private.
+
+00:49.580 --> 00:52.640
+Do you have rules that you add to this security group.
+
+00:52.790 --> 01:00.080
+But remember Dad says we're adding to security group since we're adding this to instance within the
+
+01:00.080 --> 01:01.700
+private subnet.
+
+01:01.760 --> 01:06.850
+It's not going to be able to assign itself a public IP address.
+
+01:06.890 --> 01:15.980
+So the security group is only matters to the resources within my public and private subnet nothing other
+
+01:15.980 --> 01:16.890
+than that.
+
+01:17.150 --> 01:25.580
+So let's just duplicate this ad in-bound rule to security group so we can simply allow the same thing
+
+01:25.880 --> 01:31.650
+to our private subnet because it's not going to matter for our private easy to instance.
+
+01:31.670 --> 01:38.210
+Again this is the way to add the access control to your E.S. to instance.
+
+01:38.210 --> 01:45.530
+But again this doesn't make any change to my private easy to instance since it's in the private subnet
+
+01:45.950 --> 01:54.040
+without any IP addresses are connections from the outside world except my public subnet.
+
+01:54.080 --> 02:01.580
+So let's go back to our implementation class and let's just say
+
+02:04.430 --> 02:08.980
+adding a nother security group
+
+02:13.890 --> 02:24.720
+for private to instance and for creating the security group.
+
+02:24.720 --> 02:27.330
+Let's just say private
+
+02:29.720 --> 02:33.160
+security group name.
+
+02:33.890 --> 02:45.530
+And I'm going to say both are three private security group and for the description of this security
+
+02:45.530 --> 02:45.860
+group
+
+02:49.700 --> 03:06.480
+I'm going to say private security group for private subnet and for the last part I'm going to launch
+
+03:06.480 --> 03:08.830
+my security group.
+
+03:08.910 --> 03:24.560
+So let's just say private security group response is B.S. to dot create security group and forward a
+
+03:24.570 --> 03:32.700
+name private security group name and forwarded description.
+
+03:33.330 --> 03:36.990
+Private security group description.
+
+03:36.990 --> 03:41.890
+That's basically everything I need to have my private security group.
+
+03:42.030 --> 03:49.320
+But just like we did with our public security group we're going to have to get the group ID from our
+
+03:49.620 --> 03:51.930
+AWOS response.
+
+03:51.930 --> 04:05.790
+So let's do that now and private security group I.D. is going to be private security group response
+
+04:05.850 --> 04:08.970
+and group Id just like that.
+
+04:09.270 --> 04:17.280
+So this information is going to help us to use this private security group when we launch our private
+
+04:17.280 --> 04:22.440
+subnet private actually easy to instance within our private subnet.
+
+04:22.440 --> 04:27.300
+So let's go down here and now start launching our private.
+
+04:27.300 --> 04:28.720
+Easy to instance.
+
+04:28.860 --> 04:37.380
+But before we do that let's just take up this a.m.-I to a variable and let's just go up here and say
+
+04:41.520 --> 04:51.230
+am I.D. and I'm just going to put that here and also my I'd just like that so we can now lounge are
+
+04:51.440 --> 05:00.910
+private is the to instance easy to dot lounge easy to instance and my ID.
+
+05:01.430 --> 05:10.460
+I'm going to use the same key pair and I'm going to have a one instance as the minimum and maximum and
+
+05:10.460 --> 05:20.000
+private security group ID and for the subnet I'm going to use the private subnet and I don't have to
+
+05:20.000 --> 05:28.580
+provide any user data because I simply don't want to have anything launching when I have my easy to
+
+05:28.580 --> 05:30.740
+instance lounge on a W-S.
+
+05:30.740 --> 05:33.810
+So I'm just going to keep it like this.
+
+05:33.830 --> 05:35.930
+All right.
+
+05:36.110 --> 05:42.590
+So before we move on let us also add the rule to our security group.
+
+05:42.590 --> 05:43.430
+All right.
+
+05:43.700 --> 05:51.710
+And to do that we're going to have to call the inbound method that we implemented earlier.
+
+05:51.770 --> 05:54.890
+So I'm just going to go down here and
+
+05:57.910 --> 06:04.890
+add rule to private security group.
+
+06:05.810 --> 06:12.140
+And again this rule set is not going to have any effect in my easy to instance.
+
+06:12.380 --> 06:20.060
+This is only for the resources coming from private subnet or the public subnet within my PC.
+
+06:20.150 --> 06:26.040
+No one's outside is going to be accessing my see two instance in any way.
+
+06:26.480 --> 06:37.460
+So let's just say that and add the rule to our security group for our private security group and here
+
+06:37.460 --> 06:38.370
+we go.
+
+06:38.900 --> 06:54.810
+Let's just also comment as and say launch and launch a private easy to instance unless also unafraid
+
+06:54.840 --> 06:55.950
+does as
+
+07:00.790 --> 07:08.170
+lounge a public see to instance.
+
+07:08.170 --> 07:17.890
+And here we go while we're actually about to finish our implementation for the most parts of it and
+
+07:18.070 --> 07:25.720
+we can now actually Rhonda's and check out how all of this created for us on a W-S.

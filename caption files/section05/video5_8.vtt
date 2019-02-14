@@ -1,0 +1,58 @@
+WEBVTT
+
+00:01.910 --> 00:09.320
+Creating internet gateway Let's go back to our BPC class within the PC class.
+
+00:09.320 --> 00:15.700
+And of course we have a mistyping right here and here we go.
+
+00:15.710 --> 00:23.160
+So what we're going to do now is we're going to provide a little method to create an internet gateway
+
+00:23.570 --> 00:29.020
+so I'll just say create Internet Gateway
+
+00:31.700 --> 00:40.700
+and within that method let's just first try to type and the method and see what we're going to have
+
+00:40.700 --> 00:46.680
+to provide create internet gateway.
+
+00:47.030 --> 00:54.910
+And as you can see except from the dry run method which is just for like relevation purposes for a W-S
+
+00:54.920 --> 00:57.560
+calls we don't have to provide anything.
+
+00:57.650 --> 01:01.220
+It doesn't have a base of property at all.
+
+01:01.400 --> 01:03.900
+So we can just call this method like this.
+
+01:03.950 --> 01:18.530
+And of course let's just type in a command type in a command line output as creating and internet gateway.
+
+01:19.310 --> 01:21.510
+And here we go.
+
+01:21.530 --> 01:31.970
+So the next thing would be to call this method from our main class and I'm going go down here create
+
+01:32.150 --> 01:43.910
+an G.V. or internet gateway and we're just going to call our method BPC dot create internet gateway
+
+01:46.090 --> 01:54.580
+so that's all we need to do to create an Internet Gateway within a PCM worriment But of course we have
+
+01:54.580 --> 02:02.950
+to take the response from a couple of us so that we can make use of it while attaching it to the PC.
+
+02:03.010 --> 02:13.670
+So I'm going to say I G.V. response is this.
+
+02:13.690 --> 02:18.730
+Eric go to attach the internet gateway to our real PC.
+
+02:18.850 --> 02:20.750
+I'll be seeing you on the next video.

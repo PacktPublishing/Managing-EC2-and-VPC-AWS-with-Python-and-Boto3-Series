@@ -1,0 +1,187 @@
+WEBVTT
+
+00:02.980 --> 00:13.280
+So now we know how to describe easy to instances but how about modifying those easy to instances to
+
+00:13.280 --> 00:14.190
+do that.
+
+00:14.240 --> 00:17.360
+I'm going to add another method right here.
+
+00:17.420 --> 00:26.730
+And I'm going to call it as modify C to instance and for the parameters I'm again leaving it as this
+
+00:26.750 --> 00:27.970
+to the side.
+
+00:27.980 --> 00:32.840
+After seeing the arguments and parameters modify
+
+00:35.570 --> 00:44.690
+instance attribute and as you can see duros several options for modifying attributes of an EASY TO instance
+
+00:45.020 --> 00:50.950
+from the changing the reserve instances changing the instance placement.
+
+00:51.140 --> 00:59.540
+But most importantly changing the instance attributes is the most extenso method on a W-S for modifying
+
+00:59.540 --> 01:05.320
+an easy to instance let's hit enter to see what we're going to have to provide.
+
+01:05.450 --> 01:11.540
+And as you can see excerpt from the dry run method right on argument actually we have lots of things
+
+01:11.540 --> 01:19.610
+to provide for this method but again none of all these arguments are required to decide on what we're
+
+01:19.610 --> 01:22.730
+going to have to provide and what we can modify.
+
+01:22.910 --> 01:28.930
+Let's go back to our both of three documentation and decide after that.
+
+01:28.970 --> 01:30.260
+All right.
+
+01:30.260 --> 01:35.450
+As for our documentation let's just find out the method.
+
+01:35.600 --> 01:40.030
+Modify instance attribute.
+
+01:40.340 --> 01:45.070
+And let's just see what we're going to have to provide.
+
+01:45.440 --> 01:53.480
+And it seems like we're going to have to provide an instance Id just to give the Amazon what is going
+
+01:53.510 --> 01:59.410
+to update what's going to modify and then let's see what we can change.
+
+01:59.630 --> 02:08.030
+And it seems like we can easily change the API termination specifies that you can't just terminate this
+
+02:08.060 --> 02:11.740
+easy to instance once you set this to true.
+
+02:11.900 --> 02:20.540
+So if you try to use to shut down this easy to instance with like both a three or a WSC a lie or anything
+
+02:20.540 --> 02:23.000
+else you can't just simply do that.
+
+02:23.210 --> 02:30.950
+To do that you're going to have to go to a W-S console with appropriate permissions and just do that.
+
+02:30.950 --> 02:33.710
+So let's go back and try this.
+
+02:33.770 --> 02:34.450
+All right.
+
+02:34.550 --> 02:42.100
+So I'm going down here and I'm simply going to say disable API termination.
+
+02:42.260 --> 02:53.540
+And since this is expecting a dictionary type I'm going to go down here and I'm going to say value as
+
+02:56.240 --> 03:02.420
+so says the method make the argument name is disable API termination.
+
+03:02.520 --> 03:07.600
+I'm going to set it to true so that my insoles won't be able to shut down.
+
+03:07.830 --> 03:11.500
+So let's just go back to verify our Dictionnaire structure.
+
+03:11.700 --> 03:16.320
+And as you can see we're correct with our implementation.
+
+03:16.320 --> 03:22.270
+So the other thing that we need to do is we're going to have to provide the instance ID.
+
+03:22.980 --> 03:34.030
+So for eastern side the lets us go back to a console for a moment and get our instance Id So what I
+
+03:34.030 --> 03:39.690
+want to do now is to get the public easy two instances ID.
+
+03:39.820 --> 03:46.990
+So this is my public easy to instance and I'm going to just copy the instance ID or I can just click
+
+03:46.990 --> 03:56.170
+on here and I just copy that to clipboard and I'm going to pass in the instance ID from my method.
+
+03:56.230 --> 03:58.960
+So instance ID.
+
+03:59.170 --> 04:09.310
+And let's just also print out that we're going to modify this easy to instance and modifying easy to
+
+04:09.310 --> 04:14.260
+instance an instance ID right.
+
+04:15.420 --> 04:27.610
+Let's just close this up and the comma here and we can now go back to our main class in our main class.
+
+04:27.610 --> 04:37.360
+After describing these two instances I'm just going to add another method modify instance and I'm going
+
+04:37.360 --> 04:42.920
+to say that I will not modify this easy to instance.
+
+04:43.420 --> 04:54.530
+And within that method I just first going to place the instance ID and just leave it there for a reference
+
+04:54.730 --> 05:02.010
+and then I'm going to copy the easy to access for methods for easy reuse of course.
+
+05:02.050 --> 05:11.740
+So I'm just going to go down here and I'm going to say easy to response and then you see to dot modify
+
+05:11.830 --> 05:20.520
+is to instance and this method is only expecting the instance ID from me so I can just provide that.
+
+05:20.620 --> 05:29.590
+And I'm just cutting this and then I'm just passing it into my method call an all new thing that I have
+
+05:29.590 --> 05:34.120
+to do is just print out the result from a WS.
+
+05:34.330 --> 05:42.410
+But if we go and check out the documentation it simply doesn't return anything.
+
+05:42.820 --> 05:44.490
+And here we go.
+
+05:44.530 --> 05:52.330
+It just doesn't return anything but so we can just get rid of this and we can just call this method
+
+05:53.470 --> 06:00.850
+without taking any response from a WS since the API is not returning anything.
+
+06:00.850 --> 06:09.130
+So I'm just going to comment this line out and on just going to call my new method modify instance.
+
+06:09.160 --> 06:12.230
+So now let's just see what's going to happen.
+
+06:13.230 --> 06:16.060
+I'm running this method now.
+
+06:16.880 --> 06:18.380
+And here we go.
+
+06:18.470 --> 06:24.330
+Are is to instance our public easy to instance is now modified.
+
+06:24.610 --> 06:34.040
+So with this way I cannot terminate this easy to instance from Bothell 3 or U.S. ally or simply any
+
+06:34.250 --> 06:39.230
+command line to any API for us for doing that.
+
+06:39.260 --> 06:46.720
+I have to go to Amazon AWOS cancel and terminate the machine by my head.

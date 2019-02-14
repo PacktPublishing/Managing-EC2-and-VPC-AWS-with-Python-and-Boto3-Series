@@ -1,0 +1,31 @@
+WEBVTT
+
+00:01.480 --> 00:09.940
+The one thing that we need to do before I start implementing our applications with AWOS resources we
+
+00:09.940 --> 00:15.850
+have to install the both of three library for Python for doing that.
+
+00:15.940 --> 00:20.690
+We're going to use the Python package manager our Peppe.
+
+00:21.010 --> 00:34.320
+Let's just type in Pipp install and both three and both of three dependencies are being collected right
+
+00:34.320 --> 00:39.390
+now by the Python package manager or pip.
+
+00:39.590 --> 00:50.180
+And we have the both the core S3 France we're documentation you hotels and some various Python packages
+
+00:50.630 --> 00:59.900
+dependent to both a three library so our package manager now is initializing the dependent packages
+
+00:59.900 --> 01:07.180
+for Python for both three and they are already now simple as that.
+
+01:07.470 --> 01:13.730
+We know how are both all three and every other thing on our machine to work with.
+
+01:13.770 --> 01:15.330
+AWOS resources.

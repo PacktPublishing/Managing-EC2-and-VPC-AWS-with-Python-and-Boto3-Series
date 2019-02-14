@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00.900 --> 00:07.660
+All right for moving on with our two implementations and we're going to learn a couple of more things
+
+00:07.660 --> 00:13.090
+about you two and how to do debt basic operations aren't easy too.
+
+00:13.090 --> 00:18.470
+So let's take an overview of what we're going to do in this section in this section.
+
+00:18.580 --> 00:22.870
+We're going to learn how to describe the two instances.
+
+00:22.960 --> 00:29.590
+We're going to be describing like every property of an EASY TO instance of a running easy to instance
+
+00:29.590 --> 00:31.270
+actually.
+
+00:31.270 --> 00:38.980
+And then we're going to learn how to modify those easy to instances running on a with us and then we're
+
+00:38.980 --> 00:45.940
+going to learn how to start E.C two instances and we're going to also learn how to stop and have to
+
+00:45.970 --> 00:50.540
+terminate those two instances on a date with us.
+
+00:50.560 --> 00:56.630
+So these are as you can see the basic operations zone is the two that you can invoke.
+
+00:56.650 --> 01:02.200
+So it's highly critical to know these things and learn how to do that.
+
+01:02.200 --> 01:07.360
+So to start implementing these actions I'll be seeing you on the next video.

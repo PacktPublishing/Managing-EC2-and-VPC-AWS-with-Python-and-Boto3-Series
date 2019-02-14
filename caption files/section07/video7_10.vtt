@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.450 --> 00:08.860
+So as you know we have all of our resources create it on a deal with us as does our path indicates.
+
+00:09.300 --> 00:18.420
+But we of course have to verify that if our resources are also available on us as we expected and as
+
+00:18.420 --> 00:28.180
+we can figure them so let's go to a concert right now and check out the resources that we created.
+
+00:28.220 --> 00:38.420
+So on AWOS Casal the first thing I did I'm going to do is to go and check the VPC section within the
+
+00:38.630 --> 00:42.410
+PC section as you can see there are two PCs.
+
+00:42.410 --> 00:51.710
+And before our creation there were only just one PC which was the default PC from A W-S itself.
+
+00:51.710 --> 00:55.330
+So let's go into the PC section and there we go.
+
+00:55.430 --> 01:05.870
+We have our own VPC as both all three PC and the state of that PC is available and the IP version 4
+
+01:05.870 --> 01:11.460
+side or block is as 10.0 darts zeroed out slash 60.
+
+01:11.720 --> 01:20.020
+And it has its own route table and some other route table that we're going to check out in a moment.
+
+01:20.180 --> 01:31.310
+And then we launch our VPC AWOS also created ourselves a default network ACL and and as you can see
+
+01:31.640 --> 01:42.720
+the default VPC is not for our own PC because the default PC is always coming from a double us and let's
+
+01:42.720 --> 01:49.800
+go and check out the subsequent resources for our PC and the next stop is the subnets.
+
+01:49.800 --> 01:53.010
+So on the left pane let's click on these subnets.
+
+01:53.010 --> 02:01.800
+And as you can see are two subnets are available bowlful three public subnet and both of three private
+
+02:01.800 --> 02:02.730
+subnet.
+
+02:02.970 --> 02:12.300
+So TV PCs all of these subnets are as you can see are both all three PC and four are private subnet
+
+02:12.510 --> 02:20.030
+as you can see it is also on both three PC and the cyder blocks are as we define them.
+
+02:20.700 --> 02:28.170
+And as you can see also there are over two hundred and fifty IP addresses available to be mapped within
+
+02:28.170 --> 02:37.560
+the subnets if you like to and depending on the route tables and as you can see Druitt tables are different
+
+02:37.830 --> 02:40.620
+on those public and private subnets.
+
+02:40.770 --> 02:48.090
+That's only because we associated our public subnet with our own created public route table and we associate
+
+02:48.090 --> 02:54.810
+it to private subnet with the private and default route table from our VPC creation and we're going
+
+02:54.810 --> 02:56.830
+to check that out within a moment.
+
+02:56.850 --> 02:59.170
+So just don't worry about that right now.
+
+02:59.700 --> 03:07.440
+And as you can see also the subnets are not default subnets and we only allowed as you can remember
+
+03:07.440 --> 03:12.480
+from our code auto assigned public IP addresses on our public subnet.
+
+03:12.480 --> 03:14.600
+And this is as martyrs.
+
+03:14.610 --> 03:22.170
+Yes so if we go back and see that this is our public subnet and if we go and check out our private subnet
+
+03:22.590 --> 03:27.060
+the auto assigned public IP addresses are marked as No.
+
+03:27.060 --> 03:28.460
+So this is expected.
+
+03:28.470 --> 03:37.710
+This is what we wanted to share with our subnets and the PCs and if we go down and try to check out
+
+03:37.710 --> 03:44.940
+the route table for our public subnet as you can see we have the internet gateway route added to our
+
+03:44.940 --> 03:50.570
+route table for our public subnet with the rule as 0.0.
+
+03:50.580 --> 03:58.260
+That's euro slash zero for our Internet Gateway access so that any subsequent resources within this
+
+03:58.260 --> 04:01.240
+public subnet can access internet resources.
+
+04:01.260 --> 04:04.550
+And the vice versa is also true.
+
+04:04.710 --> 04:10.920
+So if we click on that route table that will bring us to our public route table.
+
+04:10.950 --> 04:19.710
+And I just did that and as you can see are both those three true table is there and if we can check
+
+04:19.710 --> 04:26.880
+out the roots and if we check it we have the internet gateway root access to our root table and if we
+
+04:26.880 --> 04:33.630
+also check out these subnet associations we can see that we associate this route table with our public
+
+04:33.630 --> 04:40.690
+subnet All right now let's go back to our subnets and check out our private subnet.
+
+04:40.720 --> 04:48.610
+So if it is configured as we accessed it as we configured with our both of three client and as you can
+
+04:48.610 --> 04:57.030
+see Druitt table for private subnet is only left with the default route and the route table.
+
+04:57.040 --> 05:06.480
+If we click on it simply going to show us the same route and the most important part as it is associated
+
+05:06.780 --> 05:09.990
+with the private subnet as you can see here.
+
+05:11.240 --> 05:18.330
+And let's just go back to our sections and let's go to our route tables.
+
+05:18.500 --> 05:25.820
+We already checked our route tables but let's also go over them again and there is just one subnet with
+
+05:26.210 --> 05:34.400
+a route table Association and that is the actually the public subnet that we explicitly associated with
+
+05:34.460 --> 05:38.330
+our public route table for our private crew table.
+
+05:38.330 --> 05:48.450
+There are simply no associations and if he also go down for Internet gateways we have two Internet gateways.
+
+05:48.550 --> 05:56.390
+One of them is coming from the default PPC when a W-S lunchers the default PC on your account.
+
+05:56.860 --> 06:04.720
+And the other one the one below that if we expand this we can see that it's for the bowlful 3 PC and
+
+06:04.780 --> 06:08.530
+it is attached to a an actual PC.
+
+06:08.530 --> 06:15.880
+And if we check out the attach we see we're going to see that it's the boatful free wi PC that we just
+
+06:15.880 --> 06:16.940
+lounge.
+
+06:16.990 --> 06:18.060
+All right.
+
+06:18.190 --> 06:25.440
+So that's basically all we have on the PC section and it looks all great and all good.
+
+06:25.810 --> 06:30.830
+That's just what we wanted to create one to achieve on a W-S.
+
+06:30.950 --> 06:34.250
+So the next stop is the easy to section.
+
+06:34.250 --> 06:40.510
+So let's go to easy to and verify the resources that we created.
+
+06:40.730 --> 06:43.710
+And as you can see there are two running instances.
+
+06:43.940 --> 06:46.050
+That's just what we wanted.
+
+06:46.070 --> 06:53.270
+She won a WS one for the public subnet and one for the private subnet.
+
+06:53.270 --> 06:57.190
+So basically two E.S. two instances on a double U.S..
+
+06:57.350 --> 07:03.860
+And as you can see here the only missing part is the name tags for E.S. two instances and there's to
+
+07:03.860 --> 07:09.120
+worry about that we're going to do that within a moment in our later videos.
+
+07:09.830 --> 07:15.500
+And let's just go and check the properties of these two instances.
+
+07:15.680 --> 07:24.380
+And as you can guess from the properties of this selected E.S. to instance it is the public subnet public.
+
+07:24.380 --> 07:25.990
+You see two instances.
+
+07:26.180 --> 07:33.860
+That's why I'm saying why I'm saying this is that it has the public IP address assigned to itself when
+
+07:33.860 --> 07:35.090
+it lounged.
+
+07:35.210 --> 07:40.370
+But if you check out the other easy to instance you're not going to be seeing that.
+
+07:40.580 --> 07:48.530
+That is the two instance doesn't have any public IP address it only has a private IP address as you
+
+07:48.530 --> 07:51.950
+can see here it is displayed right here.
+
+07:51.950 --> 07:59.720
+And if we go and check the properties of the public easy to instance it is attached with the both of
+
+07:59.720 --> 08:02.000
+three public security group.
+
+08:02.090 --> 08:08.360
+And if we check out the inbound rules for that security group we have the rules the exact rules that
+
+08:08.360 --> 08:16.260
+we define within our both or three code as you can see here for port 80 TCAP connection and for poor
+
+08:16.650 --> 08:22.790
+Tootsy Pekan action also and the AM I JUST THE am I.
+
+08:22.880 --> 08:30.920
+We define within our code on Python and for the key Parel So we have the both of three key pair that
+
+08:30.920 --> 08:38.510
+we assigned to this E.S. to instance and the remaining powers of this are simply the subnet ID that
+
+08:38.510 --> 08:43.220
+we defined within our code and the VPC of that subnet.
+
+08:43.280 --> 08:45.910
+That's everything as we expect it.
+
+08:45.950 --> 08:49.190
+And let's go down here and check out the private.
+
+08:49.190 --> 08:56.590
+Easy to instance for the private easy to instance security group is also both of three dash private
+
+08:56.590 --> 09:02.840
+Dasch security group and it has the same rules set as our public security group.
+
+09:02.870 --> 09:10.640
+But remember that this is just has no effect on you see to instance simply because it's easy to is this
+
+09:10.700 --> 09:16.330
+is going to be excluded from the Internet from the worldwide web.
+
+09:16.370 --> 09:21.580
+It's only available to my public and private subnets for accessing.
+
+09:21.580 --> 09:22.370
+All right.
+
+09:22.730 --> 09:30.740
+And for the M-I this is the same am I that I defined within my Both of three client and for the key
+
+09:30.740 --> 09:37.580
+pair again I have both are three dash key pair and forwarders subnet at this time I have the public
+
+09:37.580 --> 09:42.410
+subnet ID attached to this easy to instance for the VPC.
+
+09:42.470 --> 09:44.360
+That's the same BPC I have.
+
+09:44.480 --> 09:51.650
+And the most important part of this easy to instance that it doesn't have any public DNS or public IP
+
+09:51.670 --> 09:59.870
+addresses it only has a private IP addresses within the range of the private subnet.
+
+09:59.900 --> 10:07.010
+So let's go and check out the subsequent resources of this is to instance and the next stop is security
+
+10:07.010 --> 10:10.860
+groups within these security groups as you can see.
+
+10:10.850 --> 10:18.490
+We have both of three private security group and both of three public security group and we have two
+
+10:18.490 --> 10:21.740
+descriptions as we put them within our code.
+
+10:21.890 --> 10:30.830
+And if we check out the inbound rules for the public security group in here we can see that rules are
+
+10:30.830 --> 10:32.660
+defined right there.
+
+10:32.660 --> 10:37.390
+And if we check out the private security group there are also there.
+
+10:37.650 --> 10:40.150
+And let's go and check out the key player.
+
+10:40.140 --> 10:45.380
+Also the key pair we have there both are three key pair here.
+
+10:45.380 --> 10:50.640
+And just like I stated earlier and mentioned you about it.
+
+10:50.660 --> 10:54.800
+There is no way to extract the key pair from a U.S..
+
+10:54.800 --> 11:04.430
+Once you create it because Amazon for security reasons mostly doesn't allow you to reuse or regenerate
+
+11:04.430 --> 11:07.250
+that key pair for your easy to instance.
+
+11:07.310 --> 11:15.200
+Once you create a key pair on a W-S you have to keep it somewhere secure to use it later on for your
+
+11:15.200 --> 11:22.310
+machines because otherwise you'll lose the access to your PC to instances on AWOS.
+
+11:22.340 --> 11:29.000
+So that's basically it about all of our configuration on a W-S.
+
+11:29.030 --> 11:35.900
+So in the next video we're going to be checking out the access to our public see to instance and we'll
+
+11:35.900 --> 11:37.910
+try to access our Web page.
+
+11:37.910 --> 11:46.880
+The ASTM L5 that be added and the HTP server that we launched on easy to startup script and verify if
+
+11:46.880 --> 11:48.010
+we can access it.

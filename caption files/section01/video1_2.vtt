@@ -1,0 +1,100 @@
+WEBVTT
+
+00:02.320 --> 00:05.370
+Now let's take a look at what we're going to cover in the course.
+
+00:06.550 --> 00:14.220
+And this course will work with AWOS using Python and both are three API.
+
+00:14.650 --> 00:22.750
+Python is becoming very popular with managing AWOS resources and both are three years on top of it is
+
+00:22.750 --> 00:32.170
+a great library for managing AWOS clients and resources from easy to instances to PCs Lobello answers
+
+00:32.440 --> 00:42.370
+and everything about AWOS you can simply manage everything using both a 3 and Python for AWOS And of
+
+00:42.370 --> 00:44.590
+course I'll explain everything.
+
+00:44.770 --> 00:49.070
+But it's nice to know what we PC and easy to beforehand.
+
+00:49.600 --> 00:56.860
+So I'm guessing that you're familiar with AWOS concepts about the PC and easy to and what they are standing
+
+00:56.860 --> 01:07.320
+for and I'll be really happy if you have some idea on what they are and how we can use them on a console.
+
+01:07.330 --> 01:12.450
+And of course most importantly this is a very hands on course.
+
+01:12.640 --> 01:16.620
+We're going to be developing everything from scratch using Python.
+
+01:16.780 --> 01:19.330
+And both are three on AWOS.
+
+01:19.390 --> 01:24.700
+We're going to be creating our credentials for deployment and then we're going to start our project
+
+01:24.790 --> 01:33.040
+in PI charme ID from Jet brains and then we're going to be making use of both all three and Python to
+
+01:33.040 --> 01:39.580
+connect to a W-S and we're going to start implementing our architecture which we're going to be taking
+
+01:39.580 --> 01:42.730
+a look at in the next lecture.
+
+01:42.800 --> 01:49.380
+And again we're going to be developing our own AWOS solution from scratch with Python and both are three.
+
+01:49.520 --> 01:56.480
+This is really important because you can use these kind of solutions in everywhere from your personal
+
+01:56.540 --> 02:01.210
+ambitious projects to production grade actual work projects.
+
+02:01.340 --> 02:04.070
+You can make use of this information anywhere.
+
+02:04.520 --> 02:09.300
+And I'd like to stress that again will not do anything manually.
+
+02:09.300 --> 02:11.880
+It's all will be automated with Python.
+
+02:11.900 --> 02:13.080
+And both are three.
+
+02:13.220 --> 02:20.420
+This is very important because otherwise we can simply go into and log into a W-S console and make all
+
+02:20.420 --> 02:22.760
+these manually by hand.
+
+02:22.940 --> 02:28.640
+We can type everything in there and we can manually create it but we don't want that.
+
+02:28.880 --> 02:35.810
+We want to have a code base that we can use and reuse again because this way is the way that we should
+
+02:35.810 --> 02:37.880
+be following these days.
+
+02:37.880 --> 02:39.080
+All right.
+
+02:39.080 --> 02:46.160
+Now is the time to take a look at what we're actually going to be developing into score's the architectural
+
+02:46.160 --> 02:51.010
+diagram of what we're going to be seeing in the lectures and throughout the course.
+
+02:51.870 --> 02:57.050
+So let's go over to the next lecture and I'll be showing you what we're going to be building in this
+
+02:57.060 --> 02:57.700
+course.

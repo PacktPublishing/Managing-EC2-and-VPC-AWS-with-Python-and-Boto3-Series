@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00.910 --> 00:07.510
+Before you start working on our project and our implementation list as we drove by that if we have everything
+
+00:07.510 --> 00:10.370
+set up and everything is in place.
+
+00:10.510 --> 00:14.840
+So let's first verify that we have the python installation.
+
+00:15.010 --> 00:19.160
+So let's just type in Python 3.6.
+
+00:19.420 --> 00:20.490
+And here we go.
+
+00:20.650 --> 00:28.780
+We have the Python 3 that 6.5 interpreter coming into us with the command line with the terminal on
+
+00:28.780 --> 00:30.100
+Mac OS.
+
+00:30.160 --> 00:40.410
+So let's just exit from there and let's just rarified that we have the J-ws CLID configured as we expected.
+
+00:41.080 --> 00:50.920
+And if we try to execute the AWOS configure command we're going to see that the last part of our AWOS
+
+00:50.950 --> 00:53.060
+accessory that we just couldn't figure out.
+
+00:53.230 --> 01:00.550
+And if I hit enter and keep it that way I'm going to see the last part of the secret access key again
+
+01:01.000 --> 01:09.870
+and then I'm going to see the central one region that just I sent I said from the previous lecture.
+
+01:10.120 --> 01:16.460
+And if I hit enter again I'm going to see the default format for all put is Jaser.
+
+01:16.930 --> 01:24.810
+So we have our AWOS Selye a double U.S. secret key in the Access Key is configured as we expected.
+
+01:24.820 --> 01:31.420
+So let's just verify that we have the both of 3 library installed on our Python.
+
+01:31.420 --> 01:38.250
+So to do that I'm going to say pay up 3.6 and Shaw.
+
+01:38.860 --> 01:48.130
+Also free and as you can see we have the $1.7 to version of both of three library.
+
+01:48.290 --> 01:56.820
+And it says the A W-S web services and the Python package manager AWOS SDK for Python.
+
+01:57.470 --> 02:05.630
+So we have everything in place and we are now ready to work with our Python project on AWOS resources
+
+02:05.630 --> 02:07.730
+like BPC and E.S. to.

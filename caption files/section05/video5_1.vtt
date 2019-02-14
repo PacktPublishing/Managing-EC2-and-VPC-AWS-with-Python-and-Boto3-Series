@@ -1,0 +1,25 @@
+WEBVTT
+
+00:00.600 --> 00:08.110
+All right are you ready to get your hands dirty with AWOS using Python and both are three.
+
+00:08.110 --> 00:11.470
+Dan here is the time to do that.
+
+00:11.530 --> 00:18.570
+We're about to start our implementation for A W-S using Python and both are three of course in this
+
+00:18.570 --> 00:19.290
+section.
+
+00:19.290 --> 00:25.630
+We're going to be launching a PC and then we're going to be creating an internet gateway.
+
+00:25.860 --> 00:33.810
+And after that we're going to attach that internet gateway to our PC using a subset of that PCs so we're
+
+00:33.810 --> 00:42.360
+also going to create a subnet for our PC to check out what we're going to build on AWOS I'll be seeing
+
+00:42.380 --> 00:43.470
+you on the next video.
